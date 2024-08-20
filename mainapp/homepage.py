@@ -49,7 +49,7 @@ data = {
         },
         {
             'title' : "Bitcoin Pro",
-            'description' : "LEnjoy expert insights to grow your portfolio",
+            'description' : "Enjoy expert insights to grow your portfolio",
             'cta' : "Try Bitcoin Pro",
             'tab' : "1"
         },

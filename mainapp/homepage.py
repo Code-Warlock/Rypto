@@ -47,6 +47,12 @@ data = {
             'cta' : "Discover Avage AI",
             'tab' : "1"
         },
+        {
+            'title' : "Elevate your Bitcoin profits with Bitcoin Pro",
+            'description' : "LEnjoy expert insights to grow your portfolio",
+            'cta' : "Try Bitcoin Pro",
+            'tab' : "1"
+        },
          {
             'title' : "Maximize Your Cryptocurrency Profits with BitQt",
             'description' : "Join BitQt to explore advanced trading tools and achieve higher profitability.",

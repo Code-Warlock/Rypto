@@ -71,7 +71,7 @@ data = {
     # Who we are
     'who_we_are' : {
     'experience': "Over 6 Years of Expertise",
-    'team': "Experts in Digital Marketing, Financial Trading, and Customer Service",
+    'team': "With over six years of experience in online gambling and cryptocurrency, our team of experts in digital marketing, financial trading, and customer service is dedicated to bringing you top-tier offers and cutting-edge insights",
     'dedication': "Committed to Bringing You Top-Tier Offers and Insights"
 },
     
@@ -90,23 +90,23 @@ data = {
 
     # Footer - Quick Links
     'footer_links' : {
-    'home': "Home",
-    'services': "Services",
-    'privacy_policy': "Privacy Policy",
-    'terms_of_service': "Terms of Service",
-    'cookie_policy': "Cookie Policy",
-    'affiliate_disclosure': "Affiliate Disclosure",
-    'about_us': "About Us",
-    'what_we_offer': "What We Offer",
-    'join_us': "Join Us",
-    'contact_us': "Contact Us",
-    'faq': "FAQ",
-    'blog': "Blog",
-    'avage_ai': "Avage AI Offer",
-    'bitqt': "BitQt Offer",
-    'ethereum_code': "Ethereum Code Offer",
-    'crypto_offers': "Cryptocurrency Offers",
-    'gambling_offers': "Gambling Offers"
+        'home': "Home",
+        'services': "Services",
+        'privacy_policy': "Privacy Policy",
+        'terms_of_service': "Terms of Service",
+        'cookie_policy': "Cookie Policy",
+        'affiliate_disclosure': "Affiliate Disclosure",
+        'about_us': "About Us",
+        'what_we_offer': "What We Offer",
+        'join_us': "Join Us",
+        'contact_us': "Contact Us",
+        'faq': "FAQ",
+        'blog': "Blog",
+        'avage_ai': "Avage AI Offer",
+        'bitqt': "BitQt Offer",
+        'ethereum_code': "Ethereum Code Offer",
+        'crypto_offers': "Cryptocurrency Offers",
+        'gambling_offers': "Gambling Offers"
     },
 
     # Footer - Contact Information

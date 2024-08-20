@@ -278,7 +278,7 @@
                     <div class="sec-title m-0">
                       <h6 class="te-subtitle">What we Offer</h6>
                       <h2 class="te-title fxvibe-size-default">
-                        Provide all your needs
+                        {{content.what_we_offer2}}
                       </h2>
                     </div>
                   </div>
@@ -298,6 +298,7 @@
                       class="four-item-carousel owl-carousel owl-theme dots-style-one nav-style-one"
                       data-trading-slider='{"loop":"true","spacebetween":30,"slidesperview":4}'
                     >
+                      {% for offer in content.what_we_offer_list  %}
                       <div class="offers-block-one fxvibe-feature-section">
                         <div class="inner-box">
                           <div
@@ -306,7 +307,7 @@
                               background-image: url({% static "uploads/2024/02/shape-25.png" %});
                             "
                           ></div>
-                          <h5>01</h5>
+                          <h5>{{forloop.counter}}</h5>
                           <div class="icon-box">
                             <img
                               decoding="async"
@@ -316,12 +317,11 @@
                           </div>
                           <h3 class="te-title">
                             <a href="services/trading-accounts/index.html"
-                              >Trading Accounts</a
+                              >{{offer.title}}</a
                             >
                           </h3>
                           <p class="te-text">
-                            Packages &amp; web page editors now use lorem
-                            ipsum as their default.
+                            {{offer.description}}
                           </p>
                           <div class="link">
                             <a
@@ -332,383 +332,7 @@
                           </div>
                         </div>
                       </div>
-                      <div class="offers-block-one fxvibe-feature-section">
-                        <div class="inner-box">
-                          <div
-                            class="shape"
-                            style="
-                              background-image: url({% static "uploads/2024/02/shape-25.png" %});
-                            "
-                          ></div>
-                          <h5>02</h5>
-                          <div class="icon-box">
-                            <img
-                              decoding="async"
-                              src="{% static "uploads/2024/02/icon-48.png" %}"
-                              alt="Awesome Image"
-                            />
-                          </div>
-                          <h3 class="te-title">
-                            <a href="services/platform-tools/index.html"
-                              >Trading Platforms</a
-                            >
-                          </h3>
-                          <p class="te-text">
-                            Business will frequently occurs that pleasures
-                            that too repudiate &amp; annoyances.
-                          </p>
-                          <div class="link">
-                            <a
-                              class="yt-btn-title-v1"
-                              href="services/platform-tools/index.html"
-                              ><i class="flaticon-right-arrow"></i
-                            ></a>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="offers-block-one fxvibe-feature-section">
-                        <div class="inner-box">
-                          <div
-                            class="shape"
-                            style="
-                              background-image: url({% static "uploads/2024/02/shape-25.png" %});
-                            "
-                          ></div>
-                          <h5>03</h5>
-                          <div class="icon-box">
-                            <img
-                              decoding="async"
-                              src="{% static "uploads/2024/02/icon-49.png" %}"
-                              alt="Awesome Image"
-                            />
-                          </div>
-                          <h3 class="te-title">
-                            <a
-                              href="services/monitoring-support/index.html"
-                              >Monitoring</a
-                            >
-                          </h3>
-                          <p class="te-text">
-                            Business will frequently occurs that pleasures
-                            that too repudiate &amp; annoyances.
-                          </p>
-                          <div class="link">
-                            <a
-                              class="yt-btn-title-v1"
-                              href="services/monitoring-support/index.html"
-                              ><i class="flaticon-right-arrow"></i
-                            ></a>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="offers-block-one fxvibe-feature-section">
-                        <div class="inner-box">
-                          <div
-                            class="shape"
-                            style="
-                              background-image: url({% static "uploads/2024/02/shape-25.png" %});
-                            "
-                          ></div>
-                          <h5>04</h5>
-                          <div class="icon-box">
-                            <img
-                              decoding="async"
-                              src="{% static "uploads/2024/02/icon-50.png" %}"
-                              alt="Awesome Image"
-                            />
-                          </div>
-                          <h3 class="te-title">
-                            <a href="services/trading-accounts/index.html"
-                              >Training</a
-                            >
-                          </h3>
-                          <p class="te-text">
-                            Business will frequently occurs that pleasures
-                            that too repudiate &amp; annoyances.
-                          </p>
-                          <div class="link">
-                            <a
-                              class="yt-btn-title-v1"
-                              href="services/trading-accounts/index.html"
-                              ><i class="flaticon-right-arrow"></i
-                            ></a>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="offers-block-one fxvibe-feature-section">
-                        <div class="inner-box">
-                          <div
-                            class="shape"
-                            style="
-                              background-image: url({% static "uploads/2024/02/shape-25.png" %});
-                            "
-                          ></div>
-                          <h5>05</h5>
-                          <div class="icon-box">
-                            <img
-                              decoding="async"
-                              src="{% static "uploads/2024/02/icon-47.png" %}"
-                              alt="Awesome Image"
-                            />
-                          </div>
-                          <h3 class="te-title">
-                            <a href="services/trading-accounts/index.html"
-                              >Trading Accounts</a
-                            >
-                          </h3>
-                          <p class="te-text">
-                            Packages &amp; web page editors now use lorem
-                            ipsum as their default.
-                          </p>
-                          <div class="link">
-                            <a
-                              class="yt-btn-title-v1"
-                              href="services/trading-accounts/index.html"
-                              ><i class="flaticon-right-arrow"></i
-                            ></a>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="offers-block-one fxvibe-feature-section">
-                        <div class="inner-box">
-                          <div
-                            class="shape"
-                            style="
-                              background-image: url({% static "uploads/2024/02/shape-25.png" %});
-                            "
-                          ></div>
-                          <h5>06</h5>
-                          <div class="icon-box">
-                            <img
-                              decoding="async"
-                              src="{% static "uploads/2024/02/icon-48.png" %}"
-                              alt="Awesome Image"
-                            />
-                          </div>
-                          <h3 class="te-title">
-                            <a href="services/platform-tools/index.html"
-                              >Trading Platforms</a
-                            >
-                          </h3>
-                          <p class="te-text">
-                            Business will frequently occurs that pleasures
-                            that too repudiate &amp; annoyances.
-                          </p>
-                          <div class="link">
-                            <a
-                              class="yt-btn-title-v1"
-                              href="services/platform-tools/index.html"
-                              ><i class="flaticon-right-arrow"></i
-                            ></a>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="offers-block-one fxvibe-feature-section">
-                        <div class="inner-box">
-                          <div
-                            class="shape"
-                            style="
-                              background-image: url({% static "uploads/2024/02/shape-25.png" %});
-                            "
-                          ></div>
-                          <h5>07</h5>
-                          <div class="icon-box">
-                            <img
-                              decoding="async"
-                              src="{% static "uploads/2024/02/icon-49.png" %}"
-                              alt="Awesome Image"
-                            />
-                          </div>
-                          <h3 class="te-title">
-                            <a
-                              href="services/monitoring-support/index.html"
-                              >Monitoring</a
-                            >
-                          </h3>
-                          <p class="te-text">
-                            Business will frequently occurs that pleasures
-                            that too repudiate &amp; annoyances.
-                          </p>
-                          <div class="link">
-                            <a
-                              class="yt-btn-title-v1"
-                              href="services/monitoring-support/index.html"
-                              ><i class="flaticon-right-arrow"></i
-                            ></a>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="offers-block-one fxvibe-feature-section">
-                        <div class="inner-box">
-                          <div
-                            class="shape"
-                            style="
-                              background-image: url({% static "uploads/2024/02/shape-25.png" %});
-                            "
-                          ></div>
-                          <h5>08</h5>
-                          <div class="icon-box">
-                            <img
-                              decoding="async"
-                              src="{% static "uploads/2024/02/icon-50.png" %}"
-                              alt="Awesome Image"
-                            />
-                          </div>
-                          <h3 class="te-title">
-                            <a href="services/trading-accounts/index.html"
-                              >Training</a
-                            >
-                          </h3>
-                          <p class="te-text">
-                            Business will frequently occurs that pleasures
-                            that too repudiate &amp; annoyances.
-                          </p>
-                          <div class="link">
-                            <a
-                              class="yt-btn-title-v1"
-                              href="services/trading-accounts/index.html"
-                              ><i class="flaticon-right-arrow"></i
-                            ></a>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="offers-block-one fxvibe-feature-section">
-                        <div class="inner-box">
-                          <div
-                            class="shape"
-                            style="
-                              background-image: url({% static "uploads/2024/02/shape-25.png" %});
-                            "
-                          ></div>
-                          <h5>09</h5>
-                          <div class="icon-box">
-                            <img
-                              decoding="async"
-                              src="{% static "uploads/2024/02/icon-47.png" %}"
-                              alt="Awesome Image"
-                            />
-                          </div>
-                          <h3 class="te-title">
-                            <a href="services/trading-accounts/index.html"
-                              >Trading Accounts</a
-                            >
-                          </h3>
-                          <p class="te-text">
-                            Packages &amp; web page editors now use lorem
-                            ipsum as their default.
-                          </p>
-                          <div class="link">
-                            <a
-                              class="yt-btn-title-v1"
-                              href="services/trading-accounts/index.html"
-                              ><i class="flaticon-right-arrow"></i
-                            ></a>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="offers-block-one fxvibe-feature-section">
-                        <div class="inner-box">
-                          <div
-                            class="shape"
-                            style="
-                              background-image: url({% static "uploads/2024/02/shape-25.png" %});
-                            "
-                          ></div>
-                          <h5>10</h5>
-                          <div class="icon-box">
-                            <img
-                              decoding="async"
-                              src="{% static "uploads/2024/02/icon-48.png" %}"
-                              alt="Awesome Image"
-                            />
-                          </div>
-                          <h3 class="te-title">
-                            <a href="services/platform-tools/index.html"
-                              >Trading Platforms</a
-                            >
-                          </h3>
-                          <p class="te-text">
-                            Business will frequently occurs that pleasures
-                            that too repudiate &amp; annoyances.
-                          </p>
-                          <div class="link">
-                            <a
-                              class="yt-btn-title-v1"
-                              href="services/platform-tools/index.html"
-                              ><i class="flaticon-right-arrow"></i
-                            ></a>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="offers-block-one fxvibe-feature-section">
-                        <div class="inner-box">
-                          <div
-                            class="shape"
-                            style="
-                              background-image: url({% static "uploads/2024/02/shape-25.png" %});
-                            "
-                          ></div>
-                          <h5>11</h5>
-                          <div class="icon-box">
-                            <img
-                              decoding="async"
-                              src="{% static "uploads/2024/02/icon-49.png" %}"
-                              alt="Awesome Image"
-                            />
-                          </div>
-                          <h3 class="te-title">
-                            <a
-                              href="services/monitoring-support/index.html"
-                              >Monitoring</a
-                            >
-                          </h3>
-                          <p class="te-text">
-                            Business will frequently occurs that pleasures
-                            that too repudiate &amp; annoyances.
-                          </p>
-                          <div class="link">
-                            <a
-                              class="yt-btn-title-v1"
-                              href="services/monitoring-support/index.html"
-                              ><i class="flaticon-right-arrow"></i
-                            ></a>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="offers-block-one fxvibe-feature-section">
-                        <div class="inner-box">
-                          <div
-                            class="shape"
-                            style="
-                              background-image: url({% static "uploads/2024/02/shape-25.png" %});
-                            "
-                          ></div>
-                          <h5>12</h5>
-                          <div class="icon-box">
-                            <img
-                              decoding="async"
-                              src="{% static "uploads/2024/02/icon-50.png" %}"
-                              alt="Awesome Image"
-                            />
-                          </div>
-                          <h3 class="te-title">
-                            <a href="services/trading-accounts/index.html"
-                              >Training</a
-                            >
-                          </h3>
-                          <p class="te-text">
-                            Business will frequently occurs that pleasures
-                            that too repudiate &amp; annoyances.
-                          </p>
-                          <div class="link">
-                            <a
-                              class="yt-btn-title-v1"
-                              href="services/trading-accounts/index.html"
-                              ><i class="flaticon-right-arrow"></i
-                            ></a>
-                          </div>
-                        </div>
-                      </div>
+                      {% endfor %}
                     </div>
                   </section>
                   <!-- offers-style-two end -->
@@ -989,7 +613,7 @@
                 <div class="sec-title m-0">
                   <h6 class="te-subtitle">Join Ryptocurrencystakes</h6>
                   <h2 class="te-title fxvibe-size-default">
-                    Enter a trading challenge
+                    {{content.cta_section_title}}
                   </h2>
                 </div>
               </div>
@@ -1018,98 +642,36 @@
                   <div class="tabs-content">
                     <div class="tab active-tab" id="tab-1">
                       <div class="row clearfix">
+                    {% for offer in content.crypto_offers  %}
                         <div
-                          class="col-lg-4 col-md-6 col-sm-12 pricing-block"
-                        >
-                          <div class="pricing-block-two">
-                            <div class="pricing-table">
-                              <div class="table-header">
-                                <h3>Starter Plan</h3>
-                                <p>Packages and web page editors.</p>
-                                <h2>$10K <span>Funding amount</span></h2>
-                              </div>
-                              <div class="table-content">
-                                <ul class="feature-list clearfix">
-                                  <li>Target<span>$500</span></li>
-                                  <li>Min.Trading Days<span>5 Days</span></li>
-                                  <li>Daily Drawdown<span>5%</span></li>
-                                  <li>Max.Drawdown<span>10%</span></li>
-                                  <li>Trading Period<span>No Limit</span></li>
-                                  <li>Refundable Fee<span>99 o/t</span></li>
-                                </ul>
-                              </div>
-
-                              <div class="table-footer">
-                                <a href="contact-us/index.html"
-                                  ><span>Start Now</span></a
-                                >
-                              </div>
+                        class="col-lg-4 col-md-6 col-sm-12 pricing-block">
+                        <div class="pricing-block-two">
+                          <div class="pricing-table">
+                            <div class="table-header">
+                              <h3>{{offer.title}}</h3>
+                              <p>{{offer.description}}.</p>
+                              <h2>$10K <span>Funding amount</span></h2>
                             </div>
-                          </div>
-                        </div>
-                        <div
-                          class="col-lg-4 col-md-6 col-sm-12 pricing-block"
-                        >
-                          <div class="pricing-block-two">
-                            <div class="special-text">
-                              <h6>Popular Plan</h6>
+                            <div class="table-content">
+                              <ul class="feature-list clearfix">
+                                <li>Target<span>$500</span></li>
+                                <li>Min.Trading Days<span>5 Days</span></li>
+                                <li>Daily Drawdown<span>5%</span></li>
+                                <li>Max.Drawdown<span>10%</span></li>
+                                <li>Trading Period<span>No Limit</span></li>
+                                <li>Refundable Fee<span>99 o/t</span></li>
+                              </ul>
                             </div>
-                            <div class="pricing-table">
-                              <div class="table-header">
-                                <h3>Standard Plan</h3>
-                                <p>Packages and web page editors.</p>
-                                <h2>$25K <span>Funding amount</span></h2>
-                              </div>
-                              <div class="table-content">
-                                <ul class="feature-list clearfix">
-                                  <li>Target<span>$1000</span></li>
-                                  <li>Min.Trading Days<span>5 Days</span></li>
-                                  <li>Daily Drawdown<span>5%</span></li>
-                                  <li>Max.Drawdown<span>10%</span></li>
-                                  <li>Trading Period<span>No Limit</span></li>
-                                  <li>Refundable Fee<span>199 o/t</span></li>
-                                </ul>
-                              </div>
 
-                              <div class="table-footer">
-                                <a href="contact-us/index.html"
-                                  ><span>Start Now</span></a
-                                >
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div
-                          class="col-lg-4 col-md-6 col-sm-12 pricing-block"
-                        >
-                          <div class="pricing-block-two">
-                            <div class="pricing-table">
-                              <div class="table-header">
-                                <h3>Advanced Plan</h3>
-                                <p>Packages and web page editors.</p>
-                                <h2>$50K <span>Funding amount</span></h2>
-                              </div>
-                              <div class="table-content">
-                                <ul class="feature-list clearfix">
-                                  <li>Target<span>$2000</span></li>
-                                  <li>Min.Trading Days<span>5 Days</span></li>
-                                  <li>Daily Drawdown<span>5%</span></li>
-                                  <li>Max.Drawdown<span>10%</span></li>
-                                  <li>Trading Period<span>No Limit</span></li>
-                                  <li>Refundable Fee<span>299 o/t</span></li>
-                                </ul>
-                              </div>
-
-                              <div class="table-footer">
-                                <a href="contact-us/index.html"
-                                  ><span>Start Now</span></a
-                                >
-                              </div>
+                            <div class="table-footer">
+                              <a href="contact-us/index.html"
+                                ><span>{{offer.cta}}</span></a
+                              >
                             </div>
                           </div>
                         </div>
                       </div>
-                    </div>
+                    {% endfor %}
                     <div class="tab" id="tab-2">
                       <div class="row clearfix">
                         <div
@@ -1459,8 +1021,7 @@
                     <div class="fxvibe-title-section">
                       <div class="text-box">
                         <p class="te-text">
-                          Man therefore always holds these matters to this
-                          principle that rejects pleasures nothing prevents.
+                          {{content.mission}}
                         </p>
                       </div>
                     </div>

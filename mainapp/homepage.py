@@ -42,25 +42,25 @@ data = {
     'featured_offers_title' : "Our Top Picks for You",
     'crypto_offers' : [
         {
-            'title' : "AI-Powered Crypto Trading with Avage AI",
+            'title' : "Avage AI",
             'description' : "Leverage the power of AI to enhance your crypto trading strategies and maximize returns.",
             'cta' : "Discover Avage AI",
             'tab' : "1"
         },
         {
-            'title' : "Elevate your Bitcoin profits with Bitcoin Pro",
+            'title' : "Bitcoin Pro",
             'description' : "LEnjoy expert insights to grow your portfolio",
             'cta' : "Try Bitcoin Pro",
             'tab' : "1"
         },
          {
-            'title' : "Maximize Your Cryptocurrency Profits with BitQt",
+            'title' : "BitQt",
             'description' : "Join BitQt to explore advanced trading tools and achieve higher profitability.",
             'cta' : "Learn About BitQt",
             'tab' : "1"
         },
         {
-            'title' : "Join the Revolution of Digital Currencies",
+            'title' : "Ethereum Code",
             'description' : "Be part of the future with Ethereum Code's cutting-edge cryptocurrency investments.",
             'cta' : "Explore Ethereum Code",
             'tab' : "1"

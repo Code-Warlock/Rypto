@@ -1,6 +1,6 @@
 data = {
-    'headline' : "Unlock Profits",
-    'headline2' : "in Crypto & Gambling",
+    'headline' : "unlock profitable crypto",
+    'headline2' : " & gambling offers",
     'sub_headline' : "Welcome to RyptocurrencyStakes, where innovation meets opportunity. Explore special cryptocurrency investments and top-tier gambling deals. Dive into the world of cryptocurrency and gambling with our expert-backed offers.",
     'what_we_offer' : "Discover Unmatched Offers Tailored to Your Needs",
 
@@ -55,10 +55,23 @@ data = {
 
     # Footer - Quick Links
     'footer_links' : {
-        'privacy_policy': "Privacy Policy",
-        'terms_of_service': "Terms of Service",
-        'cookie_policy': "Cookie Policy",
-        'affiliate_disclosure': "Affiliate Disclosure"
+    'home': "Home",
+    'services': "Services",
+    'privacy_policy': "Privacy Policy",
+    'terms_of_service': "Terms of Service",
+    'cookie_policy': "Cookie Policy",
+    'affiliate_disclosure': "Affiliate Disclosure",
+    'about_us': "About Us",
+    'what_we_offer': "What We Offer",
+    'join_us': "Join Us",
+    'contact_us': "Contact Us",
+    'faq': "FAQ",
+    'blog': "Blog",
+    'avage_ai': "Avage AI Offer",
+    'bitqt': "BitQt Offer",
+    'ethereum_code': "Ethereum Code Offer",
+    'crypto_offers': "Cryptocurrency Offers",
+    'gambling_offers': "Gambling Offers"
     },
 
     # Footer - Contact Information
@@ -70,6 +83,8 @@ data = {
         'twitter': "Twitter",
         'linkedin': "LinkedIn"
     },
+    'address' : "2B Bramble Street Coventry United Kingdon, CV1 2HT",
+    'phone_no' : "+447553220982",
 
     # Disclaimer
     'disclaimer' : "Cryptocurrency trading and gambling involve significant risk. Prices can fluctuate widely, and you should only invest what you can afford to lose. Please consult with a financial advisor if you are unsure about the risks involved."

@@ -13,13 +13,13 @@
           <figure class="footer-logo">
             <a href="index.html"
               ><img
-                src="{% static "uploads/2024/02/logo-7.png" %}"
+                src="{% static "assets/images/logo2.png" %}"
                 alt="Awesome Image"
             /></a>
           </figure>
 
           <div class="footer-top-info">
-            <p>&copy; 2024 <a href="#">Fxvibe.</a> All Rights Reserved.</p>
+            <p>&copy; 2024 <a href="#">Ryptocurrencystakes.</a> All Rights Reserved.</p>
 
             <ul class="footer-nav">
               <li
@@ -122,146 +122,18 @@
               <div class="widget-title"><h6>Company</h6></div>
               <div class="menu-useful-link-v2-container">
                 <ul id="menu-useful-link-v2" class="menu">
+                  {% for link,val in  content.footer_links.items %}
                   <li
-                    id="menu-item-4152"
-                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-4152"
+                  id="menu-item-4167"
+                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4167"
+                >
+                  <a
+                    href="team-members/index.html"
+                    onClick="return true"
+                    >{{val}}</a
                   >
-                    <a href="index.html" onClick="return true">Home</a>
-                  </li>
-                  <li
-                    id="menu-item-4153"
-                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4153"
-                  >
-                    <a
-                      href="list-view-01/index.html"
-                      onClick="return true"
-                      >Blog List View</a
-                    >
-                  </li>
-                  <li
-                    id="menu-item-4154"
-                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4154"
-                  >
-                    <a
-                      href="about-company/index.html"
-                      onClick="return true"
-                      >About Company</a
-                    >
-                  </li>
-                  <li
-                    id="menu-item-4155"
-                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4155"
-                  >
-                    <a
-                      href="accounts-overview/index.html"
-                      onClick="return true"
-                      >Accounts Overview</a
-                    >
-                  </li>
-                  <li
-                    id="menu-item-4156"
-                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4156"
-                  >
-                    <a
-                      href="accounts-overview/demo-account/index.html"
-                      onClick="return true"
-                      >Demo Account</a
-                    >
-                  </li>
-                  <li
-                    id="menu-item-4157"
-                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4157"
-                  >
-                    <a
-                      href="accounts-overview/ecn-account/index.html"
-                      onClick="return true"
-                      >ECN Account</a
-                    >
-                  </li>
-                  <li
-                    id="menu-item-4158"
-                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4158"
-                  >
-                    <a
-                      href="accounts-overview/individual-account/index.html"
-                      onClick="return true"
-                      >Individual Account</a
-                    >
-                  </li>
-                  <li
-                    id="menu-item-4162"
-                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4162"
-                  >
-                    <a href="history/index.html" onClick="return true"
-                      >History</a
-                    >
-                  </li>
-                  <li
-                    id="menu-item-4163"
-                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4163"
-                  >
-                    <a
-                      href="metatrader-4/index.html"
-                      onClick="return true"
-                      >MetaTrader 4</a
-                    >
-                  </li>
-                  <li
-                    id="menu-item-4164"
-                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4164"
-                  >
-                    <a
-                      href="metatrader-5/index.html"
-                      onClick="return true"
-                      >MetaTrader 5</a
-                    >
-                  </li>
-                  <li
-                    id="menu-item-4165"
-                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4165"
-                  >
-                    <a href="services/index.html" onClick="return true"
-                      >Services</a
-                    >
-                  </li>
-                  <li
-                    id="menu-item-4167"
-                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4167"
-                  >
-                    <a
-                      href="team-members/index.html"
-                      onClick="return true"
-                      >Team Members</a
-                    >
-                  </li>
-                  <li
-                    id="menu-item-4168"
-                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4168"
-                  >
-                    <a
-                      href="services/trading-accounts/index.html"
-                      onClick="return true"
-                      >Trading Accounts</a
-                    >
-                  </li>
-                  <li
-                    id="menu-item-4169"
-                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4169"
-                  >
-                    <a
-                      href="services/currency-pairs/index.html"
-                      onClick="return true"
-                      >Currency Pairs</a
-                    >
-                  </li>
-                  <li
-                    id="menu-item-4161"
-                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4161"
-                  >
-                    <a href="contact-us/index.html" onClick="return true"
-                      >Contact Us</a
-                    >
-                  </li>
+                </li>
+                  {% endfor %}
                 </ul>
               </div>
             </div>
@@ -276,14 +148,14 @@
                 <div class="widget-content">
                   <p>Find our office!</p>
                   <span class="address"
-                    >Fxvibe, 191 Integer Rd, 2nd St, LA 08219 USA.</span
+                    >{{content.address}}</span
                   >
                   <p>Prefer emailing us!</p>
                   <h5>
-                    <a href="mailto:info@example,com">info@example,com</a>
+                    <a href="mailto:info@example,com">{{content.footer_contact_email}}</a>
                   </h5>
                   <p>Prefer call us!</p>
-                  <h5><a href="tel:+1-800-766-1234">+1-800-766-1234</a></h5>
+                  <h5><a href="tel:{{content.phone_no}}">{{content.phone_no}}</a></h5>
                 </div>
               </div>
             </div>

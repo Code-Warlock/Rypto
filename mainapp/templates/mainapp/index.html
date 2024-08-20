@@ -1104,6 +1104,7 @@
                       href="{% static "uploads/elementor/css/custom-widget-icon-list.mincda7.css" %}"
                     />
                     <ul class="elementor-icon-list-items">
+                      {% for tagline, val in content.mission_taglines.items  %}
                       <li class="elementor-icon-list-item">
                         <span class="elementor-icon-list-icon">
                           <i
@@ -1112,31 +1113,10 @@
                           ></i>
                         </span>
                         <span class="elementor-icon-list-text"
-                          >Automated Trading</span
+                          >{{tagline|upper}}</span
                         >
                       </li>
-                      <li class="elementor-icon-list-item">
-                        <span class="elementor-icon-list-icon">
-                          <i
-                            aria-hidden="true"
-                            class="flaticon flaticon-checked"
-                          ></i>
-                        </span>
-                        <span class="elementor-icon-list-text"
-                          >High-Frequency Trading</span
-                        >
-                      </li>
-                      <li class="elementor-icon-list-item">
-                        <span class="elementor-icon-list-icon">
-                          <i
-                            aria-hidden="true"
-                            class="flaticon flaticon-checked"
-                          ></i>
-                        </span>
-                        <span class="elementor-icon-list-text"
-                          >Technical Analysis</span
-                        >
-                      </li>
+                      {% endfor %}
                     </ul>
                   </div>
                 </div>
@@ -1167,7 +1147,7 @@
                   <div class="sec-title m-0">
                     <h6 class="te-subtitle">About Ryptocurrencystakes</h6>
                     <h2 class="te-title fxvibe-size-default">
-                      Maximize gains expect rapid payouts
+                      Welcome to RyptocurrencyStakes!
                     </h2>
                   </div>
                 </div>
@@ -1202,7 +1182,7 @@
 
                     <div class="elementor-icon-box-content">
                       <h3 class="elementor-icon-box-title">
-                        <span> Bank Transfer </span>
+                        <span> Bank Withdrawals </span>
                       </h3>
 
                       <p class="elementor-icon-box-description">
@@ -1250,10 +1230,7 @@
                 <div class="fxvibe-title-section">
                   <div class="text-box">
                     <p class="te-text">
-                      Step into the realm of financial wizardry with Ryptocurrencystakes
-                      Funding an exclusive trading oasis that nurtures the
-                      brilliance of skilled traders yearning to amplify their
-                      fortunes despite the constraints of capital.
+                      At RyptocurrencyStakes, we bring you the finest opportunities in betting, casinos, and cryptocurrency investments. Our mission is to empower you to win big, make informed investments, and enjoy a world of thrilling entertainment.
                     </p>
                   </div>
                 </div>
@@ -1375,9 +1352,9 @@
               <div class="elementor-widget-container">
                 <div class="fxvibe-title-section">
                   <div class="sec-title m-0">
-                    <h6 class="te-subtitle">Video Tutorial</h6>
+                    <h6 class="te-subtitle">WHO WE ARE</h6>
                     <h2 class="te-title fxvibe-size-default">
-                      Curated forex training video series
+                      {{content.who_we_are.experience}}
                     </h2>
                   </div>
                 </div>
@@ -1393,13 +1370,13 @@
                 <div class="fxvibe-title-section">
                   <div class="sec-title m-0">
                     <h3 class="te-title fxvibe-size-default">
-                      Introduction to forex trading
+                      {{content.who_we_are.dedication}}
                     </h3>
                   </div>
 
-                  <div class="text-box">
+                  {% comment %} <div class="text-box">
                     <p class="te-text">Duration: 6.05 Mins</p>
-                  </div>
+                  </div> {% endcomment %}
                 </div>
               </div>
             </div>
@@ -1413,8 +1390,7 @@
                 <div class="fxvibe-title-section">
                   <div class="text-box">
                     <p class="te-text">
-                      Watch our forex trading videos to get the most from the
-                      markets &amp; become a profitable forex trader.
+                      {{content.who_we_are.team}}
                     </p>
                   </div>
                 </div>
@@ -1434,7 +1410,7 @@
                       <a
                         href="education/index.html"
                         class="theme-btn fxvibe-btn"
-                        ><span>More Videos</span></a
+                        ><span>Learn More</span></a
                       >
                     </div>
                   </div>

@@ -67,6 +67,13 @@ data = {
     'cta_section_title' : "Elevate Your Game: Invest in Crypto, Bet with Confidence",
     'cta_primary_button' : "Sign Up Now",
     'cta_secondary_button' : "Explore Our Offers",
+
+    # Who we are
+    'who_we_are' : {
+    'experience': "Over 6 Years of Expertise",
+    'team': "Experts in Digital Marketing, Financial Trading, and Customer Service",
+    'dedication': "Committed to Bringing You Top-Tier Offers and Insights"
+},
     
     # Mission
     

@@ -5,9 +5,9 @@
 
     <nav class="menu-box">
       <div class="nav-logo">
-        <a href="index.html" title="Fxvibe"
+        <a href="index.html" title="RyptocurrencyStakes"
           ><img
-            src="{% static "uploads/2024/02/logo-2.png" %}"
+            src="{% static "assets/images/logo2.png" %}"
             alt="logo"
             style=""
         /></a>
@@ -19,9 +19,9 @@
       <div class="contact-info">
         <h4>Contact Info</h4>
         <ul>
-          <li>Chicago 12, Melborne City, USA</li>
-          <li><a href="tel:+88-01682648101">+88-01682648101</a></li>
-          <li><a href="mailto:info@example,com">info@example,com</a></li>
+          <li>{{content.address}}</li>
+          <li><a href="tel:{{content.phone_no}}">{{content.phone_no}}</a></li>
+          <li><a href="mailto:{{content.footer_contact_email}}">{{content.footer_contact_email}}</a></li>
         </ul>
       </div>
       <div class="social-links">

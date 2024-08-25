@@ -126,7 +126,7 @@
             <div class="elementor-widget-container">
               <div class="fxvibe-title-section">
                 <div class="sec-title m-0">
-                  <h6 class="te-subtitle">We are Featured in</h6>
+                  <h6 class="te-subtitle">Our Partners</h6>
                 </div>
               </div>
             </div>
@@ -150,46 +150,17 @@
                     class="five-item-carousel owl-carousel owl-theme owl-dots-none owl-nav-none"
                     data-client-slider-two='{"loop":"true","spacebetween":30,"slidesperview":5}'
                   >
+                  {% for partner in content.partners  %}
                     <figure class="logo-box">
                       <a href="#" target='"_blank"' rel='"nofollow"'
                         ><img
                           decoding="async"
-                          src="{% static "uploads/2024/02/clients-15.png" %}"
+                          src="{% static partner %}"
                           alt="Awesome Image"
                       /></a>
-                    </figure>
-                    <figure class="logo-box">
-                      <a href="#" target='"_blank"' rel='"nofollow"'
-                        ><img
-                          decoding="async"
-                          src="{% static "uploads/2024/02/clients-16.png" %}"
-                          alt="Awesome Image"
-                      /></a>
-                    </figure>
-                    <figure class="logo-box">
-                      <a href="#" target='"_blank"' rel='"nofollow"'
-                        ><img
-                          decoding="async"
-                          src="{% static "uploads/2024/02/clients-17.png" %}"
-                          alt="Awesome Image"
-                      /></a>
-                    </figure>
-                    <figure class="logo-box">
-                      <a href="#" target='"_blank"' rel='"nofollow"'
-                        ><img
-                          decoding="async"
-                          src="{% static "uploads/2024/02/clients-18.png" %}"
-                          alt="Awesome Image"
-                      /></a>
-                    </figure>
-                    <figure class="logo-box">
-                      <a href="#" target='"_blank"' rel='"nofollow"'
-                        ><img
-                          decoding="async"
-                          src="{% static "uploads/2024/02/clients-19.png" %}"
-                          alt="Awesome Image"
-                      /></a>
-                    </figure>
+                    </figure>         
+                  {% endfor %}
+
                   </div>
                 </section>
                 <!-- clients-style-two end -->
@@ -598,21 +569,20 @@
                             <div class="table-header">
                               <h3>{{offer.title}}</h3>
                               <p>{{offer.description}}.</p>
-                              <h2>$10K <span>Funding amount</span></h2>
+                              <h2><span>{{offer.excerpt}}</span></h2>
                             </div>
                             <div class="table-content">
                               <ul class="feature-list clearfix">
-                                <li>Target<span>$500</span></li>
-                                <li>Min.Trading Days<span>5 Days</span></li>
-                                <li>Daily Drawdown<span>5%</span></li>
-                                <li>Max.Drawdown<span>10%</span></li>
-                                <li>Trading Period<span>No Limit</span></li>
-                                <li>Refundable Fee<span>99 o/t</span></li>
+                                <li>Minimum investment <span>${{offer.minimum_investment}}</span></li>
+                                {% for feat in offer.features %}
+                                <li>{{feat}}</li>
+                                {% endfor %}
+                                
                               </ul>
                             </div>
 
                             <div class="table-footer">
-                              <a href="contact-us/index.html"
+                              <a href="{{offer.url}}"
                                 ><span>{{offer.cta}}</span></a
                               >
                             </div>

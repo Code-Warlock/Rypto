@@ -43,28 +43,34 @@ data = {
     'crypto_offers' : [
         {
             'title' : "QUANTUM GENIUS GPT",
+            'excerpt' : "Unlock trading potential with just $250",
             'description' : "Want to Outsmart the Market? Unleash the power of Quantum Genius GPT, an innovative trading platform that leverages advanced AI and quantum computing to optimize your trading strategies.",
-            'Unlock trading potential with just $250' : ["High-accuracy AI-Driven Insights", "Tailored trade preferences for personalized strategies", "24/7 Expert Support to guide your journey", "Transparent with No Hidden Fees", "Fast Withdrawals processed within 24 hours", "Robust Risk Management for secure trading"],
+            'features' : ["High-accuracy AI-Driven Insights", "Tailored trade preferences for personalized strategies", "24/7 Expert Support to guide your journey", "Transparent with No Hidden Fees", "Fast Withdrawals processed within 24 hours", "Robust Risk Management for secure trading"],
             'cta' : "Discover QUANTUM GENIUS GPT",
-            'image' : 'images/quantum_genius.png',
+            'image' : 'assets/images/quantum_genius.png',
+            'minimum_investment' : "250",
             'url' : "https://llrxqw.abadat5rckc.com/c/70f85c3757d382de",
             'tab' : "1"
         },
         {
         'title' : "BITCOIN 360 AI",
+        'excerpt' : "Minimum Investment Starting at $250",
         'description' : "Take Your Crypto Trading to the Next Level with Bitcoin 360 AI - The Future of Automated Trading Is Here. Sign Up Now and Start Trading!",
         'features' : ["AI-Powered Trading Algorithms for maximized profits", "User-Friendly Interface", "24/7 Automated Trading", "Personalized Expert Guidance to optimize your strategy", "Fast and Secure Deposit & Withdrawals", "No Hidden Fees, Trade with Confidence"],
         'cta' : "Discover BITCOIN 360 AI",
-        'image' : 'images/bitcoin_360.png',
+        'image' : 'assets/images/bitcoin_360.png',
+        'minimum_investment' : "250",
         'url' : "https://llrxqw.abadat5rckc.com/c/ddd7c0f04904feee",
         'tab' : "2"
     },
     {
         'title' : "FINANCE PHANTOM",
+        'excerpt' : "Start with just $250",
         'description' : "Trade Smarter, Not Harder - Boost Your Trading Success with Finance Phantom's AI Advantage",
         'features' : ["AI-Driven Market Analysis for Optimal Trading Results", "24/7 Automated Trading - Never Miss a Market Move", "Friendly & Experienced Support Team Ready to Assist", "Secure and Safe Trading Environment", "Quick Withdrawals Processed within 24 Hours", "No Hidden Fees"],
         'cta' : "Discover FINANCE PHANTOM",
-        'image' : 'images/finance_phantom.png',
+        'image' : 'assets/images/finance_phantom.png',
+        'minimum_investment' : "250",
         'url' : "https://llrxqw.abadat5rckc.com/c/d83c1eef2e5f7450",
         'tab' : "3"
     }
@@ -84,7 +90,7 @@ data = {
     'dedication': "Committed to Bringing You Top-Tier Offers and Insights"
     },
     # Partners
-    
+    'partners' : ["assets/images/quantum_genius.png", "assets/images/bitcoin_360.png", "assets/images/finance_phantom.png"],
     
     # Mission
     
@@ -131,7 +137,7 @@ data = {
         'twitter': "Twitter",
         'linkedin': "LinkedIn"
     },
-    'address' : "2B Bramble Street Coventry United Kingdon, CV1 2HT",
+    'address' : "2B Bramble Street Coventry United Kingdom, CV1 2HT",
     'phone_no' : "+447553220982",
 
     # Disclaimer

@@ -7404,9 +7404,9 @@ div#mCSB_1_container{
   border-bottom: 1px solid #e1dee5;
 }
 .pricing-block-two .pricing-table .feature-list li:before{
-  content : "\2713";
-  display : inline-block;
-  padding-inline: 10px;
+  content : "\2713" !important;
+  display : inline-block !important;
+  padding-inline: 10px !important;
 }
 
 .pricing-block-two .pricing-table .feature-list li:last-child{

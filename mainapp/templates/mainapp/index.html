@@ -152,10 +152,10 @@
                   >
                   {% for partner in content.partners  %}
                     <figure class="logo-box">
-                      <a href="#" target='"_blank"' rel='"nofollow"'
+                      <a href="{{partner.partner_url}}" target='"_blank"' rel='"nofollow"'
                         ><img
                           decoding="async"
-                          src="{% static partner %}"
+                          src="{% static partner.partner_img %}"
                           alt="Awesome Image"
                       /></a>
                     </figure>         
@@ -560,20 +560,19 @@
                   </div>
                   <div class="tabs-content">
                     <div class="tab active-tab" id="tab-1">
-                      <div class="row clearfix">
+                      <div class="row clearfix" style="font-style:oblique">
                     {% for offer in content.crypto_offers  %}
                         <div
                         class="col-lg-4 col-md-6 col-sm-12 pricing-block">
                         <div class="pricing-block-two">
                           <div class="pricing-table">
                             <div class="table-header">
-                              <h3>{{offer.title}}</h3>
+                              <h3 style="font-family:cursive;">{{offer.title}}</h3>
                               <p>{{offer.description}}.</p>
                               <h2><span>{{offer.excerpt}}</span></h2>
                             </div>
                             <div class="table-content">
                               <ul class="feature-list clearfix">
-                                <li>Minimum investment <span>${{offer.minimum_investment}}</span></li>
                                 {% for feat in offer.features %}
                                 <li>{{feat}}</li>
                                 {% endfor %}
@@ -729,9 +728,9 @@
                             alt="Awesome Image"
                           />
                         </div>
-                        <h2 class="te-title">4 <span>Hours</span></h2>
+                        <h2 class="te-title">24 <span>Hours</span></h2>
                         <p class="te-text">
-                          Avg Payout <br />Processing Time
+                          Withdrawal Duration <br />Processing Time
                         </p>
                       </div>
                     </div>
@@ -758,8 +757,8 @@
                             alt="Awesome Image"
                           />
                         </div>
-                        <h2 class="te-title">2 <span>Days</span></h2>
-                        <p class="te-text">To Earn a <br />Trading Account</p>
+                        <h2 class="te-title">24/7 <span>Availabilty</span></h2>
+                        <p class="te-text">All around the clock <br />Trading Support</p>
                       </div>
                     </div>
                   </div>
@@ -791,9 +790,9 @@
                             alt="Awesome Image"
                           />
                         </div>
-                        <h2 class="te-title">10 <span>Million</span></h2>
+                        <h2 class="te-title">6  <span>years+</span></h2>
                         <p class="te-text">
-                          No. of Trades Opened <br />Last Month
+                          Offering the best solutions <br />and insights
                         </p>
                       </div>
                     </div>
@@ -818,14 +817,14 @@
                   <div class="sec-title m-0">
                     <h6 class="te-subtitle">About Ryptocurrencystakes</h6>
                     <h2 class="te-title fxvibe-size-default">
-                      Pioneers in proprietary forex trading
+                      Curates the best offers for you!
+                      <h4 class="py-2 text-light" style="font-style:oblique"> We do the research, you keep the reward</h4>
                     </h2>
                   </div>
 
                   <div class="text-box">
                     <p class="te-text">
-                      Trouble that are bound to ensue; and equal blame belongs
-                      to those who fail in their duty through weakness.
+                      {% comment %}  {% endcomment %}
                     </p>
                   </div>
                 </div>
@@ -1004,7 +1003,7 @@
                     <div class="fxvibe-title-section">
                       <div class="text-box">
                         <p class="te-text">
-                          Cases are perfectly simple and easy distinguish.
+                          {% comment %} Cases are perfectly simple and easy distinguish. {% endcomment %}
                         </p>
                       </div>
                     </div>
@@ -1104,7 +1103,7 @@
                       </h3>
 
                       <p class="elementor-icon-box-description">
-                        2-5 bank working days
+                        24 hours Processing Time!
                       </p>
                     </div>
                   </div>
@@ -1132,7 +1131,7 @@
                         <span> Payout Ratio </span>
                       </h3>
 
-                      <p class="elementor-icon-box-description">85:15</p>
+                      <p class="elementor-icon-box-description">100%</p>
                     </div>
                   </div>
                 </div>
@@ -1193,17 +1192,17 @@
                     <figure class="image">
                       <img
                         decoding="async"
-                        src="{% static "uploads/2024/02/men-1.png" %}"
+                        src="{% static "assets/images/illustration_about.png" %}"
                         alt="Awesome Image"
                       />
                     </figure>
-                    <figure class="card-image">
+                    {% comment %} <figure class="card-image">
                       <img
                         decoding="async"
                         src="{% static "uploads/2024/02/card-5.png" %}"
                         alt="Awesome Image"
                       />
-                    </figure>
+                    </figure> {% endcomment %}
                   </div>
                 </section>
               </div>
@@ -1400,12 +1399,11 @@
                           </div>
                           <h3 class="te-title">
                             <a href="friendly-expert/index.html"
-                              >Friendly &amp; Expert</a
+                              >Proven Track Record</a
                             >
                           </h3>
                           <p class="te-text">
-                            Beatae vitae dicta sun explicabo enim it psam
-                            voluptatem volupta.
+                            Trust a platform with a history of delivering results, transparency, and reliability in the world of crypto and gambling.
                           </p>
                         </div>
                       </div>
@@ -1441,12 +1439,11 @@
                           </div>
                           <h3 class="te-title">
                             <a href="contact-us/index.html"
-                              >24/7 Support</a
+                              >24/7 Expert Support</a
                             >
                           </h3>
                           <p class="te-text">
-                            Dolore magnam aliquam quaer autem enim ad minima
-                            veniam.
+                            Receive round-the-clock assistance from a dedicated team of professionals, ensuring your success.
                           </p>
                         </div>
                       </div>
@@ -1483,12 +1480,11 @@
                           <h3 class="te-title">
                             <a
                               href="accounts-overview/demo-account/index.html"
-                              >Demo Account</a
+                              >User-Centric Platform</a
                             >
                           </h3>
                           <p class="te-text">
-                            Omnis iste natus error sit volup minima that
-                            accusantium doloremque.
+                            Enjoy a seamless, user-friendly experience tailored to both novice and expert traders and gamblers
                           </p>
                         </div>
                       </div>
@@ -1524,12 +1520,11 @@
                           </div>
                           <h3 class="te-title">
                             <a href="award-winner/index.html"
-                              >Award Winner</a
+                              >Fast and Secure Transactions</a
                             >
                           </h3>
                           <p class="te-text">
-                            Omnis iste natus error sit volup minima that
-                            accusantium doloremque.
+                            Benefit from quick, hassle-free deposits and withdrawals with top-tier security.
                           </p>
                         </div>
                       </div>
@@ -1565,12 +1560,11 @@
                           </div>
                           <h3 class="te-title">
                             <a href="best-profit-split/index.html"
-                              >Best Profit Split</a
+                              >Exclusive Offers</a
                             >
                           </h3>
                           <p class="te-text">
-                            Beatae vitae dicta sun explicabo enim it psam
-                            voluptatem volupta.
+                            Access handpicked, exclusive deals that maximize your investment and betting opportunities.
                           </p>
                         </div>
                       </div>
@@ -1608,12 +1602,11 @@
                           </div>
                           <h3 class="te-title">
                             <a href="simple-trading-rules/index.html"
-                              >No Hidden Rules</a
+                              >No Hidden Fees</a
                             >
                           </h3>
                           <p class="te-text">
-                            Dolore magnam aliquam quaer autem enim ad minima
-                            veniam.
+                            Trade and bet with confidence, knowing there are no hidden charges or surprise fees.
                           </p>
                         </div>
                       </div>
@@ -1648,7 +1641,7 @@
                     <figure class="image">
                       <img
                         decoding="async"
-                        src="{% static "uploads/2024/02/faq-1.png" %}"
+                        src="{% static "assets/images/illustration7.png" %}"
                         alt="Awesome Image"
                       />
                     </figure>
@@ -1659,17 +1652,6 @@
                         src="{% static "uploads/2024/02/icon-29.png" %}"
                         alt="Awesome Image"
                       />
-                    </div>
-                    <div class="curve-text">
-                      <div class="link">
-                        <a href="#" target='"_blank"' rel='"nofollow"'
-                          ><i class="flaticon-right-arrow-1"></i
-                        ></a>
-                      </div>
-                      <span class="curved-circle-2"
-                        >ask your questions to
-                        experts&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span
-                      >
                     </div>
                   </div>
                 </section>
@@ -1690,9 +1672,9 @@
               <div class="elementor-widget-container">
                 <div class="fxvibe-title-section">
                   <div class="sec-title m-0">
-                    <h6 class="te-subtitle">Faq’s</h6>
+                    <h6 class="te-subtitle">Faq's</h6>
                     <h2 class="te-title fxvibe-size-default">
-                      Common queries &amp; solutions
+                      Frequently asked questions &amp; Solutions
                     </h2>
                   </div>
                 </div>
@@ -1714,15 +1696,13 @@
                         <li class="accordion block active-block">
                           <div class="acc-btn active">
                             <h5 class="te-title">
-                              Does Ryptocurrencystakes have a good reputation?
+                              What is RyptocurrencyStakes?
                             </h5>
                           </div>
                           <div class="acc-content current">
                             <div class="text">
                               <p class="te-text">
-                                Trouble that are bound to ensue and equal
-                                blame belongs to those who fail in their duty
-                                through weakness.
+                                RyptocurrencyStakes is a cutting-edge platform that combines cryptocurrency trading with top-tier gambling opportunities. We offer exclusive investment deals, AI-driven trading tools, and access to the best sports betting and casino offers, all curated to help you maximize your profits and enjoy a thrilling experience.
                               </p>
                             </div>
                           </div>
@@ -1730,29 +1710,25 @@
                         <li class="accordion block">
                           <div class="acc-btn">
                             <h5 class="te-title">
-                              How can i start my journey as an Ryptocurrencystakes trader?
+                              How do I get started with RyptocurrencyStakes?
                             </h5>
                           </div>
                           <div class="acc-content">
                             <div class="text">
                               <p class="te-text">
-                                Trouble that are bound to ensue and equal
-                                blame belongs to those who fail in their duty
-                                through weakness.
+                                To get started, simply select an offer and create an account by signing up, verify your identity for security purposes, and deposit funds using various methods like bank transfers, credit/debit cards, or cryptocurrency. Once set up, you can start trading and investing right away, with access to powerful tools and support from your dedicated account manager.
                               </p>
                             </div>
                           </div>
                         </li>
                         <li class="accordion block">
                           <div class="acc-btn">
-                            <h5 class="te-title">Who is eligible to join?</h5>
+                            <h5 class="te-title">Is there a minimum investment required?</h5>
                           </div>
                           <div class="acc-content">
                             <div class="text">
                               <p class="te-text">
-                                Trouble that are bound to ensue and equal
-                                blame belongs to those who fail in their duty
-                                through weakness.
+                                Yes, most of our cryptocurrency trading platforms require a minimum investment of $250 to start. This ensures that you have enough capital to leverage the AI-driven tools and strategies available to optimize your trading success.
                               </p>
                             </div>
                           </div>
@@ -1760,15 +1736,13 @@
                         <li class="accordion block">
                           <div class="acc-btn">
                             <h5 class="te-title">
-                              Is my income subject to taxation?
+                              How secure are my transactions on RyptocurrencyStakes?
                             </h5>
                           </div>
                           <div class="acc-content">
                             <div class="text">
                               <p class="te-text">
-                                Trouble that are bound to ensue and equal
-                                blame belongs to those who fail in their duty
-                                through weakness.
+                                Your security is our top priority. We use advanced encryption and security protocols to ensure that all your transactions, whether deposits or withdrawals, are fast, secure, and protected from any unauthorized access.
                               </p>
                             </div>
                           </div>
@@ -1838,7 +1812,7 @@
               >
                 <div class="elementor-widget-container">
                   <div class="elementor-heading-title elementor-size-default">
-                    <a href="#">{{cont}}</a>
+                    <a href="mailto:{{content.footer_contact_email}}">{{content.footer_contact_email}}</a>
                   </div>
                 </div>
               </div>
@@ -2055,7 +2029,7 @@
                   >
                     <span class="elementor-button-content-wrapper">
                       <span class="elementor-button-text"
-                        >Say Hi & Hello</span
+                        >Connect with us!</span
                       >
                     </span>
                   </a>
@@ -2068,16 +2042,6 @@
               data-element_type="widget"
               data-widget_type="image.default"
             >
-              <div class="elementor-widget-container">
-                <img
-                  decoding="async"
-                  width="38"
-                  height="30"
-                  src="{% static "uploads/2024/02/icon-43.png" %}"
-                  class="attachment-full size-full wp-image-2908"
-                  alt=""
-                />
-              </div>
             </div>
             <div
               class="elementor-element elementor-element-9143ce4 elementor-absolute elementor-widget elementor-widget-image"
@@ -2108,7 +2072,7 @@
                 <div class="fxvibe-title-section">
                   <div class="sec-title m-0">
                     <h3 class="te-title fxvibe-size-default">
-                      Participate in <br />Our Discord Community.
+                      Be a part of <br />Our Community.
                     </h3>
                   </div>
 
@@ -2128,13 +2092,6 @@
               <div class="elementor-widget-container">
                 <div class="yt-btn about-section p-0 m-0">
                   <div class="content-box m-0 p-0">
-                    <div class="btn-box">
-                      <a
-                        href="services/education-training/index.html"
-                        class="theme-btn fxvibe-btn"
-                        ><span>Accept Our Invite</span></a
-                      >
-                    </div>
                   </div>
                 </div>
               </div>

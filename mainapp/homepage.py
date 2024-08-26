@@ -48,7 +48,6 @@ data = {
             'features' : ["High-accuracy AI-Driven Insights", "Tailored trade preferences for personalized strategies", "24/7 Expert Support to guide your journey", "Transparent with No Hidden Fees", "Fast Withdrawals processed within 24 hours", "Robust Risk Management for secure trading"],
             'cta' : "Discover QUANTUM GENIUS GPT",
             'image' : 'assets/images/quantum_genius.png',
-            'minimum_investment' : "250",
             'url' : "https://llrxqw.abadat5rckc.com/c/70f85c3757d382de",
             'tab' : "1"
         },
@@ -59,7 +58,6 @@ data = {
         'features' : ["AI-Powered Trading Algorithms for maximized profits", "User-Friendly Interface", "24/7 Automated Trading", "Personalized Expert Guidance to optimize your strategy", "Fast and Secure Deposit & Withdrawals", "No Hidden Fees, Trade with Confidence"],
         'cta' : "Discover BITCOIN 360 AI",
         'image' : 'assets/images/bitcoin_360.png',
-        'minimum_investment' : "250",
         'url' : "https://llrxqw.abadat5rckc.com/c/ddd7c0f04904feee",
         'tab' : "2"
     },
@@ -70,7 +68,6 @@ data = {
         'features' : ["AI-Driven Market Analysis for Optimal Trading Results", "24/7 Automated Trading - Never Miss a Market Move", "Friendly & Experienced Support Team Ready to Assist", "Secure and Safe Trading Environment", "Quick Withdrawals Processed within 24 Hours", "No Hidden Fees"],
         'cta' : "Discover FINANCE PHANTOM",
         'image' : 'assets/images/finance_phantom.png',
-        'minimum_investment' : "250",
         'url' : "https://llrxqw.abadat5rckc.com/c/d83c1eef2e5f7450",
         'tab' : "3"
     }
@@ -90,7 +87,20 @@ data = {
     'dedication': "Committed to Bringing You Top-Tier Offers and Insights"
     },
     # Partners
-    'partners' : ["assets/images/quantum_genius.png", "assets/images/bitcoin_360.png", "assets/images/finance_phantom.png"],
+    'partners' : [
+        {
+            'partner_img' : "assets/images/quantum_genius.png",
+            'partner_url' : "https://llrxqw.abadat5rckc.com/c/70f85c3757d382de"
+         }, 
+        {
+            'partner_img' : "assets/images/bitcoin_360.png",
+            'partner_url' : "https://llrxqw.abadat5rckc.com/c/ddd7c0f04904feee"
+        }, 
+        {
+            'partner_img' : "assets/images/finance_phantom.png",
+            'partner_url' : "https://llrxqw.abadat5rckc.com/c/d83c1eef2e5f7450"
+        }
+        ],
     
     # Mission
     

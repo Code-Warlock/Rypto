@@ -7403,6 +7403,11 @@ div#mCSB_1_container{
   padding: 14px 0px 13px 0px;
   border-bottom: 1px solid #e1dee5;
 }
+.pricing-block-two .pricing-table .feature-list li:before{
+  content : "\2713";
+  display : inline-block;
+  padding-inline: 10px;
+}
 
 .pricing-block-two .pricing-table .feature-list li:last-child{
   border-bottom: none;
@@ -9411,8 +9416,11 @@ div#mCSB_1_container{
   height: calc(100% - 40px);
   left: 0px;
   bottom: 0px;
-  background: -webkit-linear-gradient(90deg, #ffffff 0%, var(--theme-color) 100%);
+  /* background: -webkit-linear-gradient(90deg, #ffffff 0%, var(--theme-color) 100%); */
   border-radius: 250px 250px 250px 280px;
+}
+.table-header{
+  font-family: "Grenze Gotisch" cursive !important;
 }
 
 .payout-system .image-box .card-image{

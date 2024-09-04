@@ -59,7 +59,7 @@ data = {
         'cta' : "Discover BITCOIN 360 AI",
         'image' : 'assets/images/bitcoin_360.png',
         'url' : "https://llrxqw.abadat5rckc.com/c/ddd7c0f04904feee",
-        'tab' : "2"
+        'tab' : "1"
     },
     {
         'title' : "FINANCE PHANTOM",
@@ -69,7 +69,7 @@ data = {
         'cta' : "Discover FINANCE PHANTOM",
         'image' : 'assets/images/finance_phantom.png',
         'url' : "https://llrxqw.abadat5rckc.com/c/d83c1eef2e5f7450",
-        'tab' : "3"
+        'tab' : "1"
     }
     ],
 

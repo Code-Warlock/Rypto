@@ -15,3 +15,10 @@ def index(request):
     }
     
     return render(request, "mainapp/index.html",context)
+
+def about(request):
+    context = {
+        "content" : data
+    }
+    
+    return render(request, "mainapp/about2.html",context)

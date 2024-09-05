@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+
+
+ {% load static %}
+ {% block title %}
+ Start Trading Cryptocurrency Today | Secure &amp; Easy Crypto Investing Platform | About RyptoCurrencyStakes
+ {% endblock title %}
+ {% block links %}
+  {% include "mainapp/includes/_links.html" %}
+ {% endblock links %}
+
+ {% block content %}
+ <body class="page-template page-template-tpl-default-elementor page-template-tpl-default-elementor-php page page-id-2955 theme-fxvibe tutor-lms woocommerce-no-js menu-layer elementor-default elementor-kit-10 elementor-page elementor-page-2955"> 
+     
+  <div class="boxed_wrapper">
+      <!-- preloader -->
+        {% comment %} {% include "mainapp/includes/_preloader.html" %} {% endcomment %}
+      <!-- preloader end -->
+      
+      {% comment %} {% include "includes/header.html" %} {% endcomment %}
+
+    <!-- Mobile Menu  -->
+    {% include "mainapp/includes/_mobile_menu.html" %}
+    <!-- End Mobile Menu -->
+
+    {% comment %} page crumb {% endcomment %}
+      {% include "mainapp/includes/_crumb.html" %}
+    {% comment %} end page crumb {% endcomment %}
+    
+    {% include "includes/footer.html" %}
+</div>
+{% endblock content %}
+{% block scripts %}
+    {% include "mainapp/includes/_scripts.html" %}
+{% endblock scripts %}

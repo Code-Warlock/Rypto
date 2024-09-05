@@ -7404,9 +7404,9 @@ div#mCSB_1_container{
   border-bottom: 1px solid #e1dee5;
 }
 .pricing-block-two .pricing-table .feature-list li:before{
-  content : "\2713";
-  display : inline-block;
-  padding-inline: 10px;
+  content : "\2713" !important;
+  display : inline-block !important;
+  padding-inline: 10px !important;
 }
 
 .pricing-block-two .pricing-table .feature-list li:last-child{
@@ -8516,16 +8516,6 @@ div#mCSB_1_container{
 .main-footer.style-three .bottom-inner .footer-nav li a:hover{
   color: var(--theme-color);
 }
-
-
-
-/*** 
-
-====================================================================
-                        Home-Page-Four
-====================================================================
-
-***/
 
 
 /** header-style-four **/
@@ -12311,7 +12301,7 @@ div#mCSB_1_container{
 }
 
 .awards-section.bg-color-1 .awards-block-one .inner-box .icon-box{
-  background: -webkit-linear-gradient(90deg, #176a4d 0%, #154b38 100%); 1
+  background: -webkit-linear-gradient(90deg, #176a4d 0%, #154b38 100%); 
 }
 
 .awards-section.bg-color-1 .awards-block-one .inner-box:before {

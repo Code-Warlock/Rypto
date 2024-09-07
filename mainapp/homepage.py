@@ -73,24 +73,24 @@ data = {
     }
     ],
     'gambling_offers' : [
-{
-    "title": "FORTUNEJACK CASINO",
-    "excerpt": "Get started and explore top-tier crypto casino games!",
-    "description": "Discover the world of online crypto gambling at FortuneJack Casino, With over 1,500 games and seamless crypto transactions, FortuneJack provides a premier experience for both new and experienced players. ",
-    "features": [
-        "Over 1,500 Casino Games",
-        "Instant Crypto Deposits and Withdrawals",
-        "Live and Virtual Casino Options",
-        "Generous Bonuses and Promotions",
-        "24/7 Customer Support",
-        "Exclusive VIP Program for High Rollers"
-    ],
-    "cta": "JOIN NOW!",
-    'image' : 'assets/images/fortunejack_casino.jpeg',
-    'url' : "https://llrxqw.abadat5rckc.com/c/b3e0d68cae395c52",
-    'tab' : "2"
-	
-}
+                {
+                    "title": "FORTUNEJACK CASINO",
+                    "excerpt": "Get started and explore top-tier crypto casino games!",
+                    "description": "Discover the world of online crypto gambling at FortuneJack Casino, With over 1,500 games and seamless crypto transactions, FortuneJack provides a premier experience for both new and experienced players. ",
+                    "features": [
+                        "Over 1,500 Casino Games",
+                        "Instant Crypto Deposits and Withdrawals",
+                        "Live and Virtual Casino Options",
+                        "Generous Bonuses and Promotions",
+                        "24/7 Customer Support",
+                        "Exclusive VIP Program for High Rollers"
+                    ],
+                    "cta": "JOIN NOW!",
+                    'image' : 'assets/images/fortunejack_casino.jpeg',
+                    'url' : "https://llrxqw.abadat5rckc.com/c/b3e0d68cae395c52",
+                    'tab' : "2"
+                    
+                }
     ],
 
     

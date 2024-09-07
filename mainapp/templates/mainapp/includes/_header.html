@@ -1,0 +1,188 @@
+{% load static %}
+ <!-- main header -->
+ <header class="main-header">
+    <!-- header-lower -->
+    <div class="header-lower">
+      <div class="outer-container">
+        <div class="outer-box">
+          <div class="logo-box">
+            <figure class="logo">
+              <a href="/" title="Ryptocurrencystakes"
+                ><img
+                  src="{% static "assets/images/logo2.png" %}"
+                  alt="logo"
+                  style=""
+              /></a>
+            </figure>
+          </div>
+
+          <div class="menu-area clearfix">
+            <!--Mobile Navigation Toggler-->
+            <div class="mobile-nav-toggler">
+              <i class="icon-bar"></i>
+              <i class="icon-bar"></i>
+              <i class="icon-bar"></i>
+            </div>
+            <nav class="main-menu navbar-expand-md navbar-light">
+              <div
+                class="collapse navbar-collapse show clearfix"
+                id="navbarSupportedContent"
+              >
+                <ul class="navigation clearfix">
+                  <li
+                    id="menu-item-29"
+                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-29"
+                  >
+                    <a href="/" onClick="return true"
+                      >Home<span class="menu-item_plus"></span
+                    ></a>
+                  </li>
+                  <li
+                    id="menu-item-58"
+                    class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-58 current"
+                  >
+                    <a href="{% url "about" %}" onClick="return true"
+                      >About Us<span class="menu-item_plus"></span
+                    ></a>
+                  </li>
+                  <li
+                    id="menu-item-59"
+                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-59"
+                  >
+                    <a href="{% url "crypto" %}" onClick="return true"
+                      >Crypto<span class="menu-item_plus"></span
+                    ></a>
+                  </li>
+                  <li
+                    id="menu-item-59"
+                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-59"
+                  >
+                    <a href="#" onClick="return true"
+                      >Gambling<span class="menu-item_plus"></span
+                    ></a>
+                  </li>
+                  <li
+                    id="menu-item-60"
+                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-60"
+                  >
+                    <a href="#" onClick="return true"
+                      >Services<span class="menu-item_plus"></span
+                    ></a>
+                  </li>
+                  <li
+                    id="menu-item-4054"
+                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4054"
+                  >
+                    <a href="#" onClick="return true"
+                      >Contact Us<span class="menu-item_plus"></span
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+
+          <div class="menu-right-content">
+            <div class="link-box">
+              {% comment %} <div class="icon-box"><i class="flaticon-bandwidth"></i></div> {% endcomment %}
+              {% comment %} <h6>
+                <a href="services/education-training/index.html"
+                  >Start <br />Evaluation
+                  <i class="flaticon-right-arrow"></i
+                ></a>
+              </h6> {% endcomment %}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--sticky Header-->
+    <div class="sticky-header">
+      <div class="outer-container">
+        <div class="outer-box">
+          <div class="logo-box">
+            <figure class="logo">
+              <a href="/" title="Ryptocurrencystakes"
+                ><img
+                  src="{% static "assets/images/logo2.png"  %}"
+                  alt="logo"
+                  style=""
+              /></a>
+            </figure>
+          </div>
+          <div class="menu-area clearfix">
+            <nav class="main-menu clearfix">
+            
+            </nav>
+          </div>
+          <div class="menu-right-content">
+            <div class="link-box">
+              {% comment %} <div class="icon-box"><i class="flaticon-bandwidth"></i></div>
+              <h6>
+                <a href="services/education-training/index.html"
+                  >Start <br />Evaluation
+                  <i class="flaticon-right-arrow"></i
+                ></a>
+              </h6> {% endcomment %}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- main-header end -->
+
+  <!-- Mobile Menu  -->
+  <div class="mobile-menu">
+    <div class="menu-backdrop"></div>
+    <div class="close-btn"><i class="fas fa-times"></i></div>
+
+    <nav class="menu-box">
+      <div class="nav-logo">
+        <a href="/" title="Ryptocurrencystakes"
+          ><img
+            src="{% static "assets/images/logo2.png"  %}"
+            alt="logo"
+            style=""
+        /></a>
+      </div>
+      <div class="menu-outer">
+        
+      </div>
+
+      <div class="contact-info">
+        <h4>Contact Info</h4>
+        <ul>
+          <li>2B Bramble Street Coventry United Kingdom, CV1 2HT</li>
+          <li><a href="tel:+88-01682648101">++447553220982</a></li>
+          <li><a href="mailto:info@example,com">contactus@rcs.com</a></li>
+        </ul>
+      </div>
+      <div class="social-links">
+        <ul class="clearfix">
+          <li>
+            <a target="_blank" href="https://www.facebook.com/"
+              ><i class="fab icon flaticon-facebook"></i
+            ></a>
+          </li>
+          <li>
+            <a target="_blank" href="https://www.vimo.com/"
+              ><i class="fab icon flaticon-video-camera"></i
+            ></a>
+          </li>
+          <li>
+            <a target="_blank" href="https://www.youtube.com/"
+              ><i class="fab icon flaticon-youtube"></i
+            ></a>
+          </li>
+          <li>
+            <a target="_blank" href="https://www.instagram.com/"
+              ><i class="fab icon flaticon-instagram-logo"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <!-- End Mobile Menu -->

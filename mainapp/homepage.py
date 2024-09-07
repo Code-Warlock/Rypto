@@ -129,7 +129,7 @@ data = {
     'contact_us': "Contact Us",
     'faq': "FAQ",
     'blog': "Blog",
-    'crypto_offers': "Crypto Offers",
+    'crypto': "Crypto Offers",
     'gambling_offers': "Gambling Offers",
     'finance_phantom': "Finance Phantom",
     'bitcoin_360_ai': "Bitcoin 360 AI",

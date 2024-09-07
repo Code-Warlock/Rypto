@@ -38,9 +38,9 @@ type="text/css"
 media="all"
 />
 <style id="tutor-frontend-inline-css" type="text/css">
-.mce-notification.mce-notification-error {
-  display: none !important;
-}
+  .mce-notification.mce-notification-error {
+    display: none !important;
+  }
 :root {
   --tutor-color-primary: #26c48c;
   --tutor-color-primary-rgb: 38, 196, 140;
@@ -54,6 +54,9 @@ media="all"
   --tutor-color-gray-rgb: 219, 229, 226;
 }
 </style>
+{% comment %} <link rel="preload" href="{% static "assets/css/style.css" %}" as="style"> {% endcomment %}
+{% comment %} <link rel="preload" href="{% static "assets/js/bootstrap.bundle.min.js" %}" as="script">
+<link rel="stylesheet" href="{% static "assets/css/style.css" %}"> {% endcomment %}
 <link
 rel="stylesheet"
 id="woocommerce-layout-css"

@@ -1,16 +1,18 @@
 {% load static %}
-<!-- page-title -->
 <section class="page-title">
-    <div class="bg-layer" style="background-image: url({% static "assets/images/about_usbg.jpg" %});"></div>        <div class="auto-container">
-        <div class="content-box">
-            <h1>About RyptoCurrencyStakes</h1>
-            <ul class="bread-crumb clearfix">
-                <li class="breadcrumb-item">
-                    <a href="../index.html">Home</a>
-                </li>
-                <li class="breadcrumb-item">About Us</li> 
-            </ul>
-        </div>
+    <div
+      class="bg-layer"
+      style="
+        background-image: url({% static "assets/images/about_usbg.jpg" %});
+      "
+    ></div>
+    <div class="auto-container">
+      <div class="content-box">
+        <h1>{{crumb_title}}</h1>
+        <ul class="bread-crumb clearfix">
+          <li class="breadcrumb-item"><a href="/">Home</a></li>
+          <li class="breadcrumb-item">{{crumb_title}}</li>
+        </ul>
+      </div>
     </div>
-</section>
-<!-- page-title end -->
+  </section>

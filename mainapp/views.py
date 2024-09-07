@@ -18,7 +18,16 @@ def index(request):
 
 def about(request):
     context = {
-        "content" : data
+        "content" : data,
+        "crumb_title" : "About Ryptocurrencystakes"
     }
     
     return render(request, "mainapp/about2.html",context)
+
+def crypto(request):
+    context = {
+        "content" : data,
+        "crumb_title" : "Crypto Offers"
+    }
+    
+    return render(request, "mainapp/crypto.html",context)

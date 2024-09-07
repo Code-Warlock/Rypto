@@ -561,7 +561,7 @@
                   </div>
                   <div class="tabs-content">
                     <div class="tab active-tab" id="tab-1">
-                      <div class="row clearfix" style="font-style:oblique">
+                   <div class="row clearfix" style="font-style:oblique">
                     {% for offer in content.crypto_offers  %}
                         <div
                         class="col-lg-4 col-md-6 col-sm-12 pricing-block">
@@ -592,97 +592,34 @@
                     {% endfor %}
                     <div class="tab" id="tab-2">
                       <div class="row clearfix">
+                        {% for offer in content.gambling_offers %}
                         <div
-                          class="col-lg-4 col-md-6 col-sm-12 pricing-block"
-                        >
-                          <div class="pricing-block-two">
-                            <div class="pricing-table">
-                              <div class="table-header">
-                                <h3>Starter Plan</h3>
-                                <p>Packages and web page editors.</p>
-                                <h2>$110K <span>Funding amount</span></h2>
-                              </div>
-                              <div class="table-content">
-                                <ul class="feature-list clearfix">
-                                  <li>Target<span>$500</span></li>
-                                  <li>Min.Trading Days<span>5 Days</span></li>
-                                  <li>Daily Drawdown<span>5%</span></li>
-                                  <li>Max.Drawdown<span>10%</span></li>
-                                  <li>Trading Period<span>No Limit</span></li>
-                                  <li>Refundable Fee<span>99 o/t</span></li>
-                                </ul>
-                              </div>
-
-                              <div class="table-footer">
-                                <a href="contact-us/index.html"
-                                  ><span>Start Now</span></a
-                                >
-                              </div>
+                        class="col-lg-4 col-md-6 col-sm-12 pricing-block">
+                        <div class="pricing-block-two">
+                          <div class="pricing-table">
+                            <div class="table-header">
+                              <h3 style="font-style:italic;">{{offer.title}}</h3>
+                              <p>{{offer.description}}.</p>
+                              <h2><span>{{offer.excerpt}}</span></h2>
                             </div>
-                          </div>
-                        </div>
-                        <div
-                          class="col-lg-4 col-md-6 col-sm-12 pricing-block"
-                        >
-                          <div class="pricing-block-two">
-                            <div class="special-text">
-                              <h6>Popular Plan</h6>
+                            <div class="table-content">
+                              <ul class="feature-list clearfix">
+                                {% for feat in offer.features %}
+                                <li>{{feat}}</li>
+                                {% endfor %}
+                                
+                              </ul>
                             </div>
-                            <div class="pricing-table">
-                              <div class="table-header">
-                                <h3>Standard Plan</h3>
-                                <p>Packages and web page editors.</p>
-                                <h2>$125K <span>Funding amount</span></h2>
-                              </div>
-                              <div class="table-content">
-                                <ul class="feature-list clearfix">
-                                  <li>Target<span>$2000</span></li>
-                                  <li>Min.Trading Days<span>5 Days</span></li>
-                                  <li>Daily Drawdown<span>5%</span></li>
-                                  <li>Max.Drawdown<span>10%</span></li>
-                                  <li>Trading Period<span>No Limit</span></li>
-                                  <li>Refundable Fee<span>199 o/t</span></li>
-                                </ul>
-                              </div>
 
-                              <div class="table-footer">
-                                <a href="contact-us/index.html"
-                                  ><span>Start Now</span></a
-                                >
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div
-                          class="col-lg-4 col-md-6 col-sm-12 pricing-block"
-                        >
-                          <div class="pricing-block-two">
-                            <div class="pricing-table">
-                              <div class="table-header">
-                                <h3>Advanced Plan</h3>
-                                <p>Packages and web page editors.</p>
-                                <h2>$150K <span>Funding amount</span></h2>
-                              </div>
-                              <div class="table-content">
-                                <ul class="feature-list clearfix">
-                                  <li>Target<span>$5000</span></li>
-                                  <li>Min.Trading Days<span>5 Days</span></li>
-                                  <li>Daily Drawdown<span>5%</span></li>
-                                  <li>Max.Drawdown<span>10%</span></li>
-                                  <li>Trading Period<span>No Limit</span></li>
-                                  <li>Refundable Fee<span>299 o/t</span></li>
-                                </ul>
-                              </div>
-
-                              <div class="table-footer">
-                                <a href="contact-us/index.html"
-                                  ><span>Start Now</span></a
-                                >
-                              </div>
+                            <div class="table-footer">
+                              <a href="{{offer.url}}"
+                                ><span>{{offer.cta}}</span></a
+                              >
                             </div>
                           </div>
                         </div>
                       </div>
+                        {% endfor %}
                     </div>
                   </div>
                 </div>

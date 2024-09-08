@@ -85,11 +85,11 @@
                     </div>
                     <div class="btn-box">
                       <a
-                        href="accounts-overview/demo-account/index.html"
+                        href="{% url "crypto" %}"
                         class="theme-btn btn-two"
                         ><span>Start Trading</span></a
                       ><a
-                      href="accounts-overview/demo-account/index.html"
+                      href="#"
                       class="theme-btn btn-two"
                       ><span>Start Betting</span></a
                     >
@@ -560,10 +560,10 @@
                     </ul>
                   </div>
                   <div class="tabs-content">
-                    <div class="tab active-tab" id="tab-1">
+                  <div class="tab active-tab" id="tab-1">
                    <div class="row clearfix" style="font-style:oblique">
                     {% for offer in content.crypto_offers  %}
-                        <div
+                      <div
                         class="col-lg-4 col-md-6 col-sm-12 pricing-block">
                         <div class="pricing-block-two">
                           <div class="pricing-table">
@@ -589,39 +589,44 @@
                           </div>
                         </div>
                       </div>
+                      
                     {% endfor %}
-                    <div class="tab" id="tab-2">
-                      <div class="row clearfix">
-                        {% for offer in content.gambling_offers %}
-                        <div
-                        class="col-lg-4 col-md-6 col-sm-12 pricing-block">
-                        <div class="pricing-block-two">
-                          <div class="pricing-table">
-                            <div class="table-header">
-                              <h3 style="font-style:italic;">{{offer.title}}</h3>
-                              <p>{{offer.description}}.</p>
-                              <h2><span>{{offer.excerpt}}</span></h2>
-                            </div>
-                            <div class="table-content">
-                              <ul class="feature-list clearfix">
-                                {% for feat in offer.features %}
-                                <li>{{feat}}</li>
-                                {% endfor %}
-                                
-                              </ul>
-                            </div>
-
-                            <div class="table-footer">
-                              <a href="{{offer.url}}"
-                                ><span>{{offer.cta}}</span></a
-                              >
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                        {% endfor %}
-                    </div>
+                    
                   </div>
+                </div>
+                  <div class="tab" id="tab-2">
+                    <div class="row clearfix" style="font-style:oblique">
+                     {% for offer in content.gambling_offers  %}
+                       <div
+                         class="col-lg-4 col-md-6 col-sm-12 pricing-block">
+                         <div class="pricing-block-two">
+                           <div class="pricing-table">
+                             <div class="table-header">
+                               <h3 style="font-style:italic;">{{offer.title}}</h3>
+                               <p>{{offer.description}}.</p>
+                               <h2><span>{{offer.excerpt}}</span></h2>
+                             </div>
+                             <div class="table-content">
+                               <ul class="feature-list clearfix">
+                                 {% for feat in offer.features %}
+                                 <li>{{feat}}</li>
+                                 {% endfor %}
+                                 
+                               </ul>
+                             </div>
+ 
+                             <div class="table-footer">
+                               <a href="{{offer.url}}"
+                                 ><span>{{offer.cta}}</span></a
+                               >
+                             </div>
+                           </div>
+                         </div>
+                       </div>
+                       
+                     {% endfor %}
+                     
+                   </div>
                 </div>
               </section>
               <!-- pricing-style-two end -->

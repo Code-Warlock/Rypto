@@ -87,7 +87,7 @@ data = {
                     ],
                     "cta": "JOIN NOW!",
                     'image' : 'assets/images/fortunejack_casino.jpeg',
-                    'url' : "https://llrxqw.abadat5rckc.com/c/b3e0d68cae395c52",
+                    'url' : "https://offerone.g2afse.com/click?pid=444&offer_id=48",
                     'tab' : "2"
                     
                 }

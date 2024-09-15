@@ -1,0 +1,20 @@
+{% load static %}
+<section class="page-title">
+    <div
+      class="bg-layer"
+      style="
+        background-image: url({% static offer.image %});
+        background-size: cover;
+      "
+    ></div>
+    <div class="auto-container">
+      <div class="content-box">
+        <h1>{{crumb_cat}}</h1>
+        <ul class="bread-crumb clearfix">
+          <li class="breadcrumb-item"><a href="/">Home</a></li>
+          <li class="breadcrumb-item"><a href="{% url backlink %}">{{crumb_title}}</a></li>
+          <li class="breadcrumb-item">{{crumb_cat}}</li>
+        </ul>
+      </div>
+    </div>
+  </section>

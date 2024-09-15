@@ -1,1082 +1,823 @@
-<!DOCTYPE html>
-<html lang="en-US" class="no-js no-svg">
+{% extends "base.html" %}
+{% load static %}
+ {% block title %}
+ Start Trading Cryptocurrency Today | Secure &amp; Easy Crypto Investing Platform
+ {% endblock title %}
+ {% block links %}
+  {% include "mainapp/includes/_offer_link.html" %}
+ {% endblock links %}
 
-<!-- Mirrored from wp1.themevibrant.com/newwp/fxvibe/metatrader-5/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 05 Aug 2024 20:39:56 GMT -->
-<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
-<head>
-	<meta charset="UTF-8">
-	    		<link rel="shortcut icon" href="../wp-content/themes/fxvibe/assets/images/favicon.ico" type="image/x-icon">
-		<link rel="icon" href="../wp-content/themes/fxvibe/assets/images/favicon.ico" type="image/x-icon">
-	    	<!-- responsive meta -->
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<!-- For IE -->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>MetaTrader 5 &#8211; Fxvibe</title>
-<meta name='robots' content='max-image-preview:large' />
-<link rel='dns-prefetch' href='http://fonts.googleapis.com/' />
-<link rel="alternate" type="application/rss+xml" title="Fxvibe &raquo; Feed" href="../feed/index.html" />
-<link rel="alternate" type="application/rss+xml" title="Fxvibe &raquo; Comments Feed" href="../comments/feed/index.html" />
-<script type="text/javascript">
-/* <![CDATA[ */
-window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/wp1.themevibrant.com\/newwp\/fxvibe\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.6.1"}};
-/*! This file is auto-generated */
-!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!n(e,"\ud83d\udc26\u200d\u2b1b","\ud83d\udc26\u200b\u2b1b")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
-/* ]]> */
-</script>
-<style id='wp-emoji-styles-inline-css' type='text/css'>
+  {% block content %}
+  </head>
 
-	img.wp-smiley, img.emoji {
-		display: inline !important;
-		border: none !important;
-		box-shadow: none !important;
-		height: 1em !important;
-		width: 1em !important;
-		margin: 0 0.07em !important;
-		vertical-align: -0.1em !important;
-		background: none !important;
-		padding: 0 !important;
-	}
-</style>
-<style id='classic-theme-styles-inline-css' type='text/css'>
-/*! This file is auto-generated */
-.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
-</style>
-<style id='global-styles-inline-css' type='text/css'>
-:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--strong-yellow: #f7bd00;--wp--preset--color--strong-white: #fff;--wp--preset--color--light-black: #242424;--wp--preset--color--very-light-gray: #797979;--wp--preset--color--very-dark-black: #000000;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 10px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 24px;--wp--preset--font-size--x-large: 42px;--wp--preset--font-size--normal: 15px;--wp--preset--font-size--huge: 36px;--wp--preset--font-family--inter: "Inter", sans-serif;--wp--preset--font-family--cardo: Cardo;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
-:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
-:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
-:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
-</style>
-<link rel='stylesheet' id='contact-form-7-css' href='../wp-content/plugins/contact-form-7/includes/css/stylese2db.css?ver=5.9.8' type='text/css' media='all' />
-<link rel='stylesheet' id='redux-extendify-styles-css' href='../wp-content/plugins/fxvibe-plugin/redux-framework/redux-core/assets/css/extendify-utilities449f.css?ver=4.4.0.1' type='text/css' media='all' />
-<link rel='stylesheet' id='tutor-icon-css' href='../wp-content/plugins/tutor/assets/css/tutor-icon.minae29.css?ver=2.7.4' type='text/css' media='all' />
-<link rel='stylesheet' id='tutor-css' href='../wp-content/plugins/tutor/assets/css/tutor.minae29.css?ver=2.7.4' type='text/css' media='all' />
-<link rel='stylesheet' id='tutor-frontend-css' href='../wp-content/plugins/tutor/assets/css/tutor-front.minae29.css?ver=2.7.4' type='text/css' media='all' />
-<style id='tutor-frontend-inline-css' type='text/css'>
-.mce-notification.mce-notification-error{display: none !important;}
-:root{--tutor-color-primary:#26c48c;--tutor-color-primary-rgb:38, 196, 140;--tutor-color-primary-hover:#132720;--tutor-color-primary-hover-rgb:19, 39, 32;--tutor-body-color:#827e7d;--tutor-body-color-rgb:130, 126, 125;--tutor-border-color:#dbe5e2;--tutor-border-color-rgb:219, 229, 226;--tutor-color-gray:#dbe5e2;--tutor-color-gray-rgb:219, 229, 226;}
-</style>
-<link rel='stylesheet' id='woocommerce-layout-css' href='../wp-content/plugins/woocommerce/assets/css/woocommerce-layout4615.css?ver=9.1.4' type='text/css' media='all' />
-<link rel='stylesheet' id='woocommerce-smallscreen-css' href='../wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen4615.css?ver=9.1.4' type='text/css' media='only screen and (max-width: 768px)' />
-<link rel='stylesheet' id='woocommerce-general-css' href='../wp-content/plugins/woocommerce/assets/css/woocommerce4615.css?ver=9.1.4' type='text/css' media='all' />
-<style id='woocommerce-inline-inline-css' type='text/css'>
-.woocommerce form .form-row .required { visibility: visible; }
-</style>
-<link rel='stylesheet' id='font-awesome-all-css' href='../wp-content/themes/fxvibe/assets/css/font-awesome-allb6a4.css?ver=6.6.1' type='text/css' media='all' />
-<link rel='stylesheet' id='flaticon-css' href='../wp-content/themes/fxvibe/assets/css/flaticonb6a4.css?ver=6.6.1' type='text/css' media='all' />
-<link rel='stylesheet' id='owl-css' href='../wp-content/themes/fxvibe/assets/css/owlb6a4.css?ver=6.6.1' type='text/css' media='all' />
-<link rel='stylesheet' id='bootstrap-css' href='../wp-content/themes/fxvibe/assets/css/bootstrapb6a4.css?ver=6.6.1' type='text/css' media='all' />
-<link rel='stylesheet' id='jquery-fancybox-css' href='../wp-content/themes/fxvibe/assets/css/jquery.fancybox.minb6a4.css?ver=6.6.1' type='text/css' media='all' />
-<link rel='stylesheet' id='fancybox-css' href='../wp-content/themes/fxvibe/assets/css/animateb6a4.css?ver=6.6.1' type='text/css' media='all' />
-<link rel='stylesheet' id='nice-select-css' href='../wp-content/themes/fxvibe/assets/css/nice-selectb6a4.css?ver=6.6.1' type='text/css' media='all' />
-<link rel='stylesheet' id='jquery-ui-css' href='../wp-content/themes/fxvibe/assets/css/jquery-uib6a4.css?ver=6.6.1' type='text/css' media='all' />
-<link rel='stylesheet' id='fxvibe-main-css' href='../wp-content/themes/fxvibe/styleb6a4.css?ver=6.6.1' type='text/css' media='all' />
-<link rel='stylesheet' id='fxvibe-main-style-css' href='../wp-content/themes/fxvibe/assets/css/styleb6a4.css?ver=6.6.1' type='text/css' media='all' />
-<link rel='stylesheet' id='fxvibe-color-css' href='../wp-content/themes/fxvibe/assets/css/colorb6a4.css?ver=6.6.1' type='text/css' media='all' />
-<link rel='stylesheet' id='fxvibe-custom-css' href='../wp-content/themes/fxvibe/assets/css/customb6a4.css?ver=6.6.1' type='text/css' media='all' />
-<link rel='stylesheet' id='fxvibe-responsive-css' href='../wp-content/themes/fxvibe/assets/css/responsiveb6a4.css?ver=6.6.1' type='text/css' media='all' />
-<link rel='stylesheet' id='fxvibe-woocommerce-css' href='../wp-content/themes/fxvibe/assets/css/woocommerceb6a4.css?ver=6.6.1' type='text/css' media='all' />
-<link rel='stylesheet' id='fxvibe-theme-fonts-css' href='https://fonts.googleapis.com/css?family=Be+Vietnam+Pro%3Awght%40100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900%26display%3Dswap%7CInstrument+Sans%3Awght%40300%2C400%2C500%2C600%2C700%2C800%2C900%26display%3Dswap&amp;subset=latin%2Clatin-ext' type='text/css' media='all' />
-<link rel='stylesheet' id='elementor-frontend-css' href='../wp-content/uploads/elementor/css/custom-frontend-lite.mincda7.css?ver=1719429762' type='text/css' media='all' />
-<link rel='stylesheet' id='swiper-css' href='../wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min94a4.css?ver=8.4.5' type='text/css' media='all' />
-<link rel='stylesheet' id='elementor-post-10-css' href='../wp-content/uploads/elementor/css/post-10cda7.css?ver=1719429762' type='text/css' media='all' />
-<link rel='stylesheet' id='elementor-global-css' href='../wp-content/uploads/elementor/css/global0837.css?ver=1719429760' type='text/css' media='all' />
-<link rel='stylesheet' id='elementor-post-3516-css' href='../wp-content/uploads/elementor/css/post-3516edb7.css?ver=1719517376' type='text/css' media='all' />
-<link rel='stylesheet' id='google-fonts-1-css' href='https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CBe+Vietnam+Pro%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&amp;display=swap&amp;ver=6.6.1' type='text/css' media='all' />
-<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin><script type="text/javascript" id="jquery-core-js-extra">
-/* <![CDATA[ */
-var fxvibe_data = {"ajaxurl":"https:\/\/wp1.themevibrant.com\/newwp\/fxvibe\/wp-admin\/admin-ajax.php","nonce":"a71b4957e7"};
-/* ]]> */
-</script>
-<script type="text/javascript" src="../wp-includes/js/jquery/jquery.minf43b.js?ver=3.7.1" id="jquery-core-js"></script>
-<script type="text/javascript" src="../wp-includes/js/jquery/jquery-migrate.min5589.js?ver=3.4.1" id="jquery-migrate-js"></script>
-<script type="text/javascript" src="../wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.minb152.js?ver=2.7.0-wc.9.1.4" id="jquery-blockui-js" defer="defer" data-wp-strategy="defer"></script>
-<script type="text/javascript" id="wc-add-to-cart-js-extra">
-/* <![CDATA[ */
-var wc_add_to_cart_params = {"ajax_url":"\/newwp\/fxvibe\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/newwp\/fxvibe\/?wc-ajax=%%endpoint%%","i18n_view_cart":"View cart","cart_url":"https:\/\/wp1.themevibrant.com\/newwp\/fxvibe\/cart\/","is_cart":"","cart_redirect_after_add":"no"};
-/* ]]> */
-</script>
-<script type="text/javascript" src="../wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min4615.js?ver=9.1.4" id="wc-add-to-cart-js" defer="defer" data-wp-strategy="defer"></script>
-<script type="text/javascript" src="../wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.minf31e.js?ver=2.1.4-wc.9.1.4" id="js-cookie-js" defer="defer" data-wp-strategy="defer"></script>
-<script type="text/javascript" id="woocommerce-js-extra">
-/* <![CDATA[ */
-var woocommerce_params = {"ajax_url":"\/newwp\/fxvibe\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/newwp\/fxvibe\/?wc-ajax=%%endpoint%%"};
-/* ]]> */
-</script>
-<script type="text/javascript" src="../wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min4615.js?ver=9.1.4" id="woocommerce-js" defer="defer" data-wp-strategy="defer"></script>
-<link rel="https://api.w.org/" href="../wp-json/index.html" /><link rel="alternate" title="JSON" type="application/json" href="../wp-json/wp/v2/pages/3516.json" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="../xmlrpc0db0.html?rsd" />
-<meta name="generator" content="WordPress 6.6.1" />
-<meta name="generator" content="TutorLMS 2.7.4" />
-<meta name="generator" content="WooCommerce 9.1.4" />
-<link rel="canonical" href="index.html" />
-<link rel='shortlink' href='../index99c1.html?p=3516' />
-<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="../wp-json/oembed/1.0/embedaeff.json?url=https%3A%2F%2Fwp1.themevibrant.com%2Fnewwp%2Ffxvibe%2Fmetatrader-5%2F" />
-<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="../wp-json/oembed/1.0/embeda32b?url=https%3A%2F%2Fwp1.themevibrant.com%2Fnewwp%2Ffxvibe%2Fmetatrader-5%2F&amp;format=xml" />
-<meta name="generator" content="Redux 4.4.0.1" />	<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
-	<meta name="generator" content="Elementor 3.23.4; features: e_optimized_css_loading, e_font_icon_svg, additional_custom_breakpoints, e_lazyload; settings: css_print_method-external, google_font-enabled, font_display-swap">
-			<style>
-				.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload),
-				.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload) * {
-					background-image: none !important;
-				}
-				@media screen and (max-height: 1024px) {
-					.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload),
-					.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload) * {
-						background-image: none !important;
-					}
-				}
-				@media screen and (max-height: 640px) {
-					.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload),
-					.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload) * {
-						background-image: none !important;
-					}
-				}
-			</style>
-			<style id='wp-fonts-local' type='text/css'>
-@font-face{font-family:Inter;font-style:normal;font-weight:300 900;font-display:fallback;src:url('../wp-content/plugins/woocommerce/assets/fonts/Inter-VariableFont_slnt%2cwght.woff2') format('woff2');font-stretch:normal;}
-@font-face{font-family:Cardo;font-style:normal;font-weight:400;font-display:fallback;src:url('../wp-content/plugins/woocommerce/assets/fonts/cardo_normal_400.woff2') format('woff2');}
-</style>
-</head>
+  <body
+    class="page-template page-template-tpl-default-elementor page-template-tpl-default-elementor-php page page-id-3516 theme-fxvibe tutor-lms woocommerce-no-js menu-layer elementor-default elementor-kit-10 elementor-page elementor-page-3516"
+  >
+    <!-- main header -->
+	{% include "mainapp/includes/_header.html" %}
+	<!-- main-header end -->
 
+      <!-- page-title -->
+        {% include "mainapp/includes/_offer_crumb.html" %}
+      <!-- page-title end -->
 
-<body class="page-template page-template-tpl-default-elementor page-template-tpl-default-elementor-php page page-id-3516 theme-fxvibe tutor-lms woocommerce-no-js menu-layer elementor-default elementor-kit-10 elementor-page elementor-page-3516"> 
-
-	
-    <div class="boxed_wrapper">
-
-		        <!-- preloader -->
-        <div class="loader-wrap">
-            <div class="preloader">
-                <div class="preloader-close">x</div>
-                <div id="handle-preloader" class="handle-preloader">
-                    <div class="animation-preloader">
-                        <div class="spinner"></div>
-                        <div class="txt-loading">
-                            <span data-text-preloader="f" class="letters-loading">
-f
-</span>
-<span data-text-preloader="x" class="letters-loading">
-x
-</span>
-<span data-text-preloader="v" class="letters-loading">
-v
-</span>
-<span data-text-preloader="i" class="letters-loading">
-i
-</span>
-<span data-text-preloader="b" class="letters-loading">
-b
-</span>
-<span data-text-preloader="e" class="letters-loading">
-e
-</span>                        </div>
-                    </div>  
+      <div
+        data-elementor-type="wp-page"
+        data-elementor-id="3516"
+        class="elementor elementor-3516"
+      >
+        <div
+          class="elementor-element elementor-element-ba167be e-flex e-con-boxed e-con e-parent"
+          data-id="ba167be"
+          data-element_type="container"
+          data-settings='{"background_background":"classic"}'
+        >
+          <div class="e-con-inner">
+            <div
+              class="elementor-element elementor-element-4925b87 elementor-absolute elementor-hidden-tablet_extra elementor-widget elementor-widget-image"
+              data-id="4925b87"
+              data-element_type="widget"
+              data-settings='{"_position":"absolute"}'
+              data-widget_type="image.default"
+            >
+              <div class="elementor-widget-container">
+                <style>
+                  /*! elementor - v3.23.0 - 05-08-2024 */
+                  .elementor-widget-image {
+                    text-align: center;
+                  }
+                  .elementor-widget-image a {
+                    display: inline-block;
+                  }
+                  .elementor-widget-image a img[src$=".svg"] {
+                    width: 48px;
+                  }
+                  .elementor-widget-image img {
+                    vertical-align: middle;
+                    display: inline-block;
+                  }
+                </style>
+                <img
+                  fetchpriority="high"
+                  decoding="async"
+                  width="625"
+                  height="789"
+                  src="{% static "uploads/2024/02/shape-10.png" %}"
+                  class="attachment-full size-full wp-image-1333"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div
+              class="elementor-element elementor-element-83bc36e e-con-full e-flex e-con e-child"
+              data-id="83bc36e"
+              data-element_type="container"
+            >
+              <div
+                class="elementor-element elementor-element-896d4a8 e-con-full e-flex e-con e-child"
+                data-id="896d4a8"
+                data-element_type="container"
+              >
+                <div
+                  class="elementor-element elementor-element-7295f6f elementor-widget elementor-widget-fxvibe_float_image"
+                  data-id="7295f6f"
+                  data-element_type="widget"
+                  data-widget_type="fxvibe_float_image.default"
+                >
+                  <div class="elementor-widget-container">
+                    <section class="platform-section p-0 m-0">
+                      <div class="image-box">
+                        <figure class="image">
+                          <img
+                            decoding="async"
+                            src="{% static offer.image %}"
+                            alt="Awesome Image"
+                          />
+                        </figure>
+                        <div class="text-1"><h6>Multiple Charting</h6></div>
+                        <div class="text-2"><h6>News Feed</h6></div>
+                      </div>
+                    </section>
+                  </div>
                 </div>
-            </div>
-        </div>
-        <!-- preloader end -->
-    	    
-		
-	<!-- main header -->
-    <header class="main-header">
-                <!-- header-top -->
-        <div class="header-top">
-            <div class="outer-container">
-                <div class="top-inner">
-                                        <div class="left-column">
-                        <div class="login-box">
-                            <div class="icon-box"><img src="../wp-content/themes/fxvibe/assets/images/icons/icon-1.png" alt="Awesome Image"></div>
-                            <h5><a href="../student-registration/index.html">Login </a><span>-or</span></h5>
-                            <h6><a href="../accounts-overview/demo-account/index.html">Create your account</a></h6>
-                        </div>
-                    </div>
-                                                            <div class="text-box">
-                        <div class="icon-box"><img src="../wp-content/themes/fxvibe/assets/images/icons/icon-2.png" alt="Awesome Image"></div>
-                        <h6>Traders payouts since 2015: <span>$26,769,485</span></h6>
-                    </div>
-                                        
-                    <div class="right-column">
-                                                <div class="search-box">
-                            
-<form method="post" action="https://wp1.themevibrant.com/newwp/fxvibe/">
-    <div class="form-group">
-        <input type="search" name="s" value="" placeholder="Search" required>
-        <button type="submit"><i class="flaticon-search"></i></button>
-    </div>
-</form>                        </div>
-                                                
-                                                <div class="mail-box">
-                            <div class="icon-box"><img src="../wp-content/themes/fxvibe/assets/images/icons/icon-3.png" alt="Awesome Image"></div>
-                            <h5>Mail us</h5>
-                            <h6><a href="mailto:info@example.com">info@example.com</a></h6>
-                        </div>
-                                            </div>
-                </div>
-            </div>
-        </div>
-                
-        <!-- header-lower -->
-        <div class="header-lower">
-            <div class="outer-container">
-                <div class="outer-box">
-                    
-                    <div class="logo-box">
-                        <figure class="logo"><a href="../index.html" title="Fxvibe"><img src="../wp-content/uploads/2024/02/logo.png" alt="logo" style="" /></a></figure>
-                    </div>
-                    
-                    <div class="menu-area clearfix">
-                        <!--Mobile Navigation Toggler-->
-                        <div class="mobile-nav-toggler">
-                            <i class="icon-bar"></i>
-                            <i class="icon-bar"></i>
-                            <i class="icon-bar"></i>
-                        </div>
-                        <nav class="main-menu navbar-expand-md navbar-light">
-                            <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
-                                <ul class="navigation clearfix">
-								<li id="menu-item-29" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-29 dropdown"><a href="#" onClick="return true">Home<span class="menu-item_plus"></span></a><ul class="sub-menu submenu menu-sub-content">	<li id="menu-item-24" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-24"><a href="../index.html" onClick="return true">Home Page 01<span class="menu-item_plus"></span></a></li>	<li id="menu-item-25" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25"><a href="../home-page-02/index.html" onClick="return true">Home Page 02<span class="menu-item_plus"></span></a></li>	<li id="menu-item-26" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26"><a href="../home-page-03/index.html" onClick="return true">Home Page 03<span class="menu-item_plus"></span></a></li>	<li id="menu-item-27" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-27"><a href="../home-page-04/index.html" onClick="return true">Home Page 04<span class="menu-item_plus"></span></a></li>	<li id="menu-item-28" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-28"><a href="../home-page-05/index.html" onClick="return true">Home Page 05<span class="menu-item_plus"></span></a></li></ul>
-</li><li id="menu-item-58" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-58 dropdown"><a href="#" onClick="return true">About<span class="menu-item_plus"></span></a><ul class="sub-menu submenu menu-sub-content">	<li id="menu-item-3171" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3171"><a href="../about-company/index.html" onClick="return true">About Company<span class="menu-item_plus"></span></a></li>	<li id="menu-item-3203" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3203"><a href="../history/index.html" onClick="return true">History<span class="menu-item_plus"></span></a></li>	<li id="menu-item-4235" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4235 dropdown"><a href="#" onClick="return true">Team<span class="menu-item_plus"></span></a>	<ul class="sub-menu submenu menu-sub-content">		<li id="menu-item-3225" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3225"><a href="../team-members/index.html" onClick="return true">Team Members<span class="menu-item_plus"></span></a></li>		<li id="menu-item-4236" class="menu-item menu-item-type-post_type menu-item-object-team menu-item-4236"><a href="../team/michal-starck/index.html" onClick="return true">Team Details<span class="menu-item_plus"></span></a></li>	</ul>
-</li>	<li id="menu-item-3256" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3256"><a href="../faqs/index.html" onClick="return true">Faq’s<span class="menu-item_plus"></span></a></li>	<li id="menu-item-3258" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3258"><a href="../index8d4e.html?p=123456abc" onClick="return true">404<span class="menu-item_plus"></span></a></li></ul>
-</li><li id="menu-item-59" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor menu-item-has-children menu-item-59 dropdown current"><a href="#" onClick="return true">Trading<span class="menu-item_plus"></span></a><ul class="sub-menu submenu menu-sub-content">	<li id="menu-item-3259" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3259 dropdown"><a href="#" onClick="return true">Accounts<span class="menu-item_plus"></span></a>	<ul class="sub-menu submenu menu-sub-content">		<li id="menu-item-3286" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3286"><a href="../accounts-overview/index.html" onClick="return true">Accounts Overview<span class="menu-item_plus"></span></a></li>		<li id="menu-item-3809" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3809"><a href="../accounts-overview/demo-account/index.html" onClick="return true">Demo Account<span class="menu-item_plus"></span></a></li>		<li id="menu-item-3858" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3858"><a href="../accounts-overview/individual-account/index.html" onClick="return true">Individual Account<span class="menu-item_plus"></span></a></li>		<li id="menu-item-3857" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3857"><a href="../accounts-overview/professional-account/index.html" onClick="return true">Professional Account<span class="menu-item_plus"></span></a></li>		<li id="menu-item-3891" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3891"><a href="../accounts-overview/vip-account/index.html" onClick="return true">VIP Account<span class="menu-item_plus"></span></a></li>		<li id="menu-item-3890" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3890"><a href="../accounts-overview/ecn-account/index.html" onClick="return true">ECN Account<span class="menu-item_plus"></span></a></li>	</ul>
-</li>	<li id="menu-item-3301" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-3301 dropdown current"><a href="#" onClick="return true">Platform<span class="menu-item_plus"></span></a>	<ul class="sub-menu submenu menu-sub-content">		<li id="menu-item-3324" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3324"><a href="../metatrader-4/index.html" onClick="return true">MetaTrader 4<span class="menu-item_plus"></span></a></li>		<li id="menu-item-3521" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-3516 current_page_item menu-item-3521"><a href="index.html" onClick="return true">MetaTrader 5<span class="menu-item_plus"></span></a></li>	</ul>
-</li>	<li id="menu-item-3534" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3534 dropdown"><a href="#" onClick="return true">Education<span class="menu-item_plus"></span></a>	<ul class="sub-menu submenu menu-sub-content">		<li id="menu-item-3537" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3537"><a href="../education/index.html" onClick="return true">Education<span class="menu-item_plus"></span></a></li>		<li id="menu-item-5529" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5529"><a href="../courses/index.html" onClick="return true">Education Grid<span class="menu-item_plus"></span></a></li>		<li id="menu-item-5378" class="menu-item menu-item-type-post_type menu-item-object-courses menu-item-5378"><a href="../courses/navigating-the-tools-of-the-trade/index.html" onClick="return true">Education Details<span class="menu-item_plus"></span></a></li>		<li id="menu-item-5172" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5172"><a href="../student-registration/index.html" onClick="return true">Student Registration<span class="menu-item_plus"></span></a></li>		<li id="menu-item-5173" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5173"><a href="../instructor-registration/index.html" onClick="return true">Instructor Registration<span class="menu-item_plus"></span></a></li>		<li id="menu-item-5171" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5171"><a href="../dashboard/index.html" onClick="return true">Dashboard<span class="menu-item_plus"></span></a></li>	</ul>
-</li></ul>
-</li><li id="menu-item-60" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-60 dropdown"><a href="#" onClick="return true">Services<span class="menu-item_plus"></span></a><ul class="sub-menu submenu menu-sub-content">	<li id="menu-item-3593" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3593"><a href="../services/index.html" onClick="return true">Services Overview<span class="menu-item_plus"></span></a></li>	<li id="menu-item-3626" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3626"><a href="../services/currency-pairs/index.html" onClick="return true">Currency Pairs<span class="menu-item_plus"></span></a></li>	<li id="menu-item-3729" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3729"><a href="../services/trading-accounts/index.html" onClick="return true">Trading Accounts<span class="menu-item_plus"></span></a></li>	<li id="menu-item-3739" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3739"><a href="../services/platform-tools/index.html" onClick="return true">Platform &#038; Tools<span class="menu-item_plus"></span></a></li>	<li id="menu-item-3745" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3745"><a href="../services/monitoring-support/index.html" onClick="return true">Monitoring &#038; Support<span class="menu-item_plus"></span></a></li>	<li id="menu-item-3751" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3751"><a href="../services/education-training/index.html" onClick="return true">Education &#038; Training<span class="menu-item_plus"></span></a></li></ul>
-</li><li id="menu-item-61" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-61 dropdown"><a href="#" onClick="return true">Blog<span class="menu-item_plus"></span></a><ul class="sub-menu submenu menu-sub-content">	<li id="menu-item-3925" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3925"><a href="../grid-view-01/index.html" onClick="return true">Grid View 01<span class="menu-item_plus"></span></a></li>	<li id="menu-item-3924" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3924"><a href="../grid-view-02/index.html" onClick="return true">Grid View 02<span class="menu-item_plus"></span></a></li>	<li id="menu-item-3926" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3926"><a href="../list-view-01/index.html" onClick="return true">List View 01<span class="menu-item_plus"></span></a></li>	<li id="menu-item-3923" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3923"><a href="../list-view-02/index.html" onClick="return true">List View 02<span class="menu-item_plus"></span></a></li>	<li id="menu-item-4222" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-4222"><a href="../how-much-do-you-need-to-start-forex-trading-3/index.html" onClick="return true">Single Post<span class="menu-item_plus"></span></a></li></ul>
-</li><li id="menu-item-4054" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4054"><a href="../contact-us/index.html" onClick="return true">Contact Us<span class="menu-item_plus"></span></a></li>                                </ul>
-                            </div>
-                        </nav>
-                    </div>
-                    
-					                    <div class="menu-right-content">
-                        <div class="link-box">
-                            <div class="icon-box"><i class="flaticon-bandwidth"></i></div>
-                            <h6><a href="../services/education-training/index.html">Start <br />Evaluation <i class="flaticon-right-arrow"></i></a></h6>
-                        </div>
-                    </div>
-                                    </div>
-            </div>
-        </div>
+              </div>
+              <div
+                class="elementor-element elementor-element-f87a740 e-con-full e-flex e-con e-child"
+                data-id="f87a740"
+                data-element_type="container"
+              >
+                <div
+                  class="elementor-element elementor-element-fd9ddce elementor-widget elementor-widget-fxvibe_hero_title"
+                  data-id="fd9ddce"
+                  data-element_type="widget"
+                  data-widget_type="fxvibe_hero_title.default"
+                >
+                  <div class="elementor-widget-container">
+                    <div class="fxvibe-title-section">
+                      <div class="sec-title m-0">
+                        <h6 class="te-subtitle">{{offer.title}}</h6>
+                        <h2 class="te-title fxvibe-size-default">
+                          {{offer.excerpt}}
+                        </h2>
+                      </div>
 
-        <!--sticky Header-->
-        <div class="sticky-header">
-            <div class="outer-container">
-                <div class="outer-box">
-                    <div class="logo-box">
-                        <figure class="logo"><a href="../index.html" title="Fxvibe"><img src="../wp-content/uploads/2024/02/logo.png" alt="logo" style="" /></a></figure>
+                      <div class="text-box">
+                        <p class="te-text">
+                          {{offer.description}}
+                        </p>
+                      </div>
                     </div>
-                    <div class="menu-area clearfix">
-                        <nav class="main-menu clearfix">
-                            <!--Keep This Empty / Menu will come through Javascript-->
-                        </nav>
-                    </div>
-                                        <div class="menu-right-content">
-                        <div class="link-box">
-                            <div class="icon-box"><i class="flaticon-bandwidth"></i></div>
-                            <h6><a href="../services/education-training/index.html">Start <br />Evaluation <i class="flaticon-right-arrow"></i></a></h6>
-                        </div>
-                    </div>
-                                    </div>
-            </div>
-        </div>
-    </header>
-    <!-- main-header end -->
-
-    
-	
-    <!-- Mobile Menu  -->
-    <div class="mobile-menu">
-        <div class="menu-backdrop"></div>
-        <div class="close-btn"><i class="fas fa-times"></i></div>
-        
-        <nav class="menu-box">
-            <div class="nav-logo"><a href="../index.html" title="Fxvibe"><img src="../wp-content/uploads/2024/02/logo-2.png" alt="logo" style="" /></a></div>
-            <div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
-            
-            <div class="contact-info">
-                <h4>Contact Info</h4>                <ul>
-                    <li>Chicago 12, Melborne City, USA</li>                    <li><a href="tel:+88-01682648101">+88-01682648101</a></li>                    <li><a href="mailto:info@example,com">info@example,com</a></li>                </ul>
-            </div>
-                        <div class="social-links">
-                <ul class="clearfix">
-                    		
-		<li>
-		<a target="_blank" href="https://www.facebook.com/"><i class="fab icon flaticon-facebook"></i></a>
-	</li>
-		<li>
-		<a target="_blank" href="https://www.vimo.com/"><i class="fab icon flaticon-video-camera"></i></a>
-	</li>
-		<li>
-		<a target="_blank" href="https://www.youtube.com/"><i class="fab icon flaticon-youtube"></i></a>
-	</li>
-		<li>
-		<a target="_blank" href="https://www.instagram.com/"><i class="fab icon flaticon-instagram-logo"></i></a>
-	</li>
-		
-		
-	                </ul>
-            </div>
-                    </nav>
-    </div><!-- End Mobile Menu -->
-    		
-    <!-- page-title -->
-    <section class="page-title">
-        <div class="bg-layer" style="background-image: url(../wp-content/themes/fxvibe/assets/images/background/page-title.jpg);"></div>        <div class="auto-container">
-            <div class="content-box">
-                <h1>MetaTrader 5</h1>
-                                <ul class="bread-crumb clearfix">
-                    <li class="breadcrumb-item"><a href="../index.html">Home</a></li><li class="breadcrumb-item">MetaTrader 5</li>                </ul>
-                            </div>
-        </div>
-    </section>
-    <!-- page-title end -->
-           
-			<div data-elementor-type="wp-page" data-elementor-id="3516" class="elementor elementor-3516">
-				<div class="elementor-element elementor-element-ba167be e-flex e-con-boxed e-con e-parent" data-id="ba167be" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-					<div class="e-con-inner">
-				<div class="elementor-element elementor-element-4925b87 elementor-absolute elementor-hidden-tablet_extra elementor-widget elementor-widget-image" data-id="4925b87" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;}" data-widget_type="image.default">
-				<div class="elementor-widget-container">
-			<style>/*! elementor - v3.23.0 - 05-08-2024 */
-.elementor-widget-image{text-align:center}.elementor-widget-image a{display:inline-block}.elementor-widget-image a img[src$=".svg"]{width:48px}.elementor-widget-image img{vertical-align:middle;display:inline-block}</style>										<img fetchpriority="high" decoding="async" width="625" height="789" src="../wp-content/uploads/2024/02/shape-10.png" class="attachment-full size-full wp-image-1333" alt="" srcset="https://wp1.themevibrant.com/newwp/fxvibe/wp-content/uploads/2024/02/shape-10.png 625w, https://wp1.themevibrant.com/newwp/fxvibe/wp-content/uploads/2024/02/shape-10-600x757.png 600w, https://wp1.themevibrant.com/newwp/fxvibe/wp-content/uploads/2024/02/shape-10-238x300.png 238w" sizes="(max-width: 625px) 100vw, 625px" />													</div>
-				</div>
-		<div class="elementor-element elementor-element-83bc36e e-con-full e-flex e-con e-child" data-id="83bc36e" data-element_type="container">
-		<div class="elementor-element elementor-element-896d4a8 e-con-full e-flex e-con e-child" data-id="896d4a8" data-element_type="container">
-				<div class="elementor-element elementor-element-7295f6f elementor-widget elementor-widget-fxvibe_float_image" data-id="7295f6f" data-element_type="widget" data-widget_type="fxvibe_float_image.default">
-				<div class="elementor-widget-container">
-				
-        
-    <section class="platform-section p-0 m-0">
-        <div class="image-box">
-            <figure class="image"><img decoding="async" src="../wp-content/uploads/2024/02/mockup-1.png" alt="Awesome Image"></figure>
-            <div class="text-1"><h6>Multiple Charting</h6></div>
-            <div class="text-2"><h6>News Feed</h6></div>
-        </div>
-    </section>
-    
-    		</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-f87a740 e-con-full e-flex e-con e-child" data-id="f87a740" data-element_type="container">
-				<div class="elementor-element elementor-element-fd9ddce elementor-widget elementor-widget-fxvibe_hero_title" data-id="fd9ddce" data-element_type="widget" data-widget_type="fxvibe_hero_title.default">
-				<div class="elementor-widget-container">
-			    	
-    <div class="fxvibe-title-section">
-                <div class="sec-title m-0">
-                        <h6 class="te-subtitle">Platform MT5</h6>                        
-                        <h2 class="te-title fxvibe-size-default">Use MT5? Get exclusive tools with Fxvibe</h2>                    </div>
-                
-                <div class="text-box">
-            <p class="te-text">Denouncing pleasure and praising pain was born and  will give you a complete account of the system, and expound the actual teachings .</p>
-        </div>
-            </div>
-        
-    		</div>
-				</div>
-				<div class="elementor-element elementor-element-13ddb62 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="13ddb62" data-element_type="widget" data-widget_type="icon-list.default">
-				<div class="elementor-widget-container">
-			<link rel="stylesheet" href="../wp-content/uploads/elementor/css/custom-widget-icon-list.mincda7.css?ver=1719429762">		<ul class="elementor-icon-list-items">
-							<li class="elementor-icon-list-item">
-											<span class="elementor-icon-list-icon">
-							<i aria-hidden="true" class="flaticon flaticon-checked-1"></i>						</span>
-										<span class="elementor-icon-list-text">Ultra fast trade execution</span>
-									</li>
-								<li class="elementor-icon-list-item">
-											<span class="elementor-icon-list-icon">
-							<i aria-hidden="true" class="flaticon flaticon-checked-1"></i>						</span>
-										<span class="elementor-icon-list-text">Trading from a smartphone or tablet</span>
-									</li>
-								<li class="elementor-icon-list-item">
-											<span class="elementor-icon-list-icon">
-							<i aria-hidden="true" class="flaticon flaticon-checked-1"></i>						</span>
-										<span class="elementor-icon-list-text">No dealing desk, no requotes</span>
-									</li>
-						</ul>
-				</div>
-				</div>
-				<div class="elementor-element elementor-element-1e5895e elementor-widget elementor-widget-fxvibe_button" data-id="1e5895e" data-element_type="widget" data-settings="{&quot;btn_margin&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;btn_margin_tablet_extra&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;btn_margin_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;btn_margin_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;btn_padding&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;btn_padding_tablet_extra&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;btn_padding_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;btn_padding_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true}}" data-widget_type="fxvibe_button.default">
-				<div class="elementor-widget-container">
-			    
-	    
-    <div class="yt-btn about-section p-0 m-0">
-        <div class="content-box m-0 p-0">
-            <div class="btn-box">
-                <a href="../accounts-overview/demo-account/index.html"   class="theme-btn fxvibe-btn"><span>Start Trading</span></a>
-            </div>
-		</div>
-    </div>
-    		</div>
-				</div>
-				</div>
-				</div>
-					</div>
-				</div>
-		<section class="elementor-element elementor-element-cd7a145 e-flex e-con-boxed e-con e-parent" data-id="cd7a145" data-element_type="container">
-					<div class="e-con-inner">
-		<div class="elementor-element elementor-element-1207f17 e-con-full e-flex e-con e-child" data-id="1207f17" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-				<div class="elementor-element elementor-element-6e32316 elementor-widget elementor-widget-heading" data-id="6e32316" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<style>/*! elementor - v3.23.0 - 05-08-2024 */
-.elementor-heading-title{padding:0;margin:0;line-height:1}.elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a{color:inherit;font-size:inherit;line-height:inherit}.elementor-widget-heading .elementor-heading-title.elementor-size-small{font-size:15px}.elementor-widget-heading .elementor-heading-title.elementor-size-medium{font-size:19px}.elementor-widget-heading .elementor-heading-title.elementor-size-large{font-size:29px}.elementor-widget-heading .elementor-heading-title.elementor-size-xl{font-size:39px}.elementor-widget-heading .elementor-heading-title.elementor-size-xxl{font-size:59px}</style><h2 class="elementor-heading-title elementor-size-default">Download MetaTrader 5</h2>		</div>
-				</div>
-		<div class="elementor-element elementor-element-a64defb e-con-full e-flex e-con e-child" data-id="a64defb" data-element_type="container">
-		<div class="elementor-element elementor-element-7afadd6 e-con-full e-flex e-con e-child" data-id="7afadd6" data-element_type="container">
-				<div class="elementor-element elementor-element-df15940 elementor-widget elementor-widget-heading" data-id="df15940" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h2 class="elementor-heading-title elementor-size-default">Metatrader 5</h2>		</div>
-				</div>
-				<div class="elementor-element elementor-element-ef27ee9 elementor-widget elementor-widget-fxvibe_hero_title" data-id="ef27ee9" data-element_type="widget" data-widget_type="fxvibe_hero_title.default">
-				<div class="elementor-widget-container">
-			    	
-    <div class="fxvibe-title-section">
-                <div class="sec-title m-0">
-                        
-                        <h3 class="te-title fxvibe-size-default">For Mobile Users</h3>                    </div>
-                
-                <div class="text-box">
-            <p class="te-text">Available on Android &amp; iPhone platforms.</p>
-        </div>
-            </div>
-        
-    		</div>
-				</div>
-		<div class="elementor-element elementor-element-56facec e-con-full e-flex e-con e-child" data-id="56facec" data-element_type="container">
-				<div class="elementor-element elementor-element-c19b94f elementor-widget__width-initial elementor-widget elementor-widget-image" data-id="c19b94f" data-element_type="widget" data-widget_type="image.default">
-				<div class="elementor-widget-container">
-														<a href="https://play.google.com/store/apps" target="_blank">
-							<img decoding="async" width="18" height="20" src="../wp-content/uploads/2024/02/icon-18.png" class="attachment-full size-full wp-image-69" alt="" />								</a>
-													</div>
-				</div>
-				<div class="elementor-element elementor-element-afdec87 elementor-widget__width-initial elementor-view-default elementor-widget elementor-widget-icon" data-id="afdec87" data-element_type="widget" data-widget_type="icon.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-icon-wrapper">
-			<a class="elementor-icon" href="https://www.apple.com/app-store/" target="_blank">
-			<i aria-hidden="true" class="flaticon flaticon-apple"></i>			</a>
-		</div>
-				</div>
-				</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-f488613 e-con-full e-flex e-con e-child" data-id="f488613" data-element_type="container">
-				<div class="elementor-element elementor-element-c924af2 elementor-widget elementor-widget-heading" data-id="c924af2" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h2 class="elementor-heading-title elementor-size-default">Metatrader 5</h2>		</div>
-				</div>
-				<div class="elementor-element elementor-element-bb0a990 elementor-widget elementor-widget-fxvibe_hero_title" data-id="bb0a990" data-element_type="widget" data-widget_type="fxvibe_hero_title.default">
-				<div class="elementor-widget-container">
-			    	
-    <div class="fxvibe-title-section">
-                <div class="sec-title m-0">
-                        
-                        <h3 class="te-title fxvibe-size-default">For Desktop Users</h3>                    </div>
-                
-                <div class="text-box">
-            <p class="te-text">Available on Windows &amp; macOS platforms.</p>
-        </div>
-            </div>
-        
-    		</div>
-				</div>
-		<div class="elementor-element elementor-element-60487a2 e-con-full e-flex e-con e-child" data-id="60487a2" data-element_type="container">
-				<div class="elementor-element elementor-element-4d98592 elementor-widget__width-initial elementor-widget elementor-widget-image" data-id="4d98592" data-element_type="widget" data-widget_type="image.default">
-				<div class="elementor-widget-container">
-														<a href="https://www.microsoft.com/en-pk/" target="_blank">
-							<img decoding="async" width="22" height="22" src="../wp-content/uploads/2024/02/icon-88.png" class="attachment-full size-full wp-image-3421" alt="" />								</a>
-													</div>
-				</div>
-				<div class="elementor-element elementor-element-425c20d elementor-widget__width-initial elementor-view-default elementor-widget elementor-widget-icon" data-id="425c20d" data-element_type="widget" data-widget_type="icon.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-icon-wrapper">
-			<a class="elementor-icon" href="https://www.apple.com/app-store/" target="_blank">
-			<i aria-hidden="true" class="flaticon flaticon-apple"></i>			</a>
-		</div>
-				</div>
-				</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-4ab8388 e-con-full e-flex e-con e-child" data-id="4ab8388" data-element_type="container">
-				<div class="elementor-element elementor-element-e10dc5d elementor-widget elementor-widget-heading" data-id="e10dc5d" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h2 class="elementor-heading-title elementor-size-default">Metatrader 5</h2>		</div>
-				</div>
-				<div class="elementor-element elementor-element-6ae3e18 elementor-widget elementor-widget-fxvibe_hero_title" data-id="6ae3e18" data-element_type="widget" data-widget_type="fxvibe_hero_title.default">
-				<div class="elementor-widget-container">
-			    	
-    <div class="fxvibe-title-section">
-                <div class="sec-title m-0">
-                        
-                        <h3 class="te-title fxvibe-size-default">For Web Terminal</h3>                    </div>
-                
-                <div class="text-box">
-            <p class="te-text">Trading directly via your web browser.</p>
-        </div>
-            </div>
-        
-    		</div>
-				</div>
-				<div class="elementor-element elementor-element-bc9e226 elementor-widget elementor-widget-fxvibe_button" data-id="bc9e226" data-element_type="widget" data-settings="{&quot;btn_margin&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;btn_margin_tablet_extra&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;btn_margin_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;btn_margin_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;btn_padding&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;btn_padding_tablet_extra&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;btn_padding_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;btn_padding_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true}}" data-widget_type="fxvibe_button.default">
-				<div class="elementor-widget-container">
-			    
-	    
-    <div class="yt-btn about-section p-0 m-0">
-        <div class="content-box m-0 p-0">
-            <div class="btn-box">
-                <a href="../services/platform-tools/index.html"   class="theme-btn fxvibe-btn"><span>web platform</span></a>
-            </div>
-		</div>
-    </div>
-    		</div>
-				</div>
-				</div>
-				</div>
-				</div>
-					</div>
-				</section>
-		<div class="elementor-element elementor-element-07199f0 e-flex e-con-boxed e-con e-parent" data-id="07199f0" data-element_type="container">
-					<div class="e-con-inner">
-		<div class="elementor-element elementor-element-7d311bd e-con-full e-flex e-con e-child" data-id="7d311bd" data-element_type="container">
-				<div class="elementor-element elementor-element-d829fb4 elementor-widget elementor-widget-fxvibe_video_section" data-id="d829fb4" data-element_type="widget" data-settings="{&quot;fxvibe_layout_margin&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;fxvibe_layout_margin_tablet_extra&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;fxvibe_layout_margin_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;fxvibe_layout_margin_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;fxvibe_layout_padding&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;fxvibe_layout_padding_tablet_extra&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;fxvibe_layout_padding_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;fxvibe_layout_padding_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true}}" data-widget_type="fxvibe_video_section.default">
-				<div class="elementor-widget-container">
-			    
-    <div class="video-section fxvibe-play-section p-0 m-0">
-        <div class="video-content">
-            <div class="video-inner" style="background-image: url(../wp-content/uploads/2024/02/video-bg-2.jpg);">
-                                <div class="video-btn">
-                    <a href="https://www.youtube.com/watch?v=nfP5N9Yc72A&amp;t=28s" class="lightbox-image" data-caption=""><img decoding="async" src="../wp-content/uploads/2024/02/icon-56.png" alt="Awesome Image"></a>
+                  </div>
                 </div>
-                            </div>
+                <div
+                  class="elementor-element elementor-element-13ddb62 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
+                  data-id="13ddb62"
+                  data-element_type="widget"
+                  data-widget_type="icon-list.default"
+                >
+                  <div class="elementor-widget-container">
+                    <link
+                      rel="stylesheet"
+                      href="{% static "uploads/elementor/css/custom-widget-icon-list.mincda7.css" %}"
+                    />
+                    <ul class="elementor-icon-list-items">
+                     {% for feature in offer.features|slice:"3"  %}
+					 <li class="elementor-icon-list-item">
+                        <span class="elementor-icon-list-icon">
+                          <i
+                            aria-hidden="true"
+                            class="flaticon flaticon-checked-1"
+                          ></i>
+                        </span>
+                        <span class="elementor-icon-list-text"
+                          >{{feature}}</span
+                        >
+                      </li>
+					 {% endfor %}
+                    </ul>
+                  </div>
+                </div>
+                <div
+                  class="elementor-element elementor-element-1e5895e elementor-widget elementor-widget-fxvibe_button"
+                  data-id="1e5895e"
+                  data-element_type="widget"
+                  data-settings='{"btn_margin":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"btn_margin_tablet_extra":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"btn_margin_tablet":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"btn_margin_mobile":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"btn_padding":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"btn_padding_tablet_extra":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"btn_padding_tablet":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"btn_padding_mobile":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true}}'
+                  data-widget_type="fxvibe_button.default"
+                >
+                  <div class="elementor-widget-container">
+                    <div class="yt-btn about-section p-0 m-0">
+                      <div class="content-box m-0 p-0">
+                        <div class="btn-box">
+                          <a
+                            href="{{offer.url}}"
+                            class="theme-btn fxvibe-btn"
+                            ><span>Start Trading Now!</span></a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-    </div>
+        <section
+          class="elementor-element elementor-element-cd7a145 e-flex e-con-boxed e-con e-parent"
+          data-id="cd7a145"
+          data-element_type="container"
+        >
+          <div class="e-con-inner">
+            <div
+              class="elementor-element elementor-element-1207f17 e-con-full e-flex e-con e-child"
+              data-id="1207f17"
+              data-element_type="container"
+              data-settings='{"background_background":"classic"}'
+            >
+              <div
+                class="elementor-element elementor-element-6e32316 elementor-widget elementor-widget-heading"
+                data-id="6e32316"
+                data-element_type="widget"
+                data-widget_type="heading.default"
+              >
+                <div class="elementor-widget-container">
+                  <style>
+                    /*! elementor - v3.23.0 - 05-08-2024 */
+                    .elementor-heading-title {
+                      padding: 0;
+                      margin: 0;
+                      line-height: 1;
+                    }
+                    .elementor-widget-heading
+                      .elementor-heading-title[class*="elementor-size-"]
+                      > a {
+                      color: inherit;
+                      font-size: inherit;
+                      line-height: inherit;
+                    }
+                    .elementor-widget-heading
+                      .elementor-heading-title.elementor-size-small {
+                      font-size: 15px;
+                    }
+                    .elementor-widget-heading
+                      .elementor-heading-title.elementor-size-medium {
+                      font-size: 19px;
+                    }
+                    .elementor-widget-heading
+                      .elementor-heading-title.elementor-size-large {
+                      font-size: 29px;
+                    }
+                    .elementor-widget-heading
+                      .elementor-heading-title.elementor-size-xl {
+                      font-size: 39px;
+                    }
+                    .elementor-widget-heading
+                      .elementor-heading-title.elementor-size-xxl {
+                      font-size: 59px;
+                    }
+                  </style>
+                  <h2 class="elementor-heading-title elementor-size-default">
+                    Get started with {{offer.title}}
+                  </h2>
+                </div>
+              </div>
+              <div
+                class="elementor-element elementor-element-a64defb e-con-full e-flex e-con e-child"
+                data-id="a64defb"
+                data-element_type="container"
+              >
+                <div
+                  class="elementor-element elementor-element-7afadd6 e-con-full e-flex e-con e-child"
+                  data-id="7afadd6"
+                  data-element_type="container"
+                >
+                  <div
+                    class="elementor-element elementor-element-df15940 elementor-widget elementor-widget-heading"
+                    data-id="df15940"
+                    data-element_type="widget"
+                    data-widget_type="heading.default"
+                  >
+                    <div class="elementor-widget-container">
+                      <h2
+                        class="elementor-heading-title elementor-size-default"
+                      >
+                       Step 1
+                      </h2>
+                    </div>
+                  </div>
+                  <div
+                    class="elementor-element elementor-element-ef27ee9 elementor-widget elementor-widget-fxvibe_hero_title"
+                    data-id="ef27ee9"
+                    data-element_type="widget"
+                    data-widget_type="fxvibe_hero_title.default"
+                  >
+                    <div class="elementor-widget-container">
+                      <div class="fxvibe-title-section">
+                        <div class="sec-title m-0">
+                          <h3 class="te-title fxvibe-size-default">
+                            Create your Account Succesfully
+                          </h3>
+                        </div>
+
+                        <div class="text-box">
+                          <p class="te-text">
+							Click "Sign Up," provide your details, verify your identity and begin your crypto trading journey.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                </div>
+                <div
+                  class="elementor-element elementor-element-f488613 e-con-full e-flex e-con e-child"
+                  data-id="f488613"
+                  data-element_type="container"
+                >
+                  <div
+                    class="elementor-element elementor-element-c924af2 elementor-widget elementor-widget-heading"
+                    data-id="c924af2"
+                    data-element_type="widget"
+                    data-widget_type="heading.default"
+                  >
+                    <div class="elementor-widget-container">
+                      <h2
+                        class="elementor-heading-title elementor-size-default"
+                      >
+                        Step 2
+                      </h2>
+                    </div>
+                  </div>
+                  <div
+                    class="elementor-element elementor-element-bb0a990 elementor-widget elementor-widget-fxvibe_hero_title"
+                    data-id="bb0a990"
+                    data-element_type="widget"
+                    data-widget_type="fxvibe_hero_title.default"
+                  >
+                    <div class="elementor-widget-container">
+                      <div class="fxvibe-title-section">
+                        <div class="sec-title m-0">
+                          <h3 class="te-title fxvibe-size-default">
+                            Deposit Funds
+                          </h3>
+                        </div>
+
+                        <div class="text-box">
+                          <p class="te-text">
+                            Choose from various deposit methods, such as bank transfers, credit/debit cards, or cryptocurrencies, ensuring secure and rapid transactions.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                </div>
+                <div
+                  class="elementor-element elementor-element-4ab8388 e-con-full e-flex e-con e-child"
+                  data-id="4ab8388"
+                  data-element_type="container"
+                >
+                  <div
+                    class="elementor-element elementor-element-e10dc5d elementor-widget elementor-widget-heading"
+                    data-id="e10dc5d"
+                    data-element_type="widget"
+                    data-widget_type="heading.default"
+                  >
+                    <div class="elementor-widget-container">
+                      <h2
+                        class="elementor-heading-title elementor-size-default"
+                      >
+                        Step 3
+                      </h2>
+                    </div>
+                  </div>
+                  <div
+                    class="elementor-element elementor-element-6ae3e18 elementor-widget elementor-widget-fxvibe_hero_title"
+                    data-id="6ae3e18"
+                    data-element_type="widget"
+                    data-widget_type="fxvibe_hero_title.default"
+                  >
+                    <div class="elementor-widget-container">
+                      <div class="fxvibe-title-section">
+                        <div class="sec-title m-0">
+                          <h3 class="te-title fxvibe-size-default">
+                            Start Trading
+                          </h3>
+                        </div>
+
+                        <div class="text-box">
+                          <p class="te-text">
+                            Whether you're holding for the long term or actively trading, the {{offer.title}} platform provides all the tools you need.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="elementor-element elementor-element-bc9e226 elementor-widget elementor-widget-fxvibe_button"
+                    data-id="bc9e226"
+                    data-element_type="widget"
+                    data-settings='{"btn_margin":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"btn_margin_tablet_extra":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"btn_margin_tablet":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"btn_margin_mobile":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"btn_padding":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"btn_padding_tablet_extra":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"btn_padding_tablet":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"btn_padding_mobile":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true}}'
+                    data-widget_type="fxvibe_button.default"
+                  >
+                    <div class="elementor-widget-container">
+                      <div class="yt-btn about-section p-0 m-0">
+                        <div class="content-box m-0 p-0">
+                          <div class="btn-box">
+                            <a
+                              href="{{offer.url}}"
+                              class="theme-btn fxvibe-btn"
+                              ><span>Got it?</span></a
+                            >
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div
+          class="elementor-element elementor-element-f78a477 e-flex e-con-boxed e-con e-parent"
+          data-id="f78a477"
+          data-element_type="container"
+          data-settings='{"background_background":"gradient"}'
+        >
+          <div class="e-con-inner">
+            <div
+              class="elementor-element elementor-element-01f8525 elementor-widget elementor-widget-fxvibe_hero_title"
+              data-id="01f8525"
+              data-element_type="widget"
+              data-widget_type="fxvibe_hero_title.default"
+            >
+              <div class="elementor-widget-container">
+                <div class="fxvibe-title-section">
+                  <div class="sec-title m-0">
+                    <h6 class="te-subtitle">Key Features</h6>
+                    <h2 class="te-title fxvibe-size-default">
+                      {{offer.title}} platform features
+                    </h2>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="elementor-element elementor-element-251bffa e-con-full e-flex e-con e-child"
+              data-id="251bffa"
+              data-element_type="container"
+            >
+              <div
+                class="elementor-element elementor-element-ce3177d e-con-full e-flex e-con e-child"
+                data-id="ce3177d"
+                data-element_type="container"
+              >
+                
+               
+               {% for feature in offer.features|slice:"3"  %}
+			   <div
+			   class="elementor-element elementor-element-3c5fffa elementor-widget elementor-widget-fxvibe_icon_box"
+			   data-id="3c5fffa"
+			   data-element_type="widget"
+			   data-settings='{"fxvibe_layout_margin":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"fxvibe_layout_margin_tablet_extra":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"fxvibe_layout_margin_tablet":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"fxvibe_layout_margin_mobile":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"fxvibe_layout_padding":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"fxvibe_layout_padding_tablet_extra":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"fxvibe_layout_padding_tablet":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"fxvibe_layout_padding_mobile":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"icon_margin":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"icon_margin_tablet_extra":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"icon_margin_tablet":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"icon_margin_mobile":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"icon_padding":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"icon_padding_tablet_extra":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"icon_padding_tablet":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"icon_padding_mobile":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true}}'
+			   data-widget_type="fxvibe_icon_box.default"
+			 >
+			   <div class="elementor-widget-container">
+				 <section class="chooseus-style-three p-0 m-0 bg-none">
+				   <div class="left-column">
+					 <div
+					   class="single-item first fxvibe-feature-section p-0 m-0"
+					 >
+					   <h5 class="te-title">
+						 <a href="../best-profit-split/index.html">
+						   <i class="flaticon flaticon-check-1"></i> {{feature}}
+						 </a>
+					   </h5>
+					 </div>
+				   </div>
+				 </section>
+			   </div>
+			 </div>  
+			   {% endfor %}
+              </div>
+              <div
+                class="elementor-element elementor-element-f8cc37d e-con-full e-flex e-con e-child"
+                data-id="f8cc37d"
+                data-element_type="container"
+              >
+                <div
+                  class="elementor-element elementor-element-d904d3d elementor-widget elementor-widget-fxvibe_float_image"
+                  data-id="d904d3d"
+                  data-element_type="widget"
+                  data-widget_type="fxvibe_float_image.default"
+                >
+                  <div class="elementor-widget-container">
+                    <section class="chooseus-style-three p-0 m-0">
+                      <div class="image-box p-0 m-0">
+                        <figure class="image">
+                          <img
+                            decoding="async"
+                            src="{% static "uploads/2024/02/chooseus-1.jpg" %}"
+                            alt="Awesome Image"
+                          />
+                        </figure>
+                        <div
+                          class="shape"
+                          style="
+                            background-image: url({% static offer.logo %});
+                          "
+                        ></div>
+                        <span class="big-text te-title">{{offer.title}}</span>
+                      </div>
+                    </section>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="elementor-element elementor-element-83c24d4 e-con-full e-flex e-con e-child"
+                data-id="83c24d4"
+                data-element_type="container"
+              >
+               {% for feature in offer.features|slice:"3:"  %}
+			   <div
+			   class="elementor-element elementor-element-2c734ee elementor-widget elementor-widget-fxvibe_icon_box"
+			   data-id="2c734ee"
+			   data-element_type="widget"
+			   data-settings='{"fxvibe_layout_margin":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"fxvibe_layout_margin_tablet_extra":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"fxvibe_layout_margin_tablet":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"fxvibe_layout_margin_mobile":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"fxvibe_layout_padding":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"fxvibe_layout_padding_tablet_extra":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"fxvibe_layout_padding_tablet":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"fxvibe_layout_padding_mobile":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"icon_margin":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"icon_margin_tablet_extra":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"icon_margin_tablet":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"icon_margin_mobile":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"icon_padding":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"icon_padding_tablet_extra":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"icon_padding_tablet":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"icon_padding_mobile":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true}}'
+			   data-widget_type="fxvibe_icon_box.default"
+			 >
+			   <div class="elementor-widget-container">
+				 <section class="chooseus-style-three p-0 m-0 bg-none">
+				   <div class="right-column">
+					 <div
+					   class="single-item first fxvibe-feature-section p-0 m-0"
+					 >
+					   <h5 class="te-title">
+						 <a href="#">
+						   <i class="flaticon flaticon-check-1"></i> {{feature}}
+						 </a>
+					   </h5>
+					 </div>
+				   </div>
+				 </section>
+			   </div>
+			 </div>
+			   {% endfor %}
+              </div>
+            </div>
+            <div
+              class="elementor-element elementor-element-fb0f3ec elementor-widget elementor-widget-fxvibe_hero_title"
+              data-id="fb0f3ec"
+              data-element_type="widget"
+              data-widget_type="fxvibe_hero_title.default"
+            >
+              <div class="elementor-widget-container">
+                <div class="fxvibe-title-section">
+                  <div class="sec-title m-0">
+                    <h3 class="te-title fxvibe-size-default">
+                      {{offer.title}}
+                    </h3>
+                  </div>
+
+                  <div class="text-box">
+                    <p class="te-text">
+                      {{offer.description}}
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="elementor-element elementor-element-e0e465e elementor-widget elementor-widget-fxvibe_button"
+              data-id="e0e465e"
+              data-element_type="widget"
+              data-settings='{"btn_margin":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"btn_margin_tablet_extra":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"btn_margin_tablet":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"btn_margin_mobile":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"btn_padding":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"btn_padding_tablet_extra":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"btn_padding_tablet":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"btn_padding_mobile":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true}}'
+              data-widget_type="fxvibe_button.default"
+            >
+              <div class="elementor-widget-container">
+                <div class="yt-btn about-section p-0 m-0">
+                  <div class="content-box m-0 p-0">
+                    <div class="btn-box">
+                      <a
+                        href="{{offer.url}}"
+                        class="theme-btn fxvibe-btn"
+                        ><span>Get Started</span></a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
        
-    		</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-6afdad9 e-con-full e-flex e-con e-child" data-id="6afdad9" data-element_type="container">
-				<div class="elementor-element elementor-element-4822a5f elementor-widget elementor-widget-fxvibe_hero_title" data-id="4822a5f" data-element_type="widget" data-widget_type="fxvibe_hero_title.default">
-				<div class="elementor-widget-container">
-			    	
-    <div class="fxvibe-title-section">
-                <div class="sec-title m-0">
-                        <h6 class="te-subtitle">Video Tutorial</h6>                        
-                        <h2 class="te-title fxvibe-size-default">Curated forex training video series</h2>                    </div>
-                
-            </div>
-        
-    		</div>
-				</div>
-				<div class="elementor-element elementor-element-8f807d4 elementor-widget elementor-widget-fxvibe_hero_title" data-id="8f807d4" data-element_type="widget" data-widget_type="fxvibe_hero_title.default">
-				<div class="elementor-widget-container">
-			    	
-    <div class="fxvibe-title-section">
-                <div class="sec-title m-0">
-                        
-                        <h3 class="te-title fxvibe-size-default">Introduction to Mt5 platform</h3>                    </div>
-                
-                <div class="text-box">
-            <p class="te-text">Duration: 6.05 Mins</p>
-        </div>
-            </div>
-        
-    		</div>
-				</div>
-				<div class="elementor-element elementor-element-7f63877 elementor-widget elementor-widget-fxvibe_hero_title" data-id="7f63877" data-element_type="widget" data-widget_type="fxvibe_hero_title.default">
-				<div class="elementor-widget-container">
-			    	
-    <div class="fxvibe-title-section">
-                
-                <div class="text-box">
-            <p class="te-text">Watch our forex trading videos to get the most from the markets &amp; become a profitable forex trader.</p>
-        </div>
-            </div>
-        
-    		</div>
-				</div>
-				<div class="elementor-element elementor-element-90e0fcc elementor-widget elementor-widget-fxvibe_button" data-id="90e0fcc" data-element_type="widget" data-settings="{&quot;btn_margin&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;btn_margin_tablet_extra&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;btn_margin_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;btn_margin_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;btn_padding&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;btn_padding_tablet_extra&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;btn_padding_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;btn_padding_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true}}" data-widget_type="fxvibe_button.default">
-				<div class="elementor-widget-container">
-			    
-	    
-    <div class="yt-btn about-section p-0 m-0">
-        <div class="content-box m-0 p-0">
-            <div class="btn-box">
-                <a href="../education/index.html"   class="theme-btn fxvibe-btn"><span>More Videos</span></a>
-            </div>
-		</div>
-    </div>
-    		</div>
-				</div>
-				</div>
-					</div>
-				</div>
-		<div class="elementor-element elementor-element-f78a477 e-flex e-con-boxed e-con e-parent" data-id="f78a477" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
-					<div class="e-con-inner">
-				<div class="elementor-element elementor-element-01f8525 elementor-widget elementor-widget-fxvibe_hero_title" data-id="01f8525" data-element_type="widget" data-widget_type="fxvibe_hero_title.default">
-				<div class="elementor-widget-container">
-			    	
-    <div class="fxvibe-title-section">
-                <div class="sec-title m-0">
-                        <h6 class="te-subtitle">Key Highlights</h6>                        
-                        <h2 class="te-title fxvibe-size-default">MT5 platform features</h2>                    </div>
-                
-            </div>
-        
-    		</div>
-				</div>
-		<div class="elementor-element elementor-element-251bffa e-con-full e-flex e-con e-child" data-id="251bffa" data-element_type="container">
-		<div class="elementor-element elementor-element-ce3177d e-con-full e-flex e-con e-child" data-id="ce3177d" data-element_type="container">
-				<div class="elementor-element elementor-element-3c5fffa elementor-widget elementor-widget-fxvibe_icon_box" data-id="3c5fffa" data-element_type="widget" data-settings="{&quot;fxvibe_layout_margin&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;fxvibe_layout_margin_tablet_extra&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;fxvibe_layout_margin_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;fxvibe_layout_margin_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;fxvibe_layout_padding&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;fxvibe_layout_padding_tablet_extra&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;fxvibe_layout_padding_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;fxvibe_layout_padding_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;icon_margin&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;icon_margin_tablet_extra&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;icon_margin_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;icon_margin_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;icon_padding&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;icon_padding_tablet_extra&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;icon_padding_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;icon_padding_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true}}" data-widget_type="fxvibe_icon_box.default">
-				<div class="elementor-widget-container">
-			    
-        <section class="chooseus-style-three p-0 m-0 bg-none">
-    	<div class="left-column">
-        	<div class="single-item first fxvibe-feature-section p-0 m-0">
-                <h5 class="te-title">
-                    <a href="../best-profit-split/index.html"  >
-                        													<i class="flaticon flaticon-check-1"></i>						                                                90% Virtual Profit Split                    </a>
-                </h5>
-            </div>
-        </div>
-    </section>
-    
-	 
-      
-    		</div>
-				</div>
-				<div class="elementor-element elementor-element-de06145 elementor-widget elementor-widget-fxvibe_icon_box" data-id="de06145" data-element_type="widget" data-settings="{&quot;fxvibe_layout_margin&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;fxvibe_layout_margin_tablet_extra&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;fxvibe_layout_margin_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;fxvibe_layout_margin_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;fxvibe_layout_padding&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;fxvibe_layout_padding_tablet_extra&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;fxvibe_layout_padding_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;fxvibe_layout_padding_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;icon_margin&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;icon_margin_tablet_extra&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;icon_margin_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;icon_margin_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;icon_padding&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;icon_padding_tablet_extra&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;icon_padding_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;icon_padding_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true}}" data-widget_type="fxvibe_icon_box.default">
-				<div class="elementor-widget-container">
-			    
-        <section class="chooseus-style-three p-0 m-0 bg-none">
-    	<div class="left-column">
-        	<div class="single-item last fxvibe-feature-section p-0 m-0">
-                <h5 class="te-title">
-                    <a href="../best-profit-split/index.html"  >
-                        													<i class="flaticon flaticon-check-1"></i>						                                                10% Virtual Profit                    </a>
-                </h5>
-            </div>
-        </div>
-    </section>
-    
-	 
-      
-    		</div>
-				</div>
-				<div class="elementor-element elementor-element-cfc7045 elementor-widget elementor-widget-fxvibe_icon_box" data-id="cfc7045" data-element_type="widget" data-settings="{&quot;fxvibe_layout_margin&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;fxvibe_layout_margin_tablet_extra&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;fxvibe_layout_margin_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;fxvibe_layout_margin_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;fxvibe_layout_padding&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;fxvibe_layout_padding_tablet_extra&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;fxvibe_layout_padding_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;fxvibe_layout_padding_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;icon_margin&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;icon_margin_tablet_extra&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;icon_margin_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;icon_margin_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;icon_padding&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;icon_padding_tablet_extra&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;icon_padding_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;icon_padding_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true}}" data-widget_type="fxvibe_icon_box.default">
-				<div class="elementor-widget-container">
-			    
-        <section class="chooseus-style-three p-0 m-0 bg-none">
-    	<div class="left-column">
-        	<div class="single-item last fxvibe-feature-section p-0 m-0">
-                <h5 class="te-title">
-                    <a href="../simple-trading-rules/index.html"  >
-                        													<i class="flaticon flaticon-check-1"></i>						                                                1-step Evaluation                    </a>
-                </h5>
-            </div>
-        </div>
-    </section>
-    
-	 
-      
-    		</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-f8cc37d e-con-full e-flex e-con e-child" data-id="f8cc37d" data-element_type="container">
-				<div class="elementor-element elementor-element-d904d3d elementor-widget elementor-widget-fxvibe_float_image" data-id="d904d3d" data-element_type="widget" data-widget_type="fxvibe_float_image.default">
-				<div class="elementor-widget-container">
-				
-         
-    <section class="chooseus-style-three p-0 m-0">
-        <div class="image-box p-0 m-0">
-            <figure class="image"><img decoding="async" src="../wp-content/uploads/2024/02/chooseus-1.jpg" alt="Awesome Image"></figure>
-            <div class="shape" style="background-image: url(../wp-content/uploads/2024/02/shape-20.png);"></div>
-            <span class="big-text te-title">MT4</span>
-        </div>
-    </section>
-    
-			</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-83c24d4 e-con-full e-flex e-con e-child" data-id="83c24d4" data-element_type="container">
-				<div class="elementor-element elementor-element-2c734ee elementor-widget elementor-widget-fxvibe_icon_box" data-id="2c734ee" data-element_type="widget" data-settings="{&quot;fxvibe_layout_margin&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;fxvibe_layout_margin_tablet_extra&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;fxvibe_layout_margin_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;fxvibe_layout_margin_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;fxvibe_layout_padding&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;fxvibe_layout_padding_tablet_extra&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;fxvibe_layout_padding_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;fxvibe_layout_padding_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;icon_margin&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;icon_margin_tablet_extra&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;icon_margin_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;icon_margin_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;icon_padding&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;icon_padding_tablet_extra&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;icon_padding_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;icon_padding_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true}}" data-widget_type="fxvibe_icon_box.default">
-				<div class="elementor-widget-container">
-			    
-        <section class="chooseus-style-three p-0 m-0 bg-none">
-    	<div class="right-column">
-        	<div class="single-item first fxvibe-feature-section p-0 m-0">
-                <h5 class="te-title">
-                    <a href="../best-profit-split/index.html"  >
-                        													<i class="flaticon flaticon-check-1"></i>						                                                90% Virtual Profit Split                    </a>
-                </h5>
-            </div>
-        </div>
-    </section>
-    
-	 
-      
-    		</div>
-				</div>
-				<div class="elementor-element elementor-element-727ee7b elementor-widget elementor-widget-fxvibe_icon_box" data-id="727ee7b" data-element_type="widget" data-settings="{&quot;fxvibe_layout_margin&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;fxvibe_layout_margin_tablet_extra&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;fxvibe_layout_margin_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;fxvibe_layout_margin_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;fxvibe_layout_padding&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;fxvibe_layout_padding_tablet_extra&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;fxvibe_layout_padding_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;fxvibe_layout_padding_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;icon_margin&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;icon_margin_tablet_extra&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;icon_margin_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;icon_margin_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;icon_padding&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;icon_padding_tablet_extra&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;icon_padding_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;icon_padding_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true}}" data-widget_type="fxvibe_icon_box.default">
-				<div class="elementor-widget-container">
-			    
-        <section class="chooseus-style-three p-0 m-0 bg-none">
-    	<div class="right-column">
-        	<div class="single-item last fxvibe-feature-section p-0 m-0">
-                <h5 class="te-title">
-                    <a href="../best-profit-split/index.html"  >
-                        													<i class="flaticon flaticon-check-1"></i>						                                                10% Virtual Profit                    </a>
-                </h5>
-            </div>
-        </div>
-    </section>
-    
-	 
-      
-    		</div>
-				</div>
-				<div class="elementor-element elementor-element-ed2f876 elementor-widget elementor-widget-fxvibe_icon_box" data-id="ed2f876" data-element_type="widget" data-settings="{&quot;fxvibe_layout_margin&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;fxvibe_layout_margin_tablet_extra&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;fxvibe_layout_margin_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;fxvibe_layout_margin_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;fxvibe_layout_padding&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;fxvibe_layout_padding_tablet_extra&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;fxvibe_layout_padding_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;fxvibe_layout_padding_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;icon_margin&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;icon_margin_tablet_extra&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;icon_margin_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;icon_margin_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;icon_padding&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;icon_padding_tablet_extra&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;icon_padding_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;icon_padding_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true}}" data-widget_type="fxvibe_icon_box.default">
-				<div class="elementor-widget-container">
-			    
-        <section class="chooseus-style-three p-0 m-0 bg-none">
-    	<div class="right-column">
-        	<div class="single-item first fxvibe-feature-section p-0 m-0">
-                <h5 class="te-title">
-                    <a href="../simple-trading-rules/index.html"  >
-                        													<i class="flaticon flaticon-check-1"></i>						                                                1-step Evaluation                    </a>
-                </h5>
-            </div>
-        </div>
-    </section>
-    
-	 
-      
-    		</div>
-				</div>
-				</div>
-				</div>
-				<div class="elementor-element elementor-element-fb0f3ec elementor-widget elementor-widget-fxvibe_hero_title" data-id="fb0f3ec" data-element_type="widget" data-widget_type="fxvibe_hero_title.default">
-				<div class="elementor-widget-container">
-			    	
-    <div class="fxvibe-title-section">
-                <div class="sec-title m-0">
-                        
-                        <h3 class="te-title fxvibe-size-default">90% Virtual Profit Split</h3>                    </div>
-                
-                <div class="text-box">
-            <p class="te-text">Packages and web page editors now use lorem ipsum as their default model text, and a search for lorem <br /> will uncover many web sites still in their infancy. Various versions</p>
-        </div>
-            </div>
-        
-    		</div>
-				</div>
-				<div class="elementor-element elementor-element-e0e465e elementor-widget elementor-widget-fxvibe_button" data-id="e0e465e" data-element_type="widget" data-settings="{&quot;btn_margin&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;btn_margin_tablet_extra&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;btn_margin_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;btn_margin_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;btn_padding&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;btn_padding_tablet_extra&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;btn_padding_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;btn_padding_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true}}" data-widget_type="fxvibe_button.default">
-				<div class="elementor-widget-container">
-			    
-	    
-    <div class="yt-btn about-section p-0 m-0">
-        <div class="content-box m-0 p-0">
-            <div class="btn-box">
-                <a href="../services/index.html"   class="theme-btn fxvibe-btn"><span>More Details</span></a>
-            </div>
-		</div>
-    </div>
-    		</div>
-				</div>
-					</div>
-				</div>
-		<div class="elementor-element elementor-element-1531b94 e-flex e-con-boxed e-con e-parent" data-id="1531b94" data-element_type="container">
-					<div class="e-con-inner">
-		<div class="elementor-element elementor-element-18d40eb e-con-full e-flex e-con e-child" data-id="18d40eb" data-element_type="container">
-				<div class="elementor-element elementor-element-2371605 elementor-widget elementor-widget-fxvibe_float_image" data-id="2371605" data-element_type="widget" data-widget_type="fxvibe_float_image.default">
-				<div class="elementor-widget-container">
-				
-    	<section class="faq-section p-0 m-0">
-        <div class="image-box">
-            <figure class="image"><img decoding="async" src="../wp-content/uploads/2024/02/faq-1.png" alt="Awesome Image"></figure>
-            <div class="text"><h6>24/7 Support</h6></div>
-            <div class="icon-box"><img decoding="async" src="../wp-content/uploads/2024/03/icon-89.png" alt="Awesome Image"></div>
-            <div class="curve-text">
-                <div class="link"><a href="#"  target=&quot;_blank&quot;  rel=&quot;nofollow&quot;><i class="flaticon-right-arrow-1"></i></a></div>
-                <span class="curved-circle-2">ask your questions to experts&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-            </div>
-        </div>
-    </section>
-			</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-611432b e-con-full e-flex e-con e-child" data-id="611432b" data-element_type="container">
-				<div class="elementor-element elementor-element-b685d5e elementor-widget elementor-widget-fxvibe_hero_title" data-id="b685d5e" data-element_type="widget" data-widget_type="fxvibe_hero_title.default">
-				<div class="elementor-widget-container">
-			    	
-    <div class="fxvibe-title-section">
-                <div class="sec-title m-0">
-                        <h6 class="te-subtitle">Faq’s</h6>                        
-                        <h2 class="te-title fxvibe-size-default">Common queries &amp; solutions</h2>                    </div>
-                
-            </div>
-        
-    		</div>
-				</div>
-				<div class="elementor-element elementor-element-3c0ebfd elementor-widget elementor-widget-fxvibe_faqs" data-id="3c0ebfd" data-element_type="widget" data-settings="{&quot;fxvibe_layout_margin&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;fxvibe_layout_margin_tablet_extra&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;fxvibe_layout_margin_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;fxvibe_layout_margin_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;fxvibe_layout_padding&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;fxvibe_layout_padding_tablet_extra&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;fxvibe_layout_padding_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;fxvibe_layout_padding_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true}}" data-widget_type="fxvibe_faqs.default">
-				<div class="elementor-widget-container">
-				
-        
-    <!-- faq-section -->
-    <section class="faq-section alternat-2 p-0 m-0">        
-        <div class="content-column">
-            <div class="content-box">                
-                <ul class="accordion-box">
-                                        <li class="accordion block active-block">
-                        <div class="acc-btn active">
-                            <h5 class="te-title">Does Fxvibe have a good reputation?</h5>
-                        </div>
-                        <div class="acc-content current">
-                            <div class="text">
-                                <p class="te-text">Trouble that are bound to ensue and equal blame belongs to those who fail in their duty through weakness.</p>
-                            </div>
-                        </div>
-                    </li>
-                                        <li class="accordion block ">
-                        <div class="acc-btn ">
-                            <h5 class="te-title">How can i start my journey as an Fxvibe trader?</h5>
-                        </div>
-                        <div class="acc-content ">
-                            <div class="text">
-                                <p class="te-text">Trouble that are bound to ensue and equal blame belongs to those who fail in their duty through weakness.</p>
-                            </div>
-                        </div>
-                    </li>
-                                        <li class="accordion block ">
-                        <div class="acc-btn ">
-                            <h5 class="te-title">Who is eligible to join?</h5>
-                        </div>
-                        <div class="acc-content ">
-                            <div class="text">
-                                <p class="te-text">Trouble that are bound to ensue and equal blame belongs to those who fail in their duty through weakness.</p>
-                            </div>
-                        </div>
-                    </li>
-                                        <li class="accordion block ">
-                        <div class="acc-btn ">
-                            <h5 class="te-title">Is my income subject to taxation?</h5>
-                        </div>
-                        <div class="acc-content ">
-                            <div class="text">
-                                <p class="te-text">Trouble that are bound to ensue and equal blame belongs to those who fail in their duty through weakness.</p>
-                            </div>
-                        </div>
-                    </li>
-                                    </ul>
-            </div>
-        </div>        
-    </section>
-    <!-- faq-section end -->
-    
-     
-      
-    		</div>
-				</div>
-				</div>
-					</div>
-				</div>
-		<div class="elementor-element elementor-element-5a32990 e-flex e-con-boxed e-con e-parent" data-id="5a32990" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-					<div class="e-con-inner">
-				<div class="elementor-element elementor-element-9284b85 elementor-widget elementor-widget-fxvibe_hero_title" data-id="9284b85" data-element_type="widget" data-widget_type="fxvibe_hero_title.default">
-				<div class="elementor-widget-container">
-			    	
-    <div class="fxvibe-title-section">
-                <div class="sec-title m-0">
-                        
-                        <h2 class="te-title fxvibe-size-default">Not sure if MT5 is for you?</h2>                    </div>
-                
-                <div class="text-box">
-            <p class="te-text">For platform feature comparisons, consult our table.</p>
-        </div>
-            </div>
-        
-    		</div>
-				</div>
-		<div class="elementor-element elementor-element-16350dd e-flex e-con-boxed e-con e-child" data-id="16350dd" data-element_type="container">
-					<div class="e-con-inner">
-		<div class="elementor-element elementor-element-90133c7 e-con-full e-flex e-con e-child" data-id="90133c7" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-		<div class="elementor-element elementor-element-77538fe e-con-full e-flex e-con e-child" data-id="77538fe" data-element_type="container">
-				<div class="elementor-element elementor-element-e40c000 elementor-widget elementor-widget-heading" data-id="e40c000" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h6 class="elementor-heading-title elementor-size-default">Mail us!</h6>		</div>
-				</div>
-				<div class="elementor-element elementor-element-515ee78 elementor-widget elementor-widget-heading" data-id="515ee78" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h5 class="elementor-heading-title elementor-size-default"><a href="mailto:info@example.com">info@example.com</a></h5>		</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-48620ff e-con-full e-flex e-con e-child" data-id="48620ff" data-element_type="container">
-				<div class="elementor-element elementor-element-47144ab elementor-widget elementor-widget-spacer" data-id="47144ab" data-element_type="widget" data-widget_type="spacer.default">
-				<div class="elementor-widget-container">
-			<style>/*! elementor - v3.23.0 - 05-08-2024 */
-.elementor-column .elementor-spacer-inner{height:var(--spacer-size)}.e-con{--container-widget-width:100%}.e-con-inner>.elementor-widget-spacer,.e-con>.elementor-widget-spacer{width:var(--container-widget-width,var(--spacer-size));--align-self:var(--container-widget-align-self,initial);--flex-shrink:0}.e-con-inner>.elementor-widget-spacer>.elementor-widget-container,.e-con>.elementor-widget-spacer>.elementor-widget-container{height:100%;width:100%}.e-con-inner>.elementor-widget-spacer>.elementor-widget-container>.elementor-spacer,.e-con>.elementor-widget-spacer>.elementor-widget-container>.elementor-spacer{height:100%}.e-con-inner>.elementor-widget-spacer>.elementor-widget-container>.elementor-spacer>.elementor-spacer-inner,.e-con>.elementor-widget-spacer>.elementor-widget-container>.elementor-spacer>.elementor-spacer-inner{height:var(--container-widget-height,var(--spacer-size))}.e-con-inner>.elementor-widget-spacer.elementor-widget-empty,.e-con>.elementor-widget-spacer.elementor-widget-empty{position:relative;min-height:22px;min-width:22px}.e-con-inner>.elementor-widget-spacer.elementor-widget-empty .elementor-widget-empty-icon,.e-con>.elementor-widget-spacer.elementor-widget-empty .elementor-widget-empty-icon{position:absolute;top:0;bottom:0;left:0;right:0;margin:auto;padding:0;width:22px;height:22px}</style>		<div class="elementor-spacer">
-			<div class="elementor-spacer-inner"></div>
-		</div>
-				</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-0d876c0 e-con-full e-flex e-con e-child" data-id="0d876c0" data-element_type="container">
-		<div class="elementor-element elementor-element-4ab7920 e-con-full e-flex e-con e-child" data-id="4ab7920" data-element_type="container">
-				<div class="elementor-element elementor-element-c09df30 elementor-widget elementor-widget-heading" data-id="c09df30" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h6 class="elementor-heading-title elementor-size-default">Call us!</h6>		</div>
-				</div>
-				<div class="elementor-element elementor-element-529a6fb elementor-widget elementor-widget-heading" data-id="529a6fb" data-element_type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-			<h5 class="elementor-heading-title elementor-size-default"><a href="tel:+1-800-766-1234&#038;56">+1 800 766-1234 & 56</a></h5>		</div>
-				</div>
-				</div>
-				</div>
-				</div>
-					</div>
-				</div>
-				<div class="elementor-element elementor-element-afe00bc elementor-widget elementor-widget-fxvibe_button" data-id="afe00bc" data-element_type="widget" data-settings="{&quot;btn_margin&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;btn_margin_tablet_extra&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;btn_margin_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;btn_margin_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;btn_padding&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;btn_padding_tablet_extra&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;btn_padding_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;btn_padding_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true}}" data-widget_type="fxvibe_button.default">
-				<div class="elementor-widget-container">
-			    
-	    
-    <div class="yt-btn about-section p-0 m-0">
-        <div class="content-box m-0 p-0">
-            <div class="btn-box">
-                <a href="../services/platform-tools/index.html"   class="theme-btn fxvibe-btn"><span>Compare Platform</span></a>
-            </div>
-		</div>
-    </div>
-    		</div>
-				</div>
-					</div>
-				</div>
-				</div>
-		    
-	    
-    <!-- main-footer -->
-    <footer class="main-footer bg-color-2">
-                <div class="footer-top">
-            <div class="auto-container">
-                <div class="footer-top-content">
-                    <div class="form-inner">
-                        <script>(function() {
-	window.mc4wp = window.mc4wp || {
-		listeners: [],
-		forms: {
-			on: function(evt, cb) {
-				window.mc4wp.listeners.push(
-					{
-						event   : evt,
-						callback: cb
-					}
-				);
-			}
-		}
-	}
-})();
-</script><!-- Mailchimp for WordPress v4.9.14 - https://wordpress.org/plugins/mailchimp-for-wp/ --><form id="mc4wp-form-1" class="mc4wp-form mc4wp-form-993" method="post" data-id="993" data-name="" ><div class="mc4wp-form-fields"><div class="form-group">
-<input type="email" name="EMAIL" placeholder="Your email address" required />
-<button type="submit" class="theme-btn"><span></span></button>
-</div></div><label style="display: none !important;">Leave this field empty if you're human: <input type="text" name="_mc4wp_honeypot" value="" tabindex="-1" autocomplete="off" /></label><input type="hidden" name="_mc4wp_timestamp" value="1722889859" /><input type="hidden" name="_mc4wp_form_id" value="993" /><input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-1" /><div class="mc4wp-response"></div></form><!-- / Mailchimp for WordPress Plugin -->                        <h2>Become a part</h2>
-                    </div>
-                    <div class="lower-box">
-                        <h2>of our update community...</h2>
-                        <div class="subscriber-box">
-                            <figure class="thumb-box"><img src="../wp-content/uploads/2024/02/thumb-1.jpg" alt="Awesome Image"></figure>                            <span>5M+</span>
-                            <h6>Subscribers</h6>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-                
-                <div class="widget-section">
-            <div class="auto-container">
-                <div class="row clearfix">
-                   <div class="col-lg-3 col-md-6 col-sm-12 footer-column"><div id="fxvibe_about_company-2" class="footer-widget widget_fxvibe_about_company">    
-        <div class="logo-widget">
-                        <figure class="footer-logo"><a href="../index.html"><img src="../wp-content/uploads/2024/02/logo-2.png" alt="Awesome Image"></a></figure>
-                        <p>Access valuable insights and expertise download free trading guides today!..</p>
-                        <div class="link-box">
-                <div class="icon-box"><i class="flaticon-book"></i></div>
-                <h6><a href="../services/education-training/index.html">Free <br />Trading Guides <i class="flaticon-right-arrow"></i></a></h6>
-            </div>
-                    </div>
-                                     
-        </div></div><div class="col-lg-3 col-md-6 col-sm-12 footer-column"><div id="nav_menu-2" class="footer-widget widget_nav_menu"><div class="widget-title"><h3>Useful Links</h3></div><div class="menu-useful-links-container"><ul id="menu-useful-links" class="menu"><li id="menu-item-4144" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-4144"><a href="../index.html" onClick="return true">Home</a></li>
-<li id="menu-item-4136" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4136"><a href="../about-company/index.html" onClick="return true">About Us</a></li>
-<li id="menu-item-4135" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4135"><a href="../list-view-01/index.html" onClick="return true">Blog List</a></li>
-<li id="menu-item-4142" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4142"><a href="../services/index.html" onClick="return true">Services</a></li>
-<li id="menu-item-4143" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4143"><a href="../team-members/index.html" onClick="return true">Team Members</a></li>
-<li id="menu-item-4138" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4138"><a href="../contact-us/index.html" onClick="return true">Contact Us</a></li>
-</ul></div></div></div><div class="col-lg-3 col-md-6 col-sm-12 footer-column"><div id="nav_menu-3" class="footer-widget widget_nav_menu"><div class="widget-title"><h3>Account Link</h3></div><div class="menu-account-menu-link-container"><ul id="menu-account-menu-link" class="menu"><li id="menu-item-4150" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4150"><a href="../accounts-overview/index.html" onClick="return true">Accounts Overview</a></li>
-<li id="menu-item-4145" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4145"><a href="../accounts-overview/demo-account/index.html" onClick="return true">Demo Account</a></li>
-<li id="menu-item-4146" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4146"><a href="../accounts-overview/ecn-account/index.html" onClick="return true">ECN Account</a></li>
-<li id="menu-item-4147" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4147"><a href="../accounts-overview/individual-account/index.html" onClick="return true">Individual Account</a></li>
-<li id="menu-item-4148" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4148"><a href="../accounts-overview/professional-account/index.html" onClick="return true">Professional Account</a></li>
-<li id="menu-item-4149" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4149"><a href="../accounts-overview/vip-account/index.html" onClick="return true">VIP Account</a></li>
-</ul></div></div></div><div class="col-lg-3 col-md-6 col-sm-12 footer-column"><div id="fxvibe_social_connect-2" class="footer-widget widget_fxvibe_social_connect">        
-        <div class="contact-widget">
-            <div class="widget-title"><h3>Social Connect</h3></div>            <div class="widget-content">
-                                <ul class="social-links">
-                    		
-		<li>
-		<a target="_blank" href="https://www.facebook.com/"><i class="fab icon flaticon-facebook"></i></a>
-	</li>
-		<li>
-		<a target="_blank" href="https://www.vimo.com/"><i class="fab icon flaticon-video-camera"></i></a>
-	</li>
-		<li>
-		<a target="_blank" href="https://www.youtube.com/"><i class="fab icon flaticon-youtube"></i></a>
-	</li>
-		<li>
-		<a target="_blank" href="https://www.instagram.com/"><i class="fab icon flaticon-instagram-logo"></i></a>
-	</li>
-		
-		
-	                </ul>
-                                <ul class="download-list">
-                                        <li class="app-store">
-                        <a href="https://www.apple.com/app-store/"><i class="flaticon-apple"></i>App Store</a>
-                    </li>
-                                                            <li class="play-store">
-                        <a href="https://play.google.com/store/apps"><img src="../wp-content/themes/fxvibe/assets/images/icons/icon-18.png" alt="Awesome Image">Google Play</a>
-                    </li>
-                                    </ul>
-            </div>
-        </div>
-                          
-        </div></div>  
-                </div>
-            </div>
-        </div>
-                
-        <div class="footer-bottom">
-            <div class="auto-container">
-                <div class="bottom-inner">
-                                        <div class="copyright">
-                        <p>&copy; 2024 <a href="#">Fxvibe</a> Made with Expertise, All Rights Reserved.</p>
-                    </div>
-                                        
-                                        <ul class="footer-nav">
-                    <li id="menu-item-4132" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4132"><a href="#" onClick="return true">Privacy Policy<span class="menu-item_plus"></span></a></li><li id="menu-item-4133" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4133"><a href="#" onClick="return true">Terms &#038; Conditions<span class="menu-item_plus"></span></a></li><li id="menu-item-4134" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4134"><a href="#" onClick="return true">Legal<span class="menu-item_plus"></span></a></li>                    </ul>
-                                    </div>
-            </div>
-        </div>
-    </footer>
-    <!-- main-footer end -->
-    
-    <!-- scroll to top -->
-    <button class="scroll-top scroll-to-target" data-target="html">
-        <i class="flaticon-up-arrow"></i>
-    </button>
- 	
-</div>
+        <div
+          class="elementor-element elementor-element-5a32990 e-flex e-con-boxed e-con e-parent"
+          data-id="5a32990"
+          data-element_type="container"
+          data-settings='{"background_background":"classic"}'
+        >
+          <div class="e-con-inner">
+            <div
+              class="elementor-element elementor-element-9284b85 elementor-widget elementor-widget-fxvibe_hero_title"
+              data-id="9284b85"
+              data-element_type="widget"
+              data-widget_type="fxvibe_hero_title.default"
+            >
+              <div class="elementor-widget-container">
+                <div class="fxvibe-title-section">
+                  <div class="sec-title m-0">
+                    <h2 class="te-title fxvibe-size-default">
+                      Not sure if {{offer.title}} is for you?
+                    </h2>
+                  </div>
 
-<script>(function() {function maybePrefixUrlField () {
-  const value = this.value.trim()
-  if (value !== '' && value.indexOf('http') !== 0) {
-    this.value = 'http://' + value
-  }
-}
+                  <div class="text-box">
+                    <p class="te-text">
+                      For platform feature comparisons, consult us.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="elementor-element elementor-element-16350dd e-flex e-con-boxed e-con e-child"
+              data-id="16350dd"
+              data-element_type="container"
+            >
+              <div class="e-con-inner">
+                <div
+                  class="elementor-element elementor-element-90133c7 e-con-full e-flex e-con e-child"
+                  data-id="90133c7"
+                  data-element_type="container"
+                  data-settings='{"background_background":"classic"}'
+                >
+                  <div
+                    class="elementor-element elementor-element-77538fe e-con-full e-flex e-con e-child"
+                    data-id="77538fe"
+                    data-element_type="container"
+                  >
+                    <div
+                      class="elementor-element elementor-element-e40c000 elementor-widget elementor-widget-heading"
+                      data-id="e40c000"
+                      data-element_type="widget"
+                      data-widget_type="heading.default"
+                    >
+                      <div class="elementor-widget-container">
+                        <h6
+                          class="elementor-heading-title elementor-size-default"
+                        >
+                          Mail us!
+                        </h6>
+                      </div>
+                    </div>
+                    <div
+                      class="elementor-element elementor-element-515ee78 elementor-widget elementor-widget-heading"
+                      data-id="515ee78"
+                      data-element_type="widget"
+                      data-widget_type="heading.default"
+                    >
+                      <div class="elementor-widget-container">
+                        <h5
+                          class="elementor-heading-title elementor-size-default"
+                        >
+                          <a href="mailto:{{content.footer_contact_email}}">{{content.footer_contact_email}}</a>
+                        </h5>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="elementor-element elementor-element-48620ff e-con-full e-flex e-con e-child"
+                    data-id="48620ff"
+                    data-element_type="container"
+                  >
+                    <div
+                      class="elementor-element elementor-element-47144ab elementor-widget elementor-widget-spacer"
+                      data-id="47144ab"
+                      data-element_type="widget"
+                      data-widget_type="spacer.default"
+                    >
+                      <div class="elementor-widget-container">
+                        <style>
+                          /*! elementor - v3.23.0 - 05-08-2024 */
+                          .elementor-column .elementor-spacer-inner {
+                            height: var(--spacer-size);
+                          }
+                          .e-con {
+                            --container-widget-width: 100%;
+                          }
+                          .e-con-inner > .elementor-widget-spacer,
+                          .e-con > .elementor-widget-spacer {
+                            width: var(
+                              --container-widget-width,
+                              var(--spacer-size)
+                            );
+                            --align-self: var(
+                              --container-widget-align-self,
+                              initial
+                            );
+                            --flex-shrink: 0;
+                          }
+                          .e-con-inner
+                            > .elementor-widget-spacer
+                            > .elementor-widget-container,
+                          .e-con
+                            > .elementor-widget-spacer
+                            > .elementor-widget-container {
+                            height: 100%;
+                            width: 100%;
+                          }
+                          .e-con-inner
+                            > .elementor-widget-spacer
+                            > .elementor-widget-container
+                            > .elementor-spacer,
+                          .e-con
+                            > .elementor-widget-spacer
+                            > .elementor-widget-container
+                            > .elementor-spacer {
+                            height: 100%;
+                          }
+                          .e-con-inner
+                            > .elementor-widget-spacer
+                            > .elementor-widget-container
+                            > .elementor-spacer
+                            > .elementor-spacer-inner,
+                          .e-con
+                            > .elementor-widget-spacer
+                            > .elementor-widget-container
+                            > .elementor-spacer
+                            > .elementor-spacer-inner {
+                            height: var(
+                              --container-widget-height,
+                              var(--spacer-size)
+                            );
+                          }
+                          .e-con-inner
+                            > .elementor-widget-spacer.elementor-widget-empty,
+                          .e-con
+                            > .elementor-widget-spacer.elementor-widget-empty {
+                            position: relative;
+                            min-height: 22px;
+                            min-width: 22px;
+                          }
+                          .e-con-inner
+                            > .elementor-widget-spacer.elementor-widget-empty
+                            .elementor-widget-empty-icon,
+                          .e-con
+                            > .elementor-widget-spacer.elementor-widget-empty
+                            .elementor-widget-empty-icon {
+                            position: absolute;
+                            top: 0;
+                            bottom: 0;
+                            left: 0;
+                            right: 0;
+                            margin: auto;
+                            padding: 0;
+                            width: 22px;
+                            height: 22px;
+                          }
+                        </style>
+                        <div class="elementor-spacer">
+                          <div class="elementor-spacer-inner"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="elementor-element elementor-element-0d876c0 e-con-full e-flex e-con e-child"
+                    data-id="0d876c0"
+                    data-element_type="container"
+                  >
+                    <div
+                      class="elementor-element elementor-element-4ab7920 e-con-full e-flex e-con e-child"
+                      data-id="4ab7920"
+                      data-element_type="container"
+                    >
+                      <div
+                        class="elementor-element elementor-element-c09df30 elementor-widget elementor-widget-heading"
+                        data-id="c09df30"
+                        data-element_type="widget"
+                        data-widget_type="heading.default"
+                      >
+                        <div class="elementor-widget-container">
+                          <h6
+                            class="elementor-heading-title elementor-size-default"
+                          >
+                            Call us!
+                          </h6>
+                        </div>
+                      </div>
+                      <div
+                        class="elementor-element elementor-element-529a6fb elementor-widget elementor-widget-heading"
+                        data-id="529a6fb"
+                        data-element_type="widget"
+                        data-widget_type="heading.default"
+                      >
+                        <div class="elementor-widget-container">
+                          <h5
+                            class="elementor-heading-title elementor-size-default"
+                          >
+                            <a href="tel:{{content.phone_no}}"
+                              >{{content.phone_no}}</a
+                            >
+                          </h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="elementor-element elementor-element-afe00bc elementor-widget elementor-widget-fxvibe_button"
+              data-id="afe00bc"
+              data-element_type="widget"
+              data-settings='{"btn_margin":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"btn_margin_tablet_extra":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"btn_margin_tablet":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"btn_margin_mobile":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"btn_padding":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"btn_padding_tablet_extra":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"btn_padding_tablet":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"btn_padding_mobile":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true}}'
+              data-widget_type="fxvibe_button.default"
+            >
+              <div class="elementor-widget-container">
+                <div class="yt-btn about-section p-0 m-0">
+                  <div class="content-box m-0 p-0">
+                    <div class="btn-box">
+                      <a
+                        href="{% url backlink %}"
+                        class="theme-btn fxvibe-btn"
+                        ><span>Compare Platform</span></a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
-const urlFields = document.querySelectorAll('.mc4wp-form input[type="url"]')
-for (let j = 0; j < urlFields.length; j++) {
-  urlFields[j].addEventListener('blur', maybePrefixUrlField)
-}
- 
+     {% include "includes/footer.html" %}
+
+	{% endblock content %}
+
+	{% include "mainapp/includes/_scripts2.html" %}
+  </body>
+</html>

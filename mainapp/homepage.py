@@ -1,3 +1,4 @@
+from random import choice
 data = {
     'headline' : "unlock profitable crypto",
     'headline2' : " & gambling offers",
@@ -138,25 +139,27 @@ data = {
     # Footer - Quick Links
     'footer_links' : {
     'home': "Home",
-    'services': "Services",
-    'privacy_policy': "Privacy Policy",
-    'terms_of_service': "Terms of Service",
-    'cookie_policy': "Cookie Policy",
-    'affiliate_disclosure': "Affiliate Disclosure",
-    'about_us': "About Us",
-    'what_we_offer': "What We Offer",
-    'join_us': "Join Us",
-    'contact_us': "Contact Us",
-    'faq': "FAQ",
-    'blog': "Blog",
+    
+    'about': "About Us",
+    'about': "What We Offer",
+    'contact': "Join Us",
+    # 'privacy_policy': "Privacy Policy",
+    # 'terms_of_service': "Terms of Service",
+    # 'cookie_policy': "Cookie Policy",
+    # 'affiliate_disclosure': "Affiliate Disclosure",
+    # 'sitemap': "Sitemap",
+    # 'support': "Support"
+    'contact': "Contact Us",
+    'about': "About Us",
     'crypto': "Crypto Offers",
-    'gambling_offers': "Gambling Offers",
-    'finance_phantom': "Finance Phantom",
-    'bitcoin_360_ai': "Bitcoin 360 AI",
-    'quantum_genius_gpt': "Quantum Genius GPT",
-    'sitemap': "Sitemap",
-    'support': "Support"
+    # 'gambling_offers': "Gambling Offers",
+    'finance-phantom': "Finance Phantom",
+    'bitcoin-360-ai': "Bitcoin 360 AI",
+    'quantum-genius-gpt': "Quantum Genius GPT",
+    # 'sitemap': "Sitemap",
+    # 'support': "Support"
     },
+    
 
     # Footer - Contact Information
     'footer_contact_email' : "contactus@rcs.com",
@@ -173,3 +176,31 @@ data = {
     # Disclaimer
     'disclaimer' : "Cryptocurrency trading and gambling involve significant risk. Prices can fluctuate widely, and you should only invest what you can afford to lose. Please consult with a financial advisor if you are unsure about the risks involved."
 }
+
+crypto_images = ["assets/images/crypto_trading.avif", "assets/images/crypto_trading2.avif", "assets/images/crypto_trading3.jpeg"]
+
+def generate_offers(offers_list):
+    offers = []
+    
+    for offer in offers_list:
+        # Create a slug by converting the title to lowercase and replacing spaces with hyphens
+        offer_title = offer["title"].lower()
+        slug = "-".join(offer_title.split())
+
+        # Append the offer to the new list, including the slug
+        offers.append({
+            "slug": slug,
+            "title": offer["title"],
+            "image": choice(crypto_images),
+            "logo" : offer["image"],
+            "cta": offer["cta"],
+            "url": offer["url"],
+            "description": offer["description"],
+            "excerpt": offer["excerpt"],
+            "features": offer["features"],
+            "tab": offer["tab"]
+        })
+        
+    return offers
+
+offers = generate_offers(data["crypto_offers"])

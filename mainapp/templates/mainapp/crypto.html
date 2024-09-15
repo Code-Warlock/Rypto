@@ -310,29 +310,28 @@
                       </div>
                     </div>
                   </div>
-                  <div id="fxvibe_contact_widget-4" class="service-widget sidebar-widget widget_fxvibe_contact_widget container" style="">
+                  <div id="fxvibe_contact_widget-4" class="service-widget sidebar-widget widget_fxvibe_contact_widget container" style="justify-content:space-around;">
                   <style scoped>
                       @media (min-width: 900px) {
                           .contact-widget {   
-                              width : 40%;
+                              width : calc(100% / 3);
                           }
                       }
-                      @media (max-width: 700px) {
+                      @media (max-width: 899px) {
                         .contact-widget {   
                             width : 100%;
                         }
                     }
                       </style>
-                {% for offer in content.crypto_offers  %}
+                {% for offer in offers  %}
                     
                     <div class="contact-widget d-lg-inline-block mb-5 justify-between">
-                        <div class="widget-content" style="background-image: url({% static offer.image %}); background-size:cover;background-position:top center">
+                        <div class="widget-content" style="background-image: url({% static offer.logo %}); background-size:cover;background-position:top center">
                             <div class="shape-1" style="background-image: url({% static "uploads/2024/03/shape-43.png" %});"></div>
                             <div class="shape-2" style="background-image: url({% static "uploads/2024/03/shape-44.png" %});"></div>
                             <h3>Trading with <br>{{offer.title}} <br>with <span>RyptoCurrency</span>Stakes</h3>
                             <p>{{offer.excerpt}}</p>
-                            <a href="tel:+447553220982" class="phone"><span>Phone: +44-755-322-0982</span></a>
-                            <a href="{{offer.url}}" class="theme-btn btn-two"><span>Start Now</span></a>
+                            <a href="{% url "offer" offer.slug %}" class="theme-btn btn-two"><span>Start Now</span></a>
                         </div>
                     </div>         
                     {% endfor %}

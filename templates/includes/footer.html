@@ -127,11 +127,22 @@
                   id="menu-item-4167"
                   class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4167"
                 >
+                  {% if link == "home" %}
                   <a
-                    href="{% url "crypto" %}"
-                    onClick="return true"
+                  href="/"
+                  >{{val}}</a
+                >
+                  {% elif '-' in link %}
+                <a
+                    href="{% url "offer" link %}"
                     >{{val}}</a
                   >
+                  {% else %}
+                  <a
+                  href="{% url link %}"
+                  >{{val}}</a
+                >
+                {% endif %}
                 </li>
                   {% endfor %}
                 </ul>

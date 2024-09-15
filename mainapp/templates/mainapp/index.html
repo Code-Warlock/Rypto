@@ -113,6 +113,125 @@
         </div>
       </div>
       <div
+      class="elementor-element elementor-element-6aa81b2 e-flex e-con-boxed e-con e-parent"
+      data-id="6aa81b2"
+      data-element_type="container"
+      data-settings='{"background_background":"classic"}'
+    >
+      <div class="e-con-inner">
+        <div
+          class="elementor-element elementor-element-842fb9d elementor-widget elementor-widget-fxvibe_hero_title"
+          data-id="842fb9d"
+          data-element_type="widget"
+          data-widget_type="fxvibe_hero_title.default"
+        >
+          <div class="elementor-widget-container">
+            <div class="fxvibe-title-section">
+              <div class="sec-title m-0">
+                <h6 class="te-subtitle">Join ryptocurrencystakes</h6>
+                <h2 class="te-title fxvibe-size-default">
+                  {{content.cta_section_title}}
+                </h2>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="elementor-element elementor-element-c7c9105 elementor-widget elementor-widget-fxvibe_pricing_tabs"
+          data-id="c7c9105"
+          data-element_type="widget"
+          data-widget_type="fxvibe_pricing_tabs.default"
+        >
+          <div class="elementor-widget-container">
+            <!-- pricing-style-two -->
+            <section class="pricing-style-two p-0 m-0">
+              <div class="tabs-box">
+                <div class="tab-btn-box centred">
+                  <ul class="tab-btns tab-buttons clearfix">
+                    <li class="tab-btn active-btn" data-tab="#tab-1">
+                     Crypto Offers
+                    </li>
+                    <li class="tab-btn" data-tab="#tab-2">
+                      Gambling Offers
+                    </li>
+                  </ul>
+                </div>
+                <div class="tabs-content">
+                <div class="tab active-tab" id="tab-1">
+                 <div class="row clearfix" style="font-style:oblique">
+                  {% for offer in content.crypto_offers  %}
+                    <div
+                      class="col-lg-4 col-md-6 col-sm-12 pricing-block">
+                      <div class="pricing-block-two">
+                        <div class="pricing-table">
+                          <div class="table-header">
+                            <h3 style="font-style:italic;">{{offer.title}}</h3>
+                            <p>{{offer.description}}.</p>
+                            <h2><span>{{offer.excerpt}}</span></h2>
+                          </div>
+                          <div class="table-content">
+                            <ul class="feature-list clearfix">
+                              {% for feat in offer.features %}
+                              <li>{{feat}}</li>
+                              {% endfor %}
+                              
+                            </ul>
+                          </div>
+
+                          <div class="table-footer">
+                            <a href="{{offer.url}}"
+                              ><span>{{offer.cta}}</span></a
+                            >
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    
+                  {% endfor %}
+                  
+                </div>
+              </div>
+                <div class="tab" id="tab-2">
+                  <div class="row clearfix" style="font-style:oblique">
+                   {% for offer in content.gambling_offers  %}
+                     <div
+                       class="col-lg-4 col-md-6 col-sm-12 pricing-block">
+                       <div class="pricing-block-two">
+                         <div class="pricing-table">
+                           <div class="table-header">
+                             <h3 style="font-style:italic;">{{offer.title}}</h3>
+                             <p>{{offer.description}}.</p>
+                             <h2><span>{{offer.excerpt}}</span></h2>
+                           </div>
+                           <div class="table-content">
+                             <ul class="feature-list clearfix">
+                               {% for feat in offer.features %}
+                               <li>{{feat}}</li>
+                               {% endfor %}
+                               
+                             </ul>
+                           </div>
+
+                           <div class="table-footer">
+                             <a href="{{offer.url}}"
+                               ><span>{{offer.cta}}</span></a
+                             >
+                           </div>
+                         </div>
+                       </div>
+                     </div>
+                     
+                   {% endfor %}
+                   
+                 </div>
+              </div>
+            </section>
+            <!-- pricing-style-two end -->
+          </div>
+        </div>
+      </div>
+    </div>
+      <div
         class="elementor-element elementor-element-703a850 e-flex e-con-boxed e-con e-parent"
         data-id="703a850"
         data-element_type="container"
@@ -258,378 +377,6 @@
                   <!-- offers-style-two end -->
                 </div>
               </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div
-        class="elementor-element elementor-element-b41dfb8 e-con-full e-flex e-con e-parent"
-        data-id="b41dfb8"
-        data-element_type="container"
-      >
-        <div
-          class="elementor-element elementor-element-539d0e3 elementor-widget elementor-widget-fxvibe_animation_image"
-          data-id="539d0e3"
-          data-element_type="widget"
-          data-widget_type="fxvibe_animation_image.default"
-        >
-          <div class="elementor-widget-container">
-            <section class="pairs-section p-0 m-0">
-              <div
-                class="pattern-layer te-img-position"
-                style="
-                  background-image: url({% static "uploads/2024/02/shape-6.png" %});
-                "
-              ></div>
-              <div class="image-layer">
-                <figure class="image-1 te-img-position-v2">
-                  <img
-                    decoding="async"
-                    src="{% static "uploads/2024/02/vector-3.png" %}"
-                    alt="Awesome Image"
-                  />
-                </figure>
-                <figure class="image-2 te-img-position-v3">
-                  <img
-                    decoding="async"
-                    src="{% static "uploads/2024/02/vector-4.png" %}"
-                    alt="Awesome Image"
-                  />
-                </figure>
-              </div>
-            </section>
-          </div>
-        </div>
-        <div
-          class="elementor-element elementor-element-da3db87 e-flex e-con-boxed e-con e-child"
-          data-id="da3db87"
-          data-element_type="container"
-        >
-          <div class="e-con-inner">
-            <div
-              class="elementor-element elementor-element-6bb2b7c elementor-widget elementor-widget-fxvibe_hero_title"
-              data-id="6bb2b7c"
-              data-element_type="widget"
-              data-widget_type="fxvibe_hero_title.default"
-            >
-              <div class="elementor-widget-container">
-                <div class="fxvibe-title-section">
-                  <div class="sec-title m-0">
-                    <h6 class="te-subtitle">Popular Pairs</h6>
-                    <h2 class="te-title fxvibe-size-default">
-                      Top Pairs &amp; Pricing in Market
-                    </h2>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div
-              class="elementor-element elementor-element-81d1e26 e-flex e-con-boxed e-con e-child"
-              data-id="81d1e26"
-              data-element_type="container"
-            >
-              <div class="e-con-inner">
-                <div
-                  class="elementor-element elementor-element-08ae41c elementor-widget elementor-widget-fxvibe_popular_pairs"
-                  data-id="08ae41c"
-                  data-element_type="widget"
-                  data-settings='{"fxvibe_layout_margin":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"fxvibe_layout_margin_tablet_extra":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"fxvibe_layout_margin_tablet":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"fxvibe_layout_margin_mobile":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"fxvibe_layout_padding":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"fxvibe_layout_padding_tablet_extra":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"fxvibe_layout_padding_tablet":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"fxvibe_layout_padding_mobile":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"btn_padding":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"btn_padding_tablet_extra":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"btn_padding_tablet":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"btn_padding_mobile":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"btn_margin":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"btn_margin_tablet_extra":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"btn_margin_tablet":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"btn_margin_mobile":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true}}'
-                  data-widget_type="fxvibe_popular_pairs.default"
-                >
-                  <div class="elementor-widget-container">
-                    <div class="pairs-block-one fxvibe-pair">
-                      <div class="inner-box">
-                        <div class="left-column">
-                          <div class="icon-box te-icon">
-                            <i class="flaticon-right-down"></i>
-                          </div>
-                          <ul class="list-item list-title clearfix">
-                            <li>eur</li>
-                            <li><i class="flaticon-exchange"></i></li>
-                            <li>usd</li>
-                          </ul>
-                          <span class="currency te-price">$1.06199 Usd</span>
-                        </div>
-                        <div class="right-column">
-                          <div class="text">
-                            <span class="currency-rate te-rate">+0.04%</span>
-                            <span class="sell te-sell-price"
-                              >Sell at 1.06199</span
-                            >
-                          </div>
-                          <div class="btn-box">
-                            <a
-                              href="services/trading-accounts/index.html"
-                              class="theme-btn yt-btn-title-v1"
-                              ><span>Trade</span></a
-                            >
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  class="elementor-element elementor-element-3f8efd6 elementor-widget elementor-widget-fxvibe_popular_pairs"
-                  data-id="3f8efd6"
-                  data-element_type="widget"
-                  data-settings='{"fxvibe_layout_margin":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"fxvibe_layout_margin_tablet_extra":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"fxvibe_layout_margin_tablet":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"fxvibe_layout_margin_mobile":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"fxvibe_layout_padding":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"fxvibe_layout_padding_tablet_extra":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"fxvibe_layout_padding_tablet":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"fxvibe_layout_padding_mobile":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"btn_padding":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"btn_padding_tablet_extra":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"btn_padding_tablet":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"btn_padding_mobile":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"btn_margin":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"btn_margin_tablet_extra":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"btn_margin_tablet":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"btn_margin_mobile":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true}}'
-                  data-widget_type="fxvibe_popular_pairs.default"
-                >
-                  <div class="elementor-widget-container">
-                    <div class="pairs-block-one fxvibe-pair">
-                      <div class="inner-box">
-                        <div class="left-column">
-                          <div class="icon-box te-icon">
-                            <i class="flaticon flaticon-right-up"></i>
-                          </div>
-                          <ul class="list-item list-title clearfix">
-                            <li>usd</li>
-                            <li><i class="flaticon-exchange"></i></li>
-                            <li>jpy</li>
-                          </ul>
-                          <span class="currency te-price">$1.22195 Usd</span>
-                        </div>
-                        <div class="right-column">
-                          <div class="text">
-                            <span class="currency-rate te-rate">+0.04%</span>
-                            <span class="sell te-sell-price"
-                              >Sell at 1.06199</span
-                            >
-                          </div>
-                          <div class="btn-box">
-                            <a
-                              href="services/trading-accounts/index.html"
-                              class="theme-btn yt-btn-title-v1"
-                              ><span>Trade</span></a
-                            >
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  class="elementor-element elementor-element-01fdce6 elementor-widget elementor-widget-fxvibe_popular_pairs"
-                  data-id="01fdce6"
-                  data-element_type="widget"
-                  data-settings='{"fxvibe_layout_margin":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"fxvibe_layout_margin_tablet_extra":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"fxvibe_layout_margin_tablet":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"fxvibe_layout_margin_mobile":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"fxvibe_layout_padding":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"fxvibe_layout_padding_tablet_extra":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"fxvibe_layout_padding_tablet":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"fxvibe_layout_padding_mobile":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"btn_padding":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"btn_padding_tablet_extra":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"btn_padding_tablet":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"btn_padding_mobile":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"btn_margin":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"btn_margin_tablet_extra":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"btn_margin_tablet":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"btn_margin_mobile":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true}}'
-                  data-widget_type="fxvibe_popular_pairs.default"
-                >
-                  <div class="elementor-widget-container">
-                    <div class="pairs-block-one fxvibe-pair">
-                      <div class="inner-box">
-                        <div class="left-column">
-                          <div class="icon-box te-icon">
-                            <i class="flaticon flaticon-right-up"></i>
-                          </div>
-                          <ul class="list-item list-title clearfix">
-                            <li>Gbp</li>
-                            <li><i class="flaticon-exchange"></i></li>
-                            <li>usd</li>
-                          </ul>
-                          <span class="currency te-price">$1.24100 Usd</span>
-                        </div>
-                        <div class="right-column">
-                          <div class="text">
-                            <span class="currency-rate te-rate">+0.05%</span>
-                            <span class="sell te-sell-price"
-                              >Sell at 1.24350</span
-                            >
-                          </div>
-                          <div class="btn-box">
-                            <a
-                              href="services/trading-accounts/index.html"
-                              class="theme-btn yt-btn-title-v1"
-                              ><span>Trade</span></a
-                            >
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  class="elementor-element elementor-element-65f6a8b elementor-widget elementor-widget-fxvibe_popular_pairs"
-                  data-id="65f6a8b"
-                  data-element_type="widget"
-                  data-settings='{"fxvibe_layout_margin":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"fxvibe_layout_margin_tablet_extra":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"fxvibe_layout_margin_tablet":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"fxvibe_layout_margin_mobile":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"fxvibe_layout_padding":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"fxvibe_layout_padding_tablet_extra":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"fxvibe_layout_padding_tablet":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"fxvibe_layout_padding_mobile":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"btn_padding":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"btn_padding_tablet_extra":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"btn_padding_tablet":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"btn_padding_mobile":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"btn_margin":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"btn_margin_tablet_extra":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"btn_margin_tablet":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"btn_margin_mobile":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true}}'
-                  data-widget_type="fxvibe_popular_pairs.default"
-                >
-                  <div class="elementor-widget-container">
-                    <div class="pairs-block-one fxvibe-pair">
-                      <div class="inner-box">
-                        <div class="left-column">
-                          <div class="icon-box te-icon">
-                            <i class="flaticon flaticon-right-down"></i>
-                          </div>
-                          <ul class="list-item list-title clearfix">
-                            <li>eur</li>
-                            <li><i class="flaticon-exchange"></i></li>
-                            <li>Gbp</li>
-                          </ul>
-                          <span class="currency te-price">$0.08388 Usd</span>
-                        </div>
-                        <div class="right-column">
-                          <div class="text">
-                            <span class="currency-rate te-rate">-0.12%</span>
-                            <span class="sell te-sell-price"
-                              >Sell at 0.06185</span
-                            >
-                          </div>
-                          <div class="btn-box">
-                            <a
-                              href="services/trading-accounts/index.html"
-                              class="theme-btn yt-btn-title-v1"
-                              ><span>Trade</span></a
-                            >
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  class="elementor-element elementor-element-aaeedd9 elementor-widget elementor-widget-fxvibe_button"
-                  data-id="aaeedd9"
-                  data-element_type="widget"
-                  data-settings='{"btn_margin":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"btn_margin_tablet_extra":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"btn_margin_tablet":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"btn_margin_mobile":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"btn_padding":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"btn_padding_tablet_extra":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"btn_padding_tablet":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"btn_padding_mobile":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true}}'
-                  data-widget_type="fxvibe_button.default"
-                >
-                  <div class="elementor-widget-container">
-                    <div class="yt-btn about-section p-0 m-0">
-                      <div class="content-box m-0 p-0">
-                        <div class="btn-box">
-                          <a
-                            href="services/currency-pairs/index.html"
-                            class="theme-btn fxvibe-btn"
-                            ><span>See More Pairs</span></a
-                          >
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div
-        class="elementor-element elementor-element-6aa81b2 e-flex e-con-boxed e-con e-parent"
-        data-id="6aa81b2"
-        data-element_type="container"
-        data-settings='{"background_background":"classic"}'
-      >
-        <div class="e-con-inner">
-          <div
-            class="elementor-element elementor-element-842fb9d elementor-widget elementor-widget-fxvibe_hero_title"
-            data-id="842fb9d"
-            data-element_type="widget"
-            data-widget_type="fxvibe_hero_title.default"
-          >
-            <div class="elementor-widget-container">
-              <div class="fxvibe-title-section">
-                <div class="sec-title m-0">
-                  <h6 class="te-subtitle">Join ryptocurrencystakes</h6>
-                  <h2 class="te-title fxvibe-size-default">
-                    {{content.cta_section_title}}
-                  </h2>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            class="elementor-element elementor-element-c7c9105 elementor-widget elementor-widget-fxvibe_pricing_tabs"
-            data-id="c7c9105"
-            data-element_type="widget"
-            data-widget_type="fxvibe_pricing_tabs.default"
-          >
-            <div class="elementor-widget-container">
-              <!-- pricing-style-two -->
-              <section class="pricing-style-two p-0 m-0">
-                <div class="tabs-box">
-                  <div class="tab-btn-box centred">
-                    <ul class="tab-btns tab-buttons clearfix">
-                      <li class="tab-btn active-btn" data-tab="#tab-1">
-                       Crypto Offers
-                      </li>
-                      <li class="tab-btn" data-tab="#tab-2">
-                        Gambling Offers
-                      </li>
-                    </ul>
-                  </div>
-                  <div class="tabs-content">
-                  <div class="tab active-tab" id="tab-1">
-                   <div class="row clearfix" style="font-style:oblique">
-                    {% for offer in content.crypto_offers  %}
-                      <div
-                        class="col-lg-4 col-md-6 col-sm-12 pricing-block">
-                        <div class="pricing-block-two">
-                          <div class="pricing-table">
-                            <div class="table-header">
-                              <h3 style="font-style:italic;">{{offer.title}}</h3>
-                              <p>{{offer.description}}.</p>
-                              <h2><span>{{offer.excerpt}}</span></h2>
-                            </div>
-                            <div class="table-content">
-                              <ul class="feature-list clearfix">
-                                {% for feat in offer.features %}
-                                <li>{{feat}}</li>
-                                {% endfor %}
-                                
-                              </ul>
-                            </div>
-
-                            <div class="table-footer">
-                              <a href="{{offer.url}}"
-                                ><span>{{offer.cta}}</span></a
-                              >
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      
-                    {% endfor %}
-                    
-                  </div>
-                </div>
-                  <div class="tab" id="tab-2">
-                    <div class="row clearfix" style="font-style:oblique">
-                     {% for offer in content.gambling_offers  %}
-                       <div
-                         class="col-lg-4 col-md-6 col-sm-12 pricing-block">
-                         <div class="pricing-block-two">
-                           <div class="pricing-table">
-                             <div class="table-header">
-                               <h3 style="font-style:italic;">{{offer.title}}</h3>
-                               <p>{{offer.description}}.</p>
-                               <h2><span>{{offer.excerpt}}</span></h2>
-                             </div>
-                             <div class="table-content">
-                               <ul class="feature-list clearfix">
-                                 {% for feat in offer.features %}
-                                 <li>{{feat}}</li>
-                                 {% endfor %}
-                                 
-                               </ul>
-                             </div>
- 
-                             <div class="table-footer">
-                               <a href="{{offer.url}}"
-                                 ><span>{{offer.cta}}</span></a
-                               >
-                             </div>
-                           </div>
-                         </div>
-                       </div>
-                       
-                     {% endfor %}
-                     
-                   </div>
-                </div>
-              </section>
-              <!-- pricing-style-two end -->
             </div>
           </div>
         </div>

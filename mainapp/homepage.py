@@ -103,7 +103,7 @@ data = {
                         "Mobile-first design for gaming anywhere, anytime",
                         "Unmatched security with advanced crypto encryption technology"
                       ],
-                 "cta": "PLAY NOW AT CRYPTOLEO CASINO"
+                 "cta": "PLAY NOW AT CRYPTOLEO CASINO",
                  'image' : 'assets/images/fortunejack_casino.jpeg',
                  'url' : "https://offerone.g2afse.com/click?pid=444&offer_id=48",
                  'tab' : "2" 
@@ -119,7 +119,7 @@ data = {
                     "Mobile-optimized for gaming on the go",
                     "Top-notch security with encryption to safeguard your data"
                   ],
-                  "cta": "START WINNING AT JOYA CASINO"
+                  "cta": "START WINNING AT JOYA CASINO",
                   'image' : 'assets/images/fortunejack_casino.jpeg',
                   'url' : "https://offerone.g2afse.com/click?pid=444&offer_id=48",
                   'tab' : "2" 
@@ -136,7 +136,7 @@ data = {
                     "Mobile-optimized for gaming on the go",
                     "High-level security with data encryption"
                   ],
-                  "cta": "SIGN UP NOW AT NINEWIN CASINO"
+                  "cta": "SIGN UP NOW AT NINEWIN CASINO",
                   'image' : 'assets/images/fortunejack_casino.jpeg',
                   'url' : "https://offerone.g2afse.com/click?pid=444&offer_id=48",
                   'tab' : "2" 

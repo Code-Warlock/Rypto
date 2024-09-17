@@ -121,7 +121,7 @@ data = {
                   ],
                   "cta": "START WINNING AT JOYA CASINO",
                   'image' : 'assets/images/fortunejack_casino.jpeg',
-                  'url' : "https://offerone.g2afse.com/click?pid=444&offer_id=48",
+                  'url' : "https://taal.gotrackier.com/click?campaign_id=541&pub_id=710",
                   'tab' : "2" 
             },
             {
@@ -138,7 +138,7 @@ data = {
                   ],
                   "cta": "SIGN UP NOW AT NINEWIN CASINO",
                   'image' : 'assets/images/fortunejack_casino.jpeg',
-                  'url' : "https://offerone.g2afse.com/click?pid=444&offer_id=48",
+                  'url' : "https://taal.gotrackier.com/click?campaign_id=542&pub_id=710",
                   'tab' : "2" 
             }                   
 

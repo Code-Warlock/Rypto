@@ -10,4 +10,6 @@ urlpatterns = [
     path("gambling/", views.gambling, name="gambling"),
     path("gambling/<slug:slug>/", views.gambling_offer, name="offer"),
     path("contact/", views.contact, name="contact"),
+    path("privacy-policy/", views.privacy, name="privacy"),
+    path("cookie-policy/", views.cookie, name="cookie"),
 ]

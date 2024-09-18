@@ -228,6 +228,7 @@ data = {
 }
 
 crypto_images = ["assets/images/crypto_trading.avif", "assets/images/crypto_trading2.avif", "assets/images/crypto_trading3.jpeg"]
+gambling_images = ["assets/images/phonecasino.jpg", "assets/images/onlinecasino2.jpg", "assets/images/onlinecasino.jpg","assets/images/poker_bg.jpg","assets/images/poker_bg2.jpg","assets/images/laptopcasino.jpg"]
 
 def generate_offers(offers_list):
     offers = []
@@ -238,10 +239,11 @@ def generate_offers(offers_list):
         slug = "-".join(offer_title.split())
 
         # Append the offer to the new list, including the slug
+        
         offers.append({
             "slug": slug,
             "title": offer["title"],
-            "image": choice(crypto_images),
+            "image": choice(gambling_images),
             "logo" : offer["image"],
             "cta": offer["cta"],
             "url": offer["url"],
@@ -253,4 +255,5 @@ def generate_offers(offers_list):
         
     return offers
 
-offers = generate_offers(data["crypto_offers"])
+crypto_offers = generate_offers(data["crypto_offers"])
+gambling_offers = generate_offers(data["gambling_offers"])

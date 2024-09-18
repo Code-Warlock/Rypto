@@ -75,71 +75,71 @@ data = {
     ],
     'gambling_offers' : [
                 {
-                    "title": "FORTUNEJACK CASINO",
-                    "excerpt": "Get started and explore top-tier crypto casino games!",
-                    "description": "Discover the world of online crypto gambling at FortuneJack Casino, With over 1,500 games and seamless crypto transactions, FortuneJack provides a premier experience for both new and experienced players. ",
-                    "features": [
-                        "Over 1,500 Casino Games",
-                        "Instant Crypto Deposits and Withdrawals",
-                        "Live and Virtual Casino Options",
-                        "Generous Bonuses and Promotions",
-                        "24/7 Customer Support",
-                        "Exclusive VIP Program for High Rollers"
+                    'title': 'FORTUNEJACK CASINO',
+                    'excerpt': 'Get started and explore top-tier crypto casino games!',
+                    'description': 'Discover the world of online crypto gambling at FortuneJack Casino, With over 1,500 games and seamless crypto transactions, FortuneJack provides a premier experience for both new and experienced players. ',
+                    'features': [
+                        'Over 1,500 Casino Games',
+                        'Instant Crypto Deposits and Withdrawals',
+                        'Live and Virtual Casino Options',
+                        'Generous Bonuses and Promotions',
+                        '24/7 Customer Support',
+                        'Exclusive VIP Program for High Rollers'
                     ],
-                    "cta": "JOIN NOW!",
+                    'cta': 'JOIN NOW!',
                     'image' : 'assets/images/fortunejack_casino.jpeg',
-                    'url' : "https://offerone.g2afse.com/click?pid=444&offer_id=48",
-                    'tab' : "2"
+                    'url' : 'https://offerone.g2afse.com/click?pid=444&offer_id=48',
+                    'tab' : '2'
                     
                 },
                 {
-                 "title": "CRYPTOLEO CASINO",
-                 "excerpt": "Elevate your gaming with crypto-powered bonuses and fast payouts.",
-                 "description": "CryptoLeo Casino offers an exhilarating gaming experience with the added benefit of seamless cryptocurrency transactions. From captivating slots to immersive live dealer games, players enjoy exclusive bonuses, lightning-fast crypto deposits, and withdrawals. Designed for both crypto experts and newcomers, CryptoLeo combines modern tech with exciting gameplay.",
-                 "features": [
-                        "Unlock exclusive crypto bonuses with every play",
-                        "Play a diverse range of slots, table games, and live dealers",
-                        "Instant, hassle-free crypto deposits and payouts",
-                        "Mobile-first design for gaming anywhere, anytime",
-                        "Unmatched security with advanced crypto encryption technology"
+                 'title': 'CRYPTOLEO CASINO',
+                 'excerpt': 'Elevate your gaming with crypto-powered bonuses and fast payouts.',
+                 'description': 'CryptoLeo Casino offers an exhilarating gaming experience with the added benefit of seamless cryptocurrency transactions. From captivating slots to immersive live dealer games, players enjoy exclusive bonuses, lightning-fast crypto deposits, and withdrawals. Designed for both crypto experts and newcomers, CryptoLeo combines modern tech with exciting gameplay.',
+                 'features': [
+                        'Unlock exclusive crypto bonuses with every play',
+                        'Play a diverse range of slots, table games, and live dealers',
+                        'Instant, hassle-free crypto deposits and payouts',
+                        'Mobile-first design for gaming anywhere, anytime',
+                        'Unmatched security with advanced crypto encryption technology'
                       ],
-                 "cta": "PLAY NOW AT CRYPTOLEO CASINO",
+                 'cta': 'PLAY NOW AT CRYPTOLEO CASINO',
                  'image' : 'assets/images/fortunejack_casino.jpeg',
-                 'url' : "https://offerone.g2afse.com/click?pid=444&offer_id=48",
-                 'tab' : "2" 
+                 'url' : 'https://offerone.g2afse.com/click?pid=444&offer_id=48',
+                 'tab' : '2' 
                 }, 
             {
-                  "title": "JOYA CASINO",
-                  "excerpt": "Experience unparalleled gaming and massive rewards at Joya Casino.",
-                  "description": "Joya Casino brings you a world of excitement with a wide range of slot games, table games, and live dealers. With irresistible bonuses and promotions, the platform guarantees top-level security and lightning-fast payouts. Whether you're playing on mobile or desktop, Joya Casino delivers a smooth, thrilling experience designed for every level of player.",
-                  "features": [
-                    "Huge selection of thrilling slot games and live dealers",
-                    "Massive bonuses for new and returning players",
-                    "Super-fast payouts with no hidden fees",
-                    "Mobile-optimized for gaming on the go",
-                    "Top-notch security with encryption to safeguard your data"
+                  'title': 'JOYA CASINO',
+                  'excerpt': 'Experience unparalleled gaming and massive rewards at Joya Casino.',
+                  'description': "Joya Casino brings you a world of excitement with a wide range of slot games, table games, and live dealers. With irresistible bonuses and promotions, the platform guarantees top-level security and lightning-fast payouts. Whether you're playing on mobile or desktop, Joya Casino delivers a smooth, thrilling experience designed for every level of player.",
+                  'features': [
+                    'Huge selection of thrilling slot games and live dealers',
+                    'Massive bonuses for new and returning players',
+                    'Super-fast payouts with no hidden fees',
+                    'Mobile-optimized for gaming on the go',
+                    'Top-notch security with encryption to safeguard your data'
                   ],
-                  "cta": "START WINNING AT JOYA CASINO",
+                  'cta': 'START WINNING AT JOYA CASINO',
                   'image' : 'assets/images/fortunejack_casino.jpeg',
-                  'url' : "https://offerone.g2afse.com/click?pid=444&offer_id=48",
-                  'tab' : "2" 
+                  'url' : 'https://offerone.g2afse.com/click?pid=444&offer_id=48',
+                  'tab' : '2' 
             },
             {
-                  "title": "NINEWIN CASINO",
-                  "excerpt": "Experience top-tier casino gaming with exciting features and rewards.",
-                  "description": "Ninewin Casino offers a vast array of casino games, from slots to table games and live dealers. It provides attractive bonuses for new users and has a seamless interface for a smooth experience. Users benefit from fast and secure payouts, ensuring a hassle-free withdrawal process. The platform guarantees top-level security with encryption and promotes responsible gaming.",
-                  "features": [
-                    "Huge variety of slot games and table games",
-                    "Live dealer games for an immersive experience",
-                    "Fast and secure payout system",
-                    "Attractive bonuses for new and loyal players",
-                    "Mobile-optimized for gaming on the go",
-                    "High-level security with data encryption"
+                  'title': 'NINEWIN CASINO',
+                  'excerpt': 'Experience top-tier casino gaming with exciting features and rewards.',
+                  'description': 'Ninewin Casino offers a vast array of casino games, from slots to table games and live dealers. It provides attractive bonuses for new users and has a seamless interface for a smooth experience. Users benefit from fast and secure payouts, ensuring a hassle-free withdrawal process. The platform guarantees top-level security with encryption and promotes responsible gaming.',
+                  'features': [
+                    'Huge variety of slot games and table games',
+                    'Live dealer games for an immersive experience',
+                    'Fast and secure payout system',
+                    'Attractive bonuses for new and loyal players',
+                    'Mobile-optimized for gaming on the go',
+                    'High-level security with data encryption'
                   ],
-                  "cta": "SIGN UP NOW AT NINEWIN CASINO",
+                  'cta': 'SIGN UP NOW AT NINEWIN CASINO',
                   'image' : 'assets/images/fortunejack_casino.jpeg',
-                  'url' : "https://offerone.g2afse.com/click?pid=444&offer_id=48",
-                  'tab' : "2" 
+                  'url' : 'https://offerone.g2afse.com/click?pid=444&offer_id=48',
+                  'tab' : '2' 
             }                   
 
     ],

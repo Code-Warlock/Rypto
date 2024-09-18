@@ -51,3 +51,24 @@ def crypto_offer(request,slug):
     }
     
     return render(request, "mainapp/offer.html",context)
+
+def gambling(request):
+    context = {
+        "content" : data,
+        "offers" : offers,
+        "crumb_title" : "Gambling Offers"
+    }
+    
+    return render(request, "mainapp/gambling.html",context)
+
+def gambling_offer(request,slug):
+    single_offer = next(offer for offer in offers if offer['tab'] == "2" and offer['slug'] == slug)
+    context = {
+        "content" : data,
+        "offer" : single_offer,
+        "crumb_title" : "Gambling Offers",
+        "crumb_cat" : single_offer['title'],
+        "backlink" : "gambling"
+    }
+    
+    return render(request, "mainapp/offer.html",context)

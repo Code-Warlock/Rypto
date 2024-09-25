@@ -1,7 +1,48 @@
 {% extends "base.html" %}
  {% load static %}
+  {% block meta %}
+  <meta name="robots" content="max-image-preview:large" />
+  <!-- Meta Tags for SEO -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="Discover exclusive cryptocurrency trading offers with RyptocurrencyStakes. Access a wide range of digital currencies, from Bitcoin to altcoins, with expert-backed AI strategies, secure transactions, and unbeatable bonuses.">
+  <meta name="keywords" content="crypto offers, cryptocurrency promotions, bitcoin trading, altcoin trading, exclusive crypto deals, crypto bonuses, automated crypto trading, invest in crypto, AI-powered trading, secure crypto platform, crypto market insights, digital currency offers, altcoin investments, blockchain deals, crypto wealth growth, secure crypto trading, crypto investment strategies, bitcoin promotions">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="RyptocurrencyStakes">
+  <meta name="language" content="English">
+  <meta name="geo.region" content="UK, CA">
+  <meta name="geo.placename" content="London, Toronto">
+  
+  <!-- Open Graph Tags (for social media preview) -->
+  <meta property="og:title" content="Exclusive Cryptocurrency Offers – RyptocurrencyStakes">
+  <meta property="og:description" content="Unlock unbeatable cryptocurrency trading offers with RyptocurrencyStakes. From Bitcoin to altcoins, start trading with exclusive bonuses and secure transactions today.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content='https://ryptocurrencystakes.com/crypto/'/>
+  <meta property="og:image" content="https://res.cloudinary.com/daeyqrduj/image/upload/v1723970798/crypto_offers.png">
+  <meta property="og:site_name" content="RyptocurrencyStakes">
+  
+  <!-- Twitter Card Tags (for Twitter preview) -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Exclusive Cryptocurrency Offers – RyptocurrencyStakes">
+  <meta name="twitter:description" content="Explore the best cryptocurrency trading deals and bonuses on RyptocurrencyStakes. Start trading Bitcoin, Ethereum, and more with secure transactions and expert strategies.">
+  <meta name="twitter:image" content="https://res.cloudinary.com/daeyqrduj/image/upload/v1723970798/crypto_offers.png">
+  
+  <!-- Canonical Tag -->
+  <link rel="canonical" href="https://www.ryptocurrencystakes.com/crypto/">
+  
+  <!-- Favicon -->
+  <link rel="icon" href="https://www.ryptocurrencystakes.com/favicon.ico" type="image/x-icon">
+  
+  <meta property="og:image:secure_url" content="https://res.cloudinary.com/daeyqrduj/image/upload/v1723970798/crypto_offers.png"/>
+  <meta property='og:image:type' content='image/png' />
+  <meta property='og:image:width' content='1200' />
+  <meta property='og:image:height' content='627' />
+  <meta property="og:type" content='website'/> 
+  <meta name="google-site-verification" content="8PhvG-zfADs2Y4InsNvib9KMYq1_Frz99XoRY3Rle1k" />
+  <link rel="dns-prefetch" href="http://fonts.googleapis.com/" />
+  
+  {% endblock meta %}
  {% block title %}
- Start Trading Cryptocurrency Today | Secure &amp; Easy Crypto Investing Platform
+ Top Cryptocurrency Offers | Maximize Your Profits with RyptocurrencyStakes
  {% endblock title %}
  {% block links %}
   {% include "mainapp/includes/_links2.html" %}
@@ -331,7 +372,7 @@
                             <div class="shape-2" style="background-image: url({% static "uploads/2024/03/shape-44.png" %});"></div>
                             <h3>Trading with <br>{{offer.title}} <br>with <span>RyptoCurrency</span>Stakes</h3>
                             <p>{{offer.excerpt}}</p>
-                            <a href="{% url "offer" offer.slug %}" class="theme-btn btn-two"><span>Start Now</span></a>
+                            <a href="{% url "c_offer" offer.slug %}" class="theme-btn btn-two"><span>Start Now</span></a>
                         </div>
                     </div>         
                     {% endfor %}

@@ -1,9 +1,13 @@
 {% extends "base.html" %}
 {% load static %}
+{% block meta %}
+<meta name="robots" content="noindex, nofollow">
+{% endblock meta %}
  {% block title %}
  Start Trading Cryptocurrency Today | Secure &amp; Easy Crypto Investing Platform
  {% endblock title %}
  {% block links %}
+ {% comment %} Write robots.txt later| Newletters | {% endcomment %}
   {% include "mainapp/includes/_offer_link.html" %}
  {% endblock links %}
 

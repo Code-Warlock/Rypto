@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /offer/
+Disallow: /offer
+Disallow: offer/
+
+Allow: /

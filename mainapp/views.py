@@ -13,6 +13,8 @@ def index(request):
     
     
     context = {
+        "crypto_offers" : crypto_offers,
+        "gambling_offers" : gambling_offers,
         "content" : data
     }
     
@@ -104,3 +106,7 @@ def cookie(request):
     }
     
     return render(request, "mainapp/cookie.html",context)
+
+def robots_txt(request):
+
+    return render(request, "mainapp/robots.txt")

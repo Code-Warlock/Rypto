@@ -285,7 +285,7 @@
 
                         <div class="text-box">
                           <p class="te-text">
-							Click "Sign Up," provide your details, verify your identity and begin your crypto trading journey.
+							Click "Sign Up," provide your details, verify your identity and begin your  {% if offer.tab == "2" %}gambling {% else %} crypto trading {% endif %} journey.
                           </p>
                         </div>
                       </div>
@@ -365,13 +365,13 @@
                       <div class="fxvibe-title-section">
                         <div class="sec-title m-0">
                           <h3 class="te-title fxvibe-size-default">
-                            Start Trading
+                            Start {% if offer.tab == "2" %}Gambling {% else %} Trading {% endif %} Now!
                           </h3>
                         </div>
 
                         <div class="text-box">
                           <p class="te-text">
-                            Whether you're holding for the long term or actively trading, the {{offer.title}} platform provides all the tools you need.
+                            Whether you're holding for the long term or actively Start {% if offer.tab == "2" %}Gambling {% else %} Trading {% endif %} Now!, the {{offer.title}} platform provides all the tools you need.
                           </p>
                         </div>
                       </div>
@@ -389,7 +389,7 @@
                         <div class="content-box m-0 p-0">
                           <div class="btn-box">
                             <a
-                              href="{{offer.url}}"
+                              onclick="window.location.href = '{{offer.url}}' "
                               class="theme-btn fxvibe-btn"
                               ><span>Got it?</span></a
                             >
